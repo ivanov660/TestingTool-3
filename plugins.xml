@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugins count="3">
+   <item url="https://github.com/ivanov660/TestingTool-3/blob/master/Plugins/AllureSkin.epf" vers="15.09.2017" name="AllureSkin" author="kruchkov.v" infourl="" date="15.09.2017" />
+   <item url="https://github.com/ivanov660/TestingTool-3/blob/master/Plugins/ЗагрузкаJUnitЛогаТеста.epf" vers="15.09.2017" name="ЗагрузкаJUnitЛогаТеста" author="kruchkov.v" infourl="" date="15.09.2017" />
+   <item url="https://github.com/ivanov660/TestingTool-3/blob/master/Plugins/ЗагрузкаAllureЛогаТеста.epf" vers="15.09.2017" name="ЗагрузкаAllureЛогаТеста" author="kruchkov.v" infourl="" date="15.09.2017" />
+</plugins>
