@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <plugins count="3">
    <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/AllureSkin.epf" vers="15.09.2017" name="AllureSkin" author="kruchkov.v" infourl="" date="15.09.2017" />
+   <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/JenkinsSkin.epf" vers="09.09.2017" name="JenkinsSkin" author="kruchkov.v" infourl="" date="09.09.2017" />
    <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/ЗагрузкаJUnitЛогаТеста.epf" vers="15.09.2017" name="ЗагрузкаЛогаJUnitXMLТеста" author="kruchkov.v" infourl="" date="15.09.2017" />
    <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/ЗагрузкаAllureЛогаТеста.epf" vers="15.09.2017" name="ЗагрузкаЛогаAllureJUnitXMLТеста" author="kruchkov.v" infourl="" date="15.09.2017" />
      <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/УправлениеОбновлениемПлагинов.epf" vers="16.09.2017" name="УправлениеОбновлениемПлагинов" author="kruchkov.v" infourl="" date="16.09.2017" /> 
