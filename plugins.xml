@@ -9,5 +9,5 @@
     <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/TaskTestBuilder.epf" vers="2017.06.23" name="TaskTestBuilder" author="kruchkov.v" infourl="" date="23.06.2017" /> 
     <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/PackTaskTestBuilder.epf" vers="2017.07.09" name="PackTaskTestBuilder" author="kruchkov.v" infourl="" date="09.07.2017" /> 
     <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/МенеджерВыполненияЧекЛистТестов.epf" vers="2017.09.27" name="МенеджерВыполненияЧекЛистТестов" author="kruchkov.v" infourl="" date="27.09.2017" />
-   <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/МенеджерСценарногоТеста.epf" vers="2017.10.01" name="МенеджерСценарногоТеста" author="kruchkov.v" infourl="" date="01.10.2017" />
+   <item url="http://raw.githubusercontent.com/ivanov660/TestingTool-3/master/Plugins/МенеджерСценарногоТеста.epf" vers="2017.10.05" name="МенеджерСценарногоТеста" author="kruchkov.v" infourl="" date="05.10.2017" />
  </plugins>
