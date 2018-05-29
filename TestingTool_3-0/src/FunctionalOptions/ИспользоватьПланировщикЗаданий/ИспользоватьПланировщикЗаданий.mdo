@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3544b1cf-c813-4679-abfd-2dfcb1079d93">
+  <name>ИспользоватьПланировщикЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать планировщик заданий</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьПланировщикЗаданий</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Планировщик</content>
+  <content>CommonCommand.ДополнительныеОтчетыПланировщик</content>
+  <content>CommonCommand.ДополнительныеОбработкиПланировщик</content>
+  <content>Catalog.Задания</content>
+  <content>Catalog.ГруппыЗаданий</content>
+  <content>Catalog.ДействияЗаданий</content>
+  <content>Catalog.ШаблоныКоманд</content>
+  <content>Enum.СтатусыЗаданий</content>
+  <content>Enum.ТипыДействийЗаданий</content>
+  <content>DataProcessor.КонсольЗаданий</content>
+  <content>InformationRegister.ЛогВыполненныхЗаданий</content>
+  <content>InformationRegister.НастройкаСозданияЗаданий</content>
+  <content>InformationRegister.Планировщик</content>
+  <content>InformationRegister.СоставЗаданий</content>
+  <content>InformationRegister.СоставЗаданийПулл</content>
+  <content>InformationRegister.СостоянияЗаданий</content>
+</mdclass:FunctionalOption>

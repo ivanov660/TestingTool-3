@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a26443c4-d62e-4d10-b90c-3c5518966474">
+  <producedTypes>
+    <objectType typeId="f2d0a130-b0c1-4e8a-90ad-0b68d502edc3" valueTypeId="46c9c754-6027-4e9d-b5d5-a3ad28e82fb6"/>
+    <refType typeId="d3c9a4d7-b31c-4782-9c8a-1edba7409214" valueTypeId="17e47c33-3d14-4b94-b78a-2af1ce829324"/>
+    <selectionType typeId="35b0ffba-6786-4c14-b182-5c73723112b4" valueTypeId="551c2a34-1fae-49ad-a0d6-9361546d0098"/>
+    <listType typeId="2e99f29d-ef97-4dec-b906-9c103b32163b" valueTypeId="1293c14d-8f8a-4764-999e-0aa78798124f"/>
+    <managerType typeId="d3d9fb03-d40b-40ae-9935-78b609e82f27" valueTypeId="5705090e-b94f-4072-9d23-64c5e3f87b8d"/>
+  </producedTypes>
+  <name>ГруппыЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы заданий</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыЗаданий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыЗаданий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="22dabb99-1fa0-482f-a726-f12cd940c8cf">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="539555e5-c2c2-4fcd-b90a-42f3c6386eea">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d38c1a1-fe05-4c5b-a7d2-27a771253f6b">
+  <producedTypes>
+    <refType typeId="592e90f0-2c17-4bd0-8235-dfd674b9ace2" valueTypeId="baca7f01-a381-43c1-8fd8-8279debcff80"/>
+    <listType typeId="ed66516c-3cb8-4737-8d33-01119393a2bc" valueTypeId="b6213b1b-cb31-44f8-8ec2-749110d67153"/>
+    <managerType typeId="4b5585ba-9eb9-4bb0-8e7e-771b02420e31" valueTypeId="cff089cd-8429-4d5f-9eeb-89c967389d4b"/>
+  </producedTypes>
+  <name>РежимыРаботыЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы работы заданий</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7cb8fdd5-30dd-4516-b148-cd45bbc95a0c">
+    <name>ПоПорядку</name>
+    <synonym>
+      <key>ru</key>
+      <value>По порядку</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="881ab85a-171c-4efa-ac49-d9a3c8cc2377">
+    <name>Воронка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воронка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

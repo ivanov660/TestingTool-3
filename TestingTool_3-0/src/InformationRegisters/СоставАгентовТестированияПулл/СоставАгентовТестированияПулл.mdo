@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cd975c0-c3aa-4224-b0a3-9f2ddd7b4d16">
+  <producedTypes>
+    <selectionType typeId="7c3ca5f9-a028-46b1-8358-b7430f8ea544" valueTypeId="09eb77d3-e488-46d3-b6d3-7e24553c3ad4"/>
+    <listType typeId="1699688e-5579-458e-9390-686d22779323" valueTypeId="bd0d0ca9-f66e-4bb1-a682-174b1351aaab"/>
+    <managerType typeId="7467966c-ad06-40fb-8623-ad3bb1933183" valueTypeId="d99cd817-1e8a-4e0c-be31-7912965b947f"/>
+    <recordSetType typeId="877e2f6b-c225-44a2-8374-ab01dfb9e164" valueTypeId="fc2f8486-b29d-490f-847f-e8b006bf0665"/>
+    <recordKeyType typeId="286a9685-d660-4f91-a9c9-38d34d96f3bb" valueTypeId="87f64a15-015b-4401-964d-60b3d8bb79b1"/>
+    <recordType typeId="6504b136-75c4-4cff-8b44-92f2df5ece11" valueTypeId="f0344f9d-ea26-41c3-bd0c-bcad8ff94d23"/>
+    <recordManagerType typeId="04228c6d-fe99-45bb-8c89-536a1bd15f6e" valueTypeId="23449c9f-9110-477b-b3d0-bcd5aa2f1d41"/>
+  </producedTypes>
+  <name>СоставАгентовТестированияПулл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав агентов тестирования пулл</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="75763e66-0f8b-49ae-85d4-ee47ad8edb31">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d99293c-5258-403e-946b-0f7364615d83">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6817836d-362c-4b50-9917-335b875db751">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтатусыАгентовТестирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dfe9d7e9-a315-4be2-b65d-0e239c65ef2d">
+    <name>АгентТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент тестирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АгентыТестирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8e94150e-aef4-4b80-ae67-ba021e19f25b">
+    <name>Экземпляр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экземпляр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="671ff31f-b3ae-46ee-8299-03ab17e9de86">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проверки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6c2b19c2-99e1-45ab-90c1-4b273369371a">
+    <name>ТестируемыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестируемый клиент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТестируемыеКлиенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

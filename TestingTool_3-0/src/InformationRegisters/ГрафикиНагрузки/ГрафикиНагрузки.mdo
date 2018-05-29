@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6533f27e-6b45-4c09-a25e-7e417d5cb750">
+  <producedTypes>
+    <selectionType typeId="6275cf90-e347-4708-aef5-0a73db9c1186" valueTypeId="82875c57-0ac4-4b1e-b72d-b94ab7517bc4"/>
+    <listType typeId="49d129b1-eab3-4594-b001-af5bcee67867" valueTypeId="73de8cf7-6b0d-4e5a-8f60-69659ad53600"/>
+    <managerType typeId="41dbd405-d907-4b0c-8488-31f272aef3b3" valueTypeId="3cb9d4a3-90af-46d9-bcd5-d5b687b4509a"/>
+    <recordSetType typeId="7db00263-905b-4ee9-a678-aa22e0d61062" valueTypeId="9a44da87-687c-42ae-9ece-a1455887473b"/>
+    <recordKeyType typeId="4a5d8ac5-a6ea-4308-9022-6d7ec8eda587" valueTypeId="dce4867c-c4c6-4beb-a5c8-73fabc59762d"/>
+    <recordType typeId="0603c0be-018a-4afe-a52f-16d67dc5d2da" valueTypeId="96edddaf-c169-48ff-a891-9afb381b2eac"/>
+    <recordManagerType typeId="70bb35b6-ebc0-4e72-9752-a9f73e118001" valueTypeId="8ecfedce-3484-448e-a780-8133d7cb3c90"/>
+  </producedTypes>
+  <name>ГрафикиНагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики нагрузки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a838bb1d-fc0f-4bf8-b330-e11333397c36">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3711383b-46ee-47ad-8b1d-9566087f98f4">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d34cf602-459a-4058-80ab-e8634fe07c90">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Графики</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bdcfda37-1bec-48eb-85bc-56268dd5cfe7">
+    <name>НомерШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер шага</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

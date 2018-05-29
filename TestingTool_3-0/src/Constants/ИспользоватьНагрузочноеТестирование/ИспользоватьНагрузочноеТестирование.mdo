@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="929faea3-ea6a-45b5-98ec-5595efa5f51e">
+  <producedTypes>
+    <managerType typeId="17610cd7-9b98-4467-84c3-740879a53a60" valueTypeId="7827f1a0-a434-4cfe-8768-f361a91de89a"/>
+    <valueManagerType typeId="7b2d62dd-0d53-4d17-83aa-523b23cb1e67" valueTypeId="ace164e4-93da-4a00-9095-f19e0e1fef01"/>
+  </producedTypes>
+  <name>ИспользоватьНагрузочноеТестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать нагрузочное тестирование</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

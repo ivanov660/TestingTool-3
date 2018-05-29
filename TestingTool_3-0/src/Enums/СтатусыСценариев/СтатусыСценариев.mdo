@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b248258b-d5a9-494e-89f3-6e6691851cf3">
+  <producedTypes>
+    <refType typeId="34fe3803-1599-4270-9dcc-b551e76ea782" valueTypeId="0a50aaea-5c3c-4530-87dc-e2c75a30c746"/>
+    <listType typeId="788c7276-e693-4b74-99f2-65898f792c8f" valueTypeId="d8ab857d-7ca9-4fd1-83e0-d483989b4bdd"/>
+    <managerType typeId="dc91a30a-7d27-415f-ba87-7260b78b0063" valueTypeId="09e12f42-c555-4df4-8598-2b648cab7050"/>
+  </producedTypes>
+  <name>СтатусыСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сценариев</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3e232d6-d394-4a07-a6b1-3a7bea51abc5">
+    <name>Создать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="02fe2136-b659-40fa-829f-ac73a1539a49">
+    <name>ВРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В разработке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c4042e1d-1036-4065-bf21-bf9409feed7c">
+    <name>Готов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ecf4faab-0856-435a-8d98-46b05ba3e0f2">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

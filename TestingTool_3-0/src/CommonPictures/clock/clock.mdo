@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d35426c3-2027-4e21-9a77-5c0a512157d7">
+  <name>clock</name>
+  <synonym>
+    <key>ru</key>
+    <value>Clock</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

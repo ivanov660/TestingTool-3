@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e14387a-83ed-4792-bc81-156ec9923354">
+  <producedTypes>
+    <objectType typeId="c788168d-5daf-44dd-9df4-0f83436a77e1" valueTypeId="7662c138-57d5-49b0-a976-fa43fc7d7a16"/>
+  </producedTypes>
+  <name>JenkinsSkin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место по мотивам Jenkins </value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="6fdf1689-4dd6-42ae-a394-21757fa70534"/>
+  <defaultForm>ExternalDataProcessor.JenkinsSkin.Form.Overview</defaultForm>
+  <forms uuid="4f084f4e-2be4-4824-b959-9306bb993c34">
+    <name>Overview</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обзор</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce9c6886-b251-4b64-ad41-03aa0f77593e">
+    <name>Clock</name>
+    <synonym>
+      <key>ru</key>
+      <value>Clock</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0669df2d-5553-4ef3-86d1-d999e59670dc">
+    <name>Logs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Logs</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

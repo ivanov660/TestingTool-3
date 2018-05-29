@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28e53c54-86dc-4138-91e2-eedd5e2b9cc5">
+  <name>ИгровоеМоделирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игровое моделирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаИгровоеМоделирование</picture>
+  </picture>
+  <content>Catalog.Игроки</content>
+  <content>InformationRegister.СвязиИгроковБлоков</content>
+  <content>InformationRegister.ОписаниеМашиныСостояний</content>
+  <content>InformationRegister.СвязиСостоянийБлоков</content>
+  <content>Catalog.Игры</content>
+  <content>CommonCommand.ДополнительныеОтчетыИгровоеМоделирование</content>
+  <content>CommonCommand.ДополнительныеОбработкиИгровоеМоделирование</content>
+</mdclass:Subsystem>

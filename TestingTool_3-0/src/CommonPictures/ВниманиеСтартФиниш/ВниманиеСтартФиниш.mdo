@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a4d648c-e7da-47a0-a7a1-925291e1764a">
+  <name>ВниманиеСтартФиниш</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внимание старт финиш</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

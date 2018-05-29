@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb6fdbe6-c756-47de-a2fc-f887763d2b5f">
+  <producedTypes>
+    <selectionType typeId="ac1c667b-acd8-4c85-896d-ec758812a1ca" valueTypeId="436e63f2-018a-4f3d-a3e7-0a81d4c87d86"/>
+    <listType typeId="c4c9716d-0715-481e-90bf-d17688d42b0e" valueTypeId="d69f6397-d614-477e-b7f9-d549f58f3b11"/>
+    <managerType typeId="c5cab083-28c7-4109-a45b-72ad3ab7d1da" valueTypeId="f1334556-367a-49d1-bb7a-2cf7b67e0c5e"/>
+    <recordSetType typeId="5ec1d360-09df-411d-a184-61e3c1589307" valueTypeId="55422083-65ae-455e-8232-44dcd0e929d5"/>
+    <recordKeyType typeId="816f7f4c-db89-4cd2-b782-afb5e215a833" valueTypeId="12d8a6e5-1a9a-4d96-afa1-1d1d41061ce6"/>
+    <recordType typeId="5f1347cb-cde5-41ca-8850-27badcc7f9f1" valueTypeId="ff0f2dd2-b93a-4830-8a6e-5d19f27153da"/>
+    <recordManagerType typeId="1ad2c926-2515-4573-bf2c-78119a98079a" valueTypeId="80ad34b2-7fd7-46ad-8a90-b7d17b2afd0b"/>
+  </producedTypes>
+  <name>СвязиСостоянийБлоков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи состояний блоков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e89717b3-56d1-490f-81d1-aa491ffdc3c8">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="da8eff46-f0a1-4d63-9810-c702236bd3a6">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="a6b41a9b-8354-4734-83bd-029a117fbb98">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b31bb691-fbd0-4e8f-91ec-ad381679da3b">
+    <name>Блок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

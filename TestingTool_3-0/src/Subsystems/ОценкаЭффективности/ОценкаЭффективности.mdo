@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="515fca0d-0b36-47ac-896d-b3988610ed7a">
+  <name>ОценкаЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка эффективности</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаОценкаЭффективности</picture>
+  </picture>
+  <content>Catalog.Проекты</content>
+  <content>CommonCommand.ДополнительныеОтчетыОценкаЭффективности</content>
+  <content>CommonCommand.ДополнительныеОбработкиОценкаЭффективности</content>
+  <content>InformationRegister.ОценкаВыполненияВремениТестовВручную</content>
+  <content>InformationRegister.УсловнаяСтоимостьВыполненияТестов</content>
+  <content>InformationRegister.ВременныеЗатратыНаОбслуживание</content>
+</mdclass:Subsystem>

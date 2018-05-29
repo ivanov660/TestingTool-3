@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33d60400-ac85-4551-90c6-f57d37cb345f">
+  <name>МенеджерВыполненияЧекЛистТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер выполнения чек-лист тестов</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бег</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

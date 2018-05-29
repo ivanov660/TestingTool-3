@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c09091e-e1e9-44ab-ab2b-4e1a9ffc84ae">
+  <producedTypes>
+    <selectionType typeId="6dbd4d47-388d-42ff-8aee-5a6519e07f0d" valueTypeId="165550ab-d0e9-444c-882f-ed1eedfc49b6"/>
+    <listType typeId="eb73df54-19cc-4616-9945-f656cb179d49" valueTypeId="27d1a225-a953-4e92-a6c9-c1f11f137a50"/>
+    <managerType typeId="007fb227-0f7e-4d1f-9142-a1a7963ab545" valueTypeId="9b0ed575-00c1-45f2-843c-8c667dde0d93"/>
+    <recordSetType typeId="6ed5ec2b-be03-4a30-be44-f7555db6b23e" valueTypeId="32cd75e2-d405-49eb-a5dd-2dd4dcf874af"/>
+    <recordKeyType typeId="21bdb1ce-79fd-4593-826e-2b5392830a26" valueTypeId="fbd8a0bc-2444-4c76-a828-e4d72109cf92"/>
+    <recordType typeId="6dea772a-d871-41f6-b79f-117a3f9f1c44" valueTypeId="a6121931-07f6-4df2-accc-4cd2e6535d0a"/>
+    <recordManagerType typeId="319e6676-ea42-4c6f-8ac7-561c26f02d82" valueTypeId="2f764aa5-8e8c-465f-9ba2-ce4c7e46d1e9"/>
+  </producedTypes>
+  <name>НовостиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости пользователей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="78bea58e-eae1-4678-b78e-5d8c590c9b21">
+    <name>Закладка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закладка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f41cbd62-c59a-415f-98c7-01e43a522a1c">
+    <name>Просмотрено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотрено</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3212ee74-3e43-4774-ace7-ff7855832265">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ac3cc139-f820-49a0-84b8-e8264cb9ec44">
+    <name>Новость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новость</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Новости</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

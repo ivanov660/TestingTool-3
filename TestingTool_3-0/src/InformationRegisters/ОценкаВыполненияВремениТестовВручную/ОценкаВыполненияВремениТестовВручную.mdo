@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccfb8f66-b669-4ce7-aa9e-cdded13e4b53">
+  <producedTypes>
+    <selectionType typeId="20994e71-a456-455f-b53f-05647cad6ac3" valueTypeId="c660b87b-1d5b-4d93-8848-4019c52945fb"/>
+    <listType typeId="a3dcddd0-1f06-4060-8570-f62b328d668b" valueTypeId="0ca9f4f6-9f34-40c7-a52e-24e912aab88e"/>
+    <managerType typeId="7874a3a3-2bc6-4876-bffd-4982334f084d" valueTypeId="a96991b9-d0a2-42e1-b2ca-9e0f6c84ad3d"/>
+    <recordSetType typeId="37865336-2a1c-409a-bfbc-fc4a80dd5551" valueTypeId="0d6bf54a-0a8a-42bc-a002-20d88d39e693"/>
+    <recordKeyType typeId="c63cc5ff-0bbe-41ef-9275-42fbdd19789a" valueTypeId="8e74ac8a-b63d-4a88-a51c-cf8b919b5a9d"/>
+    <recordType typeId="a07378cb-12b4-46f4-8f8b-1687cb7a32e7" valueTypeId="9e32271b-072a-469f-8532-f4ce50743848"/>
+    <recordManagerType typeId="d6603b37-f7e5-40ce-b0dc-6fb2788ed9db" valueTypeId="1134c297-a7c0-4bce-9cdd-073dd868ed33"/>
+  </producedTypes>
+  <name>ОценкаВыполненияВремениТестовВручную</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка выполнения времени тестов вручную</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cfe2c7e7-fe83-4fd8-af5e-17540ae1aa0b">
+    <name>ВремяВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время выполнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b13f2826-0eb9-48f7-a46a-dd3ed5168ef8">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Тесты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

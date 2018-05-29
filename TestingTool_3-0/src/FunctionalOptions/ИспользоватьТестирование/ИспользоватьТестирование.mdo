@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4c810fe-2244-460b-8660-dd182ca5eecc">
+  <name>ИспользоватьТестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать тестирование</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьТестирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Тестирование</content>
+  <content>Catalog.Тесты</content>
+  <content>Catalog.ПланыТестирования</content>
+  <content>Catalog.НаборыТестов</content>
+  <content>Report.ВыполнениеТестовПоПроверкам</content>
+  <content>Report.НакопительныйГрафикВыполненияТестовПоПроверкам</content>
+  <content>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам</content>
+  <content>InformationRegister.СоставНабораТестов</content>
+  <content>InformationRegister.СвзяиТестовОбъектовКонфигураций</content>
+  <content>InformationRegister.ПротоколыВыполненияШаговТестов</content>
+  <content>InformationRegister.ПротоколыВыполненияТестовыхСлучаев</content>
+  <content>InformationRegister.ПротоколыВыполненияТестов</content>
+  <content>Enum.ТипыТестов</content>
+  <content>Enum.ТипыШагов</content>
+  <content>Enum.РезультатыВыполненияШагов</content>
+  <content>Enum.ВидыНаборов</content>
+  <content>Enum.ВариантыСерьезностиДефектов</content>
+  <content>Enum.ВариантыХраненияСценариев</content>
+  <content>InformationRegister.НастройкиОбъединенияТестов</content>
+  <content>CommonCommand.МенеджерВыполненияЧекЛистТестов</content>
+  <content>CommonCommand.ДополнительныеОбработкиТестирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыТестирование</content>
+</mdclass:FunctionalOption>

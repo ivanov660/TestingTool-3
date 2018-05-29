@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ba4c220-6bf2-48aa-b1d5-dc05047ac9f8">
+  <name>ИспользоватьОценкуЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оценку эффективности</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьОценкуЭффективности</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ОценкаЭффективности</content>
+  <content>InformationRegister.ОценкаВыполненияВремениТестовВручную</content>
+</mdclass:FunctionalOption>

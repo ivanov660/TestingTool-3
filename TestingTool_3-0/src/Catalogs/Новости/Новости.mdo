@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e372de4e-2b02-4bbf-bb22-e3b044829ade">
+  <producedTypes>
+    <objectType typeId="12ebcf89-c9cb-4ebc-a72e-4a5866638364" valueTypeId="ea2b593b-db87-4752-b361-2b62a37dd633"/>
+    <refType typeId="924238ac-cddc-48fd-9c8d-be90d376b3ff" valueTypeId="2bcf1e5c-3a7c-42e7-8733-cbdd9b9ac0f2"/>
+    <selectionType typeId="146765dd-b6df-47f6-ab66-93331308b7b9" valueTypeId="33d56fcc-ee01-456a-b7ae-c2faa5b88694"/>
+    <listType typeId="7196fab6-b2f5-429f-b4e2-5e9b4cdc69cf" valueTypeId="151deb9f-1e24-4548-b274-36117a7dd825"/>
+    <managerType typeId="64395d96-1bf6-45c6-8eff-57bfd4066521" valueTypeId="58596553-54e2-4802-b292-fa11f4cdd036"/>
+  </producedTypes>
+  <name>Новости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Новости.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="417bed80-acec-4faa-a3df-d73d78855ddc">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dbf45f99-0fb8-4fa2-857f-b736fb648554">
+    <name>КраткоеСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое сообщение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8449c687-d737-4dcc-bf68-144b9823bb9e">
+    <name>Сатья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сатья</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efcd44ec-9c7f-4923-aac4-4710dc5dbc0b">
+  <producedTypes>
+    <objectType typeId="05de6081-302a-4bc4-8545-81be564a4ac4" valueTypeId="ba496d1d-92ad-4994-accb-4a890666f84e"/>
+  </producedTypes>
+  <name>МенеджерВыполненияЧекЛистТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер выполнения чек-лист тестов</value>
+  </synonym>
+  <comment>автор ivanov660 aka Крючков Владимир</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="25469601-f043-4911-99d2-c9dc1a8d3c46"/>
+  <defaultForm>ExternalDataProcessor.МенеджерВыполненияЧекЛистТестов.Form.Форма</defaultForm>
+  <forms uuid="28dffc10-64fe-48d0-9759-5930c639086d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

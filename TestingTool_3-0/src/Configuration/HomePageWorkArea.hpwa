@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
+  <columns>
+    <items>
+      <form>Catalog.Тесты.Form.ФормаДоскаКанбан</form>
+      <height>10</height>
+      <visibility/>
+    </items>
+    <items>
+      <form>InformationRegister.ПротоколыВыполненияТестов.Form.СостоянияВыполненияСценариевФормаДляРабочегоСтола</form>
+      <height>10</height>
+      <visibility/>
+    </items>
+  </columns>
+  <columns>
+    <items>
+      <form>InformationRegister.ПротоколыВыполненияТестов.Form.ПротоколыВыполненияСценариевФормаДляРабочегоСтола</form>
+      <height>10</height>
+      <visibility/>
+    </items>
+    <items>
+      <form>InformationRegister.СостоянияЗаданий.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+    <items>
+      <form>InformationRegister.ЛогВыполненныхЗаданий.Form.ФормаЖурналСобытий</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+</hpwa:HomePageWorkArea>

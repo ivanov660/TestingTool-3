@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa09aebe-f62b-43c0-a75d-d1ce05e3a571">
+  <name>PassedQuad_32x34</name>
+  <synonym>
+    <key>ru</key>
+    <value>Passed quad 32x34</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

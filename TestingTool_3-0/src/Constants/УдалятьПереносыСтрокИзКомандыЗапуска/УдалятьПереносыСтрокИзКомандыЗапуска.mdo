@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bdf3580-bb0a-4f66-953c-6e265198d727">
+  <producedTypes>
+    <managerType typeId="543ddc2c-46c9-4ff9-bfa7-4f1a3b5f4e30" valueTypeId="91481d7c-7729-4659-8427-8a250eca726d"/>
+    <valueManagerType typeId="2ef9a80d-d861-4834-acb0-434136ff826d" valueTypeId="914ad66e-a104-4b26-8b2a-fb7aab67ee09"/>
+  </producedTypes>
+  <name>УдалятьПереносыСтрокИзКомандыЗапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалять переносы строк из команды запуска</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

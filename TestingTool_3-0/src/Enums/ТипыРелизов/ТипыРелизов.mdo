@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de0160c9-d300-40b3-ad7c-8b6856acced3">
+  <producedTypes>
+    <refType typeId="36190dac-9dbc-43aa-8289-06dbb23beb94" valueTypeId="f85734ac-72b0-469b-820b-a54d08c80ba1"/>
+    <listType typeId="8fbe63ab-a949-4668-a461-bab5ef21374f" valueTypeId="431e5853-1446-41b5-b9fa-2564785a6f2e"/>
+    <managerType typeId="c42265ad-1d2d-4451-b7dd-c9a4f3d3eb03" valueTypeId="7ba43c77-c958-4dad-ba41-1787f73baae8"/>
+  </producedTypes>
+  <name>ТипыРелизов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы релизов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="854dc2e3-5ad9-4325-bf6c-807166d6597f">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bdf6c56b-983a-4319-a7fd-5f46129a4842">
+    <name>Патч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Патч</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="630fb14f-23da-4e29-84ff-1df35df7e222">
+    <name>ХотФикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хот фикс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d6f4e7ac-6181-40d2-b356-1bd500a41d21">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

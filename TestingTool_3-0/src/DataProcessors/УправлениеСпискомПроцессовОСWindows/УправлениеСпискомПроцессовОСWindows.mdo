@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de82b242-4635-4a77-97ae-dd72f083c8b2">
+  <producedTypes>
+    <objectType typeId="96bcfce5-f89c-4e05-9992-bcfa3b7cbf48" valueTypeId="54412f0d-4707-497a-9357-05acea026ce2"/>
+    <managerType typeId="7fc3b3f3-d64c-4cdc-bb13-d65cd26d6bff" valueTypeId="6fb9dbd3-dee6-4a77-90a3-67070d6ef88a"/>
+  </producedTypes>
+  <name>УправлениеСпискомПроцессовОСWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление списком процессов ОС Windows</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеСпискомПроцессовОСWindows.Form.Форма</defaultForm>
+  <attributes uuid="1c2ec597-5330-46c4-9b16-ee2795c94934">
+    <name>Компьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="a573ca36-b171-42fd-9678-dc5915bd22a6">
+    <producedTypes>
+      <objectType typeId="2acb7306-9cd5-4730-9b04-6eeca16e4b7a" valueTypeId="20519434-4270-48f2-a979-50175253fa31"/>
+      <rowType typeId="3c709528-74b4-4977-901b-451651d719f2" valueTypeId="676c3642-49d6-4c7d-8225-a629b76893c5"/>
+    </producedTypes>
+    <name>СписокПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список процессов</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="60ac464b-1524-4201-a387-88f0d277bc14">
+      <name>Caption</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заголовок</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d643343d-ba73-4156-baba-232c4ec07e8d">
+      <name>CommandLine</name>
+      <synonym>
+        <key>ru</key>
+        <value>Командная строка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0f62d050-70e6-4343-9134-d895715e4df2">
+      <name>CreationDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата создания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0d4471b3-0c3b-4da1-bb10-fb502f601a10">
+      <name>CSName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя компьютера</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5206628b-96fa-4c00-a061-8317954693c1">
+      <name>ExecutablePath</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к исполняемому файлу</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4fad8726-e401-4d22-8694-3aa03c45f060">
+      <name>OSName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя ОС</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5c7432d2-4255-456b-9756-68592bae15b9">
+      <name>ParentProcessId</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПИД Родителя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3be33c44-c6fe-4f19-a42c-2916a8cf9d12">
+      <name>ProcessId</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПИД</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="02fdd851-dbf0-4cce-83f1-fce5b456d04c">
+      <name>WindowsVersion</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия Windows</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0d50b904-9d25-419b-839f-29a4de902a48">
+      <name>Owner</name>
+      <synonym>
+        <key>ru</key>
+        <value>Собственник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d8aeef20-2da4-498a-871c-b435f4671ec2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b909bc3e-c373-40e5-b975-b66c881fa158">
+  <producedTypes>
+    <selectionType typeId="1fb7c807-44bd-4f55-a9da-eb1e6621d348" valueTypeId="232555ef-1d24-494c-8918-7fe4f1dca52c"/>
+    <listType typeId="62113430-c3ed-46bb-bb12-156a150f9bc9" valueTypeId="1d3ca12b-3e00-478a-818b-7a99d74b3d52"/>
+    <managerType typeId="13042c21-5f2a-4c93-8386-5f8daefb9d4a" valueTypeId="38dfdbf4-ab3a-4576-a888-74484c56b8ec"/>
+    <recordSetType typeId="4c77118d-c34b-42cb-9353-51d6190eecff" valueTypeId="38d950cd-1b19-4785-b8e5-01fe14684bb4"/>
+    <recordKeyType typeId="f3630f39-16de-485b-842f-356f953fa3f3" valueTypeId="aad18fcf-eb5e-4916-8a22-f639c47e8a40"/>
+    <recordType typeId="256afd8b-a4ff-4fb3-baf3-fc8d7dee37cd" valueTypeId="1905f12f-02be-4b6c-9e4e-5640484fcd95"/>
+    <recordManagerType typeId="06fea24e-d8c2-4742-b684-884875a77938" valueTypeId="4f4d093e-4f2c-49ae-8f71-e203ebfe1ab5"/>
+  </producedTypes>
+  <name>СинонимыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синонимы тестов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e442f6b-b429-4110-89bf-66f625551561">
+    <name>Синоним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синоним</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3556fd41-efbd-4b97-9066-1e3cce60321c">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Тесты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38542320-d6f4-47f0-b18c-de353bd02290">
+  <producedTypes>
+    <objectType typeId="45d4ebf2-afb4-4188-b668-25816a0f2de9" valueTypeId="5e58f0fa-00b7-4b70-bea8-cafa3c095a48"/>
+    <refType typeId="0fec4d34-3df6-4e1b-ac79-1e00c05e7b96" valueTypeId="45deaabe-ac7d-4616-97a6-f6ead162680c"/>
+    <selectionType typeId="430ca258-8800-4674-a388-bd02654d6ece" valueTypeId="25cdcc8f-31c5-4bb2-9aad-58bb95229149"/>
+    <listType typeId="207c7c41-2394-4a1d-ae6a-8d268b433cea" valueTypeId="35c4ed37-cba1-4cc2-a38b-ee46e654d001"/>
+    <managerType typeId="17da8eaf-cf1e-4953-99e1-1606a868c32e" valueTypeId="e0e71ebf-7163-4db8-9adb-e76e4ef6292e"/>
+  </producedTypes>
+  <name>Графики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Графики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="111e79a3-1668-46f5-93f0-b72f3cdc8dff">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольная строка</value>
+    </toolTip>
+    <mask></mask>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

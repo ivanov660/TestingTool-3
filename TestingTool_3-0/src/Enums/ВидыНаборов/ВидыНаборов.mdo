@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="434bbe03-ee72-40d2-95eb-b902e90d42a4">
+  <producedTypes>
+    <refType typeId="eef0427e-1314-426e-bbde-531edcadd4d5" valueTypeId="d0a05cec-5710-4a14-a57f-0a977d356279"/>
+    <listType typeId="1b4d316f-1a30-46ca-9664-0780a214f233" valueTypeId="59c69f5f-c386-454a-9899-8fb77361c1c0"/>
+    <managerType typeId="46f5f602-4ddd-4faa-8937-5450fdbc9a7f" valueTypeId="80b39f32-278c-421d-a468-1fa465850fdc"/>
+  </producedTypes>
+  <name>ВидыНаборов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды наборов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="257d42c6-da1f-4f62-8c18-566b9e045c4f">
+    <name>ВнешнийКаталогGIT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний каталог GIT</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="52d7bd44-f5d7-413c-9211-f34af7174785">
+    <name>СписокФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список файлов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dc341489-9fd1-480f-97c0-bf95ec81459f">
+    <name>СписокТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список тестов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

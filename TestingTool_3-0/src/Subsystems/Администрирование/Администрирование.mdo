@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02b7b2ea-f6a4-412d-ad09-ed2d9a8dda26">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаАдминистрирование</picture>
+  </picture>
+  <content>Catalog.Пользователи</content>
+  <content>InformationRegister.НастройкиРаботыПользователяНаРабочемМесте</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>DataProcessor.УправлениеСпискомПроцессовОСWindows</content>
+  <content>DataProcessor.КонсольЗаданий</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>InformationRegister.НастройкаРабочегоМестаНачальнойСтранцы</content>
+  <content>InformationRegister.НастройкаСозданияЗаданий</content>
+  <content>CommonCommand.ОбщиеНастройкиСистемы</content>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
+  <content>InformationRegister.ИсточникиПлагинов</content>
+  <content>CommonCommand.УправлениеОбновлениемПлагинов</content>
+  <content>InformationRegister.ПеременныеЗаданий</content>
+  <content>InformationRegister.ПользовательскиеПеременныеЗаданий</content>
+  <content>InformationRegister.НовостиПользователей</content>
+  <content>Catalog.Новости</content>
+</mdclass:Subsystem>

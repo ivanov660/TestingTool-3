@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="442b1c96-6490-41f3-9d0c-1fd72ff2fb2a">
+  <producedTypes>
+    <selectionType typeId="a7227c51-c791-411a-b8b4-e4fa9567f892" valueTypeId="cccc60da-0466-44d0-b4fb-8676d15e70a4"/>
+    <listType typeId="b59b04ef-c7b3-41d8-8d72-a33249568f9b" valueTypeId="dfdbf249-d266-4088-a707-9ff29a3b9059"/>
+    <managerType typeId="8fc5240c-11d3-4a4d-b6fe-89a885a42372" valueTypeId="4f65724c-5e58-43f8-b80a-291bb973079b"/>
+    <recordSetType typeId="374d5d40-a369-4832-ab0f-d7158346e3c1" valueTypeId="f6aea9b3-5bf7-4d06-9aee-68d1fc4bc22d"/>
+    <recordKeyType typeId="555d4065-2186-4c11-992e-ee8b90a0b1c5" valueTypeId="621e56d2-5be7-4e0b-bd4c-cb1c1f7d14e9"/>
+    <recordType typeId="2139e028-99e8-4619-9d61-e06d75ef65b6" valueTypeId="1775d3ac-3f41-4420-a7cc-fac7fbb793da"/>
+    <recordManagerType typeId="279631db-de06-4c84-ba84-851b0d40c5a6" valueTypeId="34b0c0ca-c380-494d-bfeb-38267340ca9c"/>
+  </producedTypes>
+  <name>НастройкаРабочегоМестаНачальнойСтранцы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка рабочего места начальной странцы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a594173f-b0a8-42e9-835b-9ee983cf8c12">
+    <name>ДополнительнаяОбработкаДляРабочегоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная обработка для рабочего места</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e6ed52c7-5168-4d23-a6a1-c50ee0e5185f">
+    <name>НеСбрасыватьНастройкиНачальнойСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не сбрасывать настройки начальной страницы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="12452491-1d4c-4111-83e7-d67ac89f32ee">
+    <name>НеОткрыватьРабочееМестоПриСтарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не открывать рабочее место при старте</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a24059ef-97f2-461c-937d-4d8f696fd195">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

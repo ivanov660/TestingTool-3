@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04df9d1d-ce38-457f-b25e-7fe732a107ac">
+  <producedTypes>
+    <refType typeId="474e8d2c-fa5a-4f9d-841c-9d095f7030ea" valueTypeId="06f26956-606a-48f9-8fd4-1af4230746a6"/>
+    <listType typeId="2994ed56-8f5e-4ca2-8965-2227685df90e" valueTypeId="e56e0860-d5d0-45e4-aa41-97e15e518941"/>
+    <managerType typeId="2633ab3e-4d68-452d-a190-ed755373c2de" valueTypeId="3656cc85-4a50-4af9-bd22-f59fa3a3dce4"/>
+  </producedTypes>
+  <name>ТипыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы тестов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="210c52ee-8fcc-4e10-be89-75a98e362842">
+    <name>СценарныйТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарный тест</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e99dec5c-4b9d-4041-bc1e-2e2fdf8abaa8">
+    <name>ЮнитТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юнит тест</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b0ff56fd-63da-4849-83ac-cbca91a96185">
+    <name>ЧекЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек-лист</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="fe9f90d0-4ee1-4085-a1c1-fa85086d526f">
+    <name>НагрузочныйТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нагрузочный тест</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a7e2b8c-44c7-478c-a6ca-329212c63b42">
+  <producedTypes>
+    <selectionType typeId="fb380cec-6bd9-49b9-9aba-d40cc7bd1d69" valueTypeId="15f322fa-86a6-4eb4-8597-9a9a80b4d35e"/>
+    <listType typeId="4a5b90a6-4b5d-40c4-a29a-f44ec4011255" valueTypeId="4bc74b2c-05e4-41dd-87b2-87ca0cfc3776"/>
+    <managerType typeId="dffad9eb-0545-4644-bddc-a48aec1f5e32" valueTypeId="b26c70a5-8aa1-4244-a428-b3fb6088ec26"/>
+    <recordSetType typeId="fe16d32b-87c2-40eb-aba1-d24de09b8e7e" valueTypeId="3281f129-504d-4ede-9a3d-bdca5274c8e5"/>
+    <recordKeyType typeId="5932b83a-fe24-4d5f-b8f3-3d9a30e23817" valueTypeId="c8df00ea-2410-4879-9793-5d7f77d4a8b2"/>
+    <recordType typeId="e290ddad-ae9b-4bb9-a992-0b8e5dcada99" valueTypeId="65b8ff4e-cf3b-4c90-9fe8-fc501a2a6db6"/>
+    <recordManagerType typeId="81235cdb-a4d8-4d43-92bf-db781bd0d67f" valueTypeId="6e61c7dc-1647-4658-977a-7136d8d2f74e"/>
+  </producedTypes>
+  <name>ЗамерыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры показателей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="74266843-860f-4c58-9ee6-6c0abb910125">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="98c56737-03a1-494f-b62e-b439e6103642">
+    <name>ДополнительноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5e4cff4d-0611-4937-8acb-4fbe9ae9754a">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проверки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="87dfcf3c-f782-44c5-8376-64a5d3d741b8">
+    <name>ТестируемыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестируемый клиент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТестируемыеКлиенты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c5dc9539-8650-44ba-b532-846d340980cf">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Показатели</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8c4c7e9-18cb-4698-b31e-227b94f56b91">
+    <name>ДополнительныйПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Показатели</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9ee4e3cb-0219-4522-9274-c1d44db0fa3d">
+    <name>ДатаЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата замера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

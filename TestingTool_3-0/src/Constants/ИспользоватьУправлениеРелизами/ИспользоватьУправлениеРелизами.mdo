@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3676e60-f239-4346-b791-c3c22dd18241">
+  <producedTypes>
+    <managerType typeId="3a74d544-325a-4a7e-9d01-2b3abfbd05b3" valueTypeId="c3bd9d9c-4e0d-4862-ad40-5b80e4fa0be7"/>
+    <valueManagerType typeId="3929ef6b-d116-4c7f-8102-529f99a8cd16" valueTypeId="67d11779-74a8-4a0d-9805-191cbc64aacf"/>
+  </producedTypes>
+  <name>ИспользоватьУправлениеРелизами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать управление релизами</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

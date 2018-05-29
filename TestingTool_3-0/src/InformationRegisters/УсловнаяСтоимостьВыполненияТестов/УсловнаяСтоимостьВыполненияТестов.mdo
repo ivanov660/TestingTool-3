@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="331a1119-ea8d-4b98-810f-be48e71fcb8c">
+  <producedTypes>
+    <selectionType typeId="3c601568-086e-465b-a992-cbff15934782" valueTypeId="ff7dc60f-3771-42eb-8d1e-fb2a6a4e9212"/>
+    <listType typeId="6f74b3e2-f304-4960-b365-d72a399a6376" valueTypeId="080eab0c-78bd-4a4d-b522-ac8eb36c3116"/>
+    <managerType typeId="1e06510d-15fe-43ab-b5bd-f05d9b701ddf" valueTypeId="d7618d0c-f9e0-427d-802f-4843ea62f3d4"/>
+    <recordSetType typeId="63b3ce11-8e37-4786-bd58-c41e31dad99b" valueTypeId="93eec830-b0b1-4631-9123-80fa4a02b6ed"/>
+    <recordKeyType typeId="5f20d5a5-3429-4e68-9446-950b696b0276" valueTypeId="34f12845-b808-47de-bff3-98c440e76d66"/>
+    <recordType typeId="4603f418-be81-4ee2-94bc-ab547e1f8d3e" valueTypeId="3cacde16-0b4c-466d-b514-de3cd43ab530"/>
+    <recordManagerType typeId="ced9708d-f57a-499b-a970-dc9b5b2a0411" valueTypeId="8c04d009-e6b8-4c29-8f13-2392254580e5"/>
+  </producedTypes>
+  <name>УсловнаяСтоимостьВыполненияТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условная стоимость выполнения тестов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для оценки затрат на обслуживание автотестов. Поддержание актуальности/ исправление ошибок/ определения причин падений.</value>
+  </explanation>
+  <resources uuid="537238a8-064d-47ec-97d4-ee852860fa1f">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0324d676-67ec-45c8-be66-e8ff54bdc7c9">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="011fc7ed-00a9-498f-ba66-9e3c8de30f8d">
+    <name>АбстрактныйСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абстрактный сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cfc09483-2004-4264-80c9-07fa51a75997">
+    <name>КоэффициентИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент использования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

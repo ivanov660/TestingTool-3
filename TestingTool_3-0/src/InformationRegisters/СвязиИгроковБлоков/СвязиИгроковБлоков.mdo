@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af6fe354-ccf0-4399-b26e-9467d6f18feb">
+  <producedTypes>
+    <selectionType typeId="3e48812e-aea2-4ad6-968a-06491e3b0e3b" valueTypeId="9cae1f37-8770-45a5-ac69-ef68f486709d"/>
+    <listType typeId="3c9a400f-bfdc-43b8-a1a2-370cbcf4868f" valueTypeId="3e6310d9-7039-4fc6-b8a9-2dfce40ff7c8"/>
+    <managerType typeId="918a0b1b-b98e-4483-8ab2-82bcf895d423" valueTypeId="699b6858-ce02-4546-a833-5a8034695777"/>
+    <recordSetType typeId="637fbcc9-5224-4805-9b32-07b3f09f8407" valueTypeId="2643fd9a-57d8-4d39-bf58-ac450579f158"/>
+    <recordKeyType typeId="bb209638-97d9-4a90-8e91-b89b4b7cbbd0" valueTypeId="fc288fbd-6113-4221-b988-e87f411ebc30"/>
+    <recordType typeId="70d8259f-8e4c-4f6e-bc23-89787dd4593a" valueTypeId="53d5b7d7-ecbe-4473-906f-653d86e90ac9"/>
+    <recordManagerType typeId="bb38deaf-2a51-40df-8366-ac86bd95f43b" valueTypeId="6e613930-a1f1-4481-ad98-6b287ed9fd2a"/>
+  </producedTypes>
+  <name>СвязиИгроковБлоков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи игроков блоков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="2ddd4d25-d2ce-4630-bdb5-e68ce5594330">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="4566173b-d7cd-4836-8bd3-6f757f3f4493">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5937a989-6e8f-4c05-98f4-9c59a86a922c">
+    <name>Блок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

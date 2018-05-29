@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="039fba2a-3767-4173-9d8f-8290afc8eba7">
+  <producedTypes>
+    <selectionType typeId="6b29210a-ebaa-4536-96d6-3647b690d6d5" valueTypeId="4ef1203e-eeb1-4940-98be-442670ad309d"/>
+    <listType typeId="140ddc39-8553-473b-ba96-77db6d14b58f" valueTypeId="86449c8b-9e63-4ac3-b631-742954b44a4f"/>
+    <managerType typeId="5117f497-2033-4479-88c4-13f231bb38ac" valueTypeId="a548f05e-3880-44c7-82e7-4d46f49da96d"/>
+    <recordSetType typeId="28f3c3f9-3a2e-4a54-86f5-eaeba3a4a158" valueTypeId="7c0bb9c9-ad93-46aa-9d8d-4bd436cc24a1"/>
+    <recordKeyType typeId="08842e52-5314-44a9-a16a-c36c9b66b43c" valueTypeId="9ad93c1d-fc1d-49c9-a780-8c494009d14e"/>
+    <recordType typeId="aeed73df-3eb4-4ce6-98cc-abfea224adaf" valueTypeId="4adc3b4a-fc0a-4960-bdf6-a53a1e42ea63"/>
+    <recordManagerType typeId="d031a8be-8752-451f-9afd-6466989dd5a1" valueTypeId="41801e9e-147c-4e6b-815e-81825d7d4408"/>
+  </producedTypes>
+  <name>СвязиТестовКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи тестов конфигураций</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="cbe5ac96-21dc-415e-807b-7140798abbd8">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f252f8f4-4caf-492b-8f80-f7182dddb821">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

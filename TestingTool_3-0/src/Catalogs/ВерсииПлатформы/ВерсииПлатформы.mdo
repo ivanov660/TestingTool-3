@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdecdcab-0005-4a57-8771-718602dde377">
+  <producedTypes>
+    <objectType typeId="581ffcaa-f45d-46a8-b479-5846bf50de1c" valueTypeId="3c9035f9-7577-4cc1-b049-20ebd79a50c6"/>
+    <refType typeId="c28b8dce-e8d2-4df2-ab84-4bc2f8451d17" valueTypeId="5bb56f4d-a38a-4b33-ac7d-44b67f45cee8"/>
+    <selectionType typeId="6799bcc8-8bed-451a-a3bb-acd8a20b6efb" valueTypeId="a6c6c2d0-29c8-4cd6-a286-032f4c5983d9"/>
+    <listType typeId="124aa45c-6db1-4b25-883a-26992b1b7c21" valueTypeId="6dec2280-46a1-4982-9065-60e190abb3fc"/>
+    <managerType typeId="afa98538-0490-4e59-874e-e1b92090cc3e" valueTypeId="133bbb6e-ee7e-4f63-8659-e181b56a0bed"/>
+  </producedTypes>
+  <name>ВерсииПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии платформы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииПлатформы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВерсииПлатформы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="25dbbfb1-62b4-4c12-b954-4a2865474a57">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c0f718b-ac16-4a6b-8d77-9749f67d2cae">
+  <producedTypes>
+    <objectType typeId="b53329ff-6771-4f3c-91ad-06ae1732d1f1" valueTypeId="6947070f-ef01-4259-8e0e-39aeb65e262d"/>
+    <managerType typeId="ca509311-5818-4a47-bc54-257a5c8b856a" valueTypeId="586f1f34-0e6b-4581-917f-06355fe7d615"/>
+  </producedTypes>
+  <name>ОсновноеРабочееМестоПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное рабочее место пользователя</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ОсновноеРабочееМестоПользователя.Form.ОсновноеРабочееМесто</defaultForm>
+  <forms uuid="30f05a76-f45c-41da-b57a-1ca87ed7a281">
+    <name>ОсновноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное рабочее место</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7aa056b2-51cb-4b5a-9059-3c6d740c82c9">
+    <name>ОсновноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное рабочее место</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

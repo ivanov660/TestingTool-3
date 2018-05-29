@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f643523-b14e-4abb-9199-a8d6c08e904f">
+  <producedTypes>
+    <managerType typeId="98a60c83-51f4-4f63-a768-5c1df9c2f500" valueTypeId="153d1432-6b72-4177-9979-b488d023cd99"/>
+    <valueManagerType typeId="4017fd3d-9f83-4dc8-ae7d-c778bdfa0173" valueTypeId="1aed26c6-4feb-40f2-a465-f2c55afb30a1"/>
+  </producedTypes>
+  <name>ЗаголовокСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заголовок программы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Фрагмент заголовка главного окна программы</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

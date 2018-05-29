@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="601396be-52f2-4120-9229-e6d8df32846e">
+  <name>ПросмотрРезультатовВыполненияПроверок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр результатов выполнения проверок</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бег</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

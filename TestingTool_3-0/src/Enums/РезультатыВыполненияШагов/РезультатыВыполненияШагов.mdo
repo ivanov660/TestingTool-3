@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27b088be-44d6-49a5-bc19-df3260878a58">
+  <producedTypes>
+    <refType typeId="cb9dd54d-55ab-4040-b4c3-247b5d70821f" valueTypeId="3d20bce0-e75f-4d49-a75b-f0446a728372"/>
+    <listType typeId="eadc58da-15f0-4e27-82ea-d262a9fb0142" valueTypeId="6548fb4b-b796-406e-addc-e634d20e5257"/>
+    <managerType typeId="7be0e7e8-0c0b-43fe-9217-0a0bcd13daac" valueTypeId="0856711d-89e9-4a8b-afec-d53b4e56787a"/>
+  </producedTypes>
+  <name>РезультатыВыполненияШагов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты выполнения шагов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8a4fd349-d68d-462c-a992-1e4338776ea0">
+    <name>Неопределено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неопределено</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="26fe78e5-0df5-446d-a9f1-7e74c67225c8">
+    <name>Пропуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуск</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ad7f2f31-9360-48f1-ab5a-cf6f8597fe0a">
+    <name>Успешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="15ee63d7-fae4-4604-8f3a-4f993507da30">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="72e88719-9deb-41fb-8d66-0496d77157f9">
+    <name>Провал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

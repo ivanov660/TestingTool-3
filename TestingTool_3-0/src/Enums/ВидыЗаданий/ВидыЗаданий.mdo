@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f9f0f4b-9527-41c4-a0a6-c7864fc4cd08">
+  <producedTypes>
+    <refType typeId="7a5fce85-b769-455c-b44a-39deb7d6fde9" valueTypeId="bf681196-1bab-47e5-a5df-2397cb239ccc"/>
+    <listType typeId="c2957d9f-645f-4ece-b774-33761f941fe7" valueTypeId="692d2e8a-055b-466e-8ca2-0f94b05e1a5e"/>
+    <managerType typeId="f4e5b297-9ae2-4372-ad99-5fae28a9d4cb" valueTypeId="52024054-3089-4d88-ad8d-c461c4a4d51f"/>
+  </producedTypes>
+  <name>ВидыЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды заданий</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87c9fd7c-27c2-47e2-aa6c-d4f118cf0938">
+    <name>ВыполнениеТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение тестов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d21cdd7f-a9f7-4828-b2ae-39012b6ad734">
+    <name>ВыполнениеСборок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение сборок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7564c946-a879-4bf5-9bde-16318fc72372">
+    <name>Мониторинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6020c1c3-98bf-43bb-885b-3395bbb44bec">
+    <name>Сервисные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисные</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0e2ba87c-8b69-4088-8fa5-a9a4dca4c442">
+    <name>Другие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

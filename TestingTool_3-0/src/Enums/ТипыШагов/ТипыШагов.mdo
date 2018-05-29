@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0f415c7-3a90-478d-b875-71470a4df053">
+  <producedTypes>
+    <refType typeId="ba277e4c-7f5e-44d4-8bfa-c5c67d3a6d1d" valueTypeId="762b7cb8-1201-4082-8b9d-b71b40251105"/>
+    <listType typeId="1a7c1c63-94d8-4273-8198-5296b70e8835" valueTypeId="ce0b2ba5-3e9f-4690-ade6-4cb76ee1193d"/>
+    <managerType typeId="f5ab0604-7712-474c-99bb-6eb8646ee5a7" valueTypeId="766fe46d-0716-4d6f-a36f-9b0b3410290e"/>
+  </producedTypes>
+  <name>ТипыШагов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы шагов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a4d70e6-aa06-45be-a853-ae580011bbde">
+    <name>Неизвестный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fce8b9ee-43d2-4400-8b38-da3801a7b868">
+  <producedTypes>
+    <objectType typeId="d2b5ab0b-0ce9-4030-9e7d-970ba301cc06" valueTypeId="b6145320-7f4e-4c15-9db0-b0759544ec74"/>
+    <refType typeId="7e55d447-8075-4784-b34d-b321a4cb523f" valueTypeId="2a79ec95-3ec6-491e-aa36-0803b139a88c"/>
+    <selectionType typeId="60583a32-ebe2-49a4-a9d7-a89344869a24" valueTypeId="689d98e4-0b47-44b3-b5e8-17197db7074e"/>
+    <listType typeId="d58dde7f-bb06-4f7b-b398-b965778ab074" valueTypeId="182497d9-1096-4d85-a3f8-e78176068c10"/>
+    <managerType typeId="01001d4d-1946-4dea-899c-0a4e962af656" valueTypeId="320ee339-41e8-43b4-9a88-40371188bf1d"/>
+  </producedTypes>
+  <name>КлючиНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи настроек</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлючиНастроек.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ключ настройки</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ab98afca-ce9c-4461-8bff-fd4427e26d59">
+      <name>ПутьКВременномуКаталогуФайлов</name>
+      <description>Путь к временному каталогу файлов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ea7ad2fb-28b8-4367-8032-97d86fc457bb">
+      <name>ПутьКИсполняемомуФайлу1С</name>
+      <description>Путь к исполняемому файлу 1С</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7577a8cd-469a-448d-a765-a2f89eecead9">
+      <name>ПутьКИсполняемомуФайлуGIT</name>
+      <description>Путь к исполняемому файлу GIT</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b66b6a4f-7c39-45fa-a7e2-98b047452731">
+      <name>ПутьККаталогуGIT</name>
+      <description>Путь к каталогу GIT</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="700913ab-73ae-4da3-a9d2-d162db7d3426">
+      <name>ПутьККаталогуSoapUI</name>
+      <description>Путь к каталогу SoapUI</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5797a750-1844-475f-bab2-a5c2ecabbaab">
+      <name>ПутьККаталогуБиблиотекиСценариев</name>
+      <description>Путь к каталогу библиотеки сценариев</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="777c55f4-58b7-4b02-ba1d-c9a298f2e147">
+      <name>ПутьККаталогуНаборовСценариев</name>
+      <description>Путь к каталогу наборов сценариев</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3dfe0121-ea79-4e8d-8d63-384fbb4c5074">
+      <name>ПутьККаталогуОтчетовВыполненияТестов</name>
+      <description>Путь к каталогу отчетов выполнения тестов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b83e094e-60ae-4215-ad07-41259642c345">
+      <name>ПутьКОбработкеxddTestRunner</name>
+      <description>Путь к обработке xddTestRunner</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d10431d9-a6a6-485d-9d3f-3aff1595d105">
+      <name>ПутьКОбработкеМенеджерСценарногоТеста</name>
+      <description>Путь к обработке менеджер сценарного теста</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b71d4c44-5c70-4d16-809a-61cf5e23ce84">
+      <name>ПутьКРабочемуКаталогу</name>
+      <description>Путь к рабочему каталогу</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КлючиНастроек.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.КлючиНастроек.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="97bec79a-72fe-4ebc-b86e-b048e156ccff">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85055bed-8bae-47a7-9612-785bd3764fa1">
+    <name>ТипНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип настройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКлючейНастроек</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19f36dcf-5028-4022-839d-6d26c2c2515d">
+    <name>ИмяКлюча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя ключа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИменаПеременных</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73b6c717-fd8d-4c48-885f-1e0a0fdeb03f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="54b38742-cbe3-490d-9d43-7b29544e8dc3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="313a9295-64b1-4a35-b936-058451c12487">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

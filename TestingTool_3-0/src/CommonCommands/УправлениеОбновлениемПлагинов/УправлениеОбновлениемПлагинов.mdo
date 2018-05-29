@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c3f7cf5-7a8e-4b88-b410-0715b1c90c6e">
+  <name>УправлениеОбновлениемПлагинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление обновлением плагинов</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

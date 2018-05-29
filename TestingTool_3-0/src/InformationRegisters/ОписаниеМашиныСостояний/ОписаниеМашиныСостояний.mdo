@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb0e0729-c2e3-4d21-b564-6218fcb3802c">
+  <producedTypes>
+    <selectionType typeId="43a01227-f773-4edc-8b05-b9b9cfeb37a9" valueTypeId="fe0c8c0e-c5da-45e5-b75d-676d13464183"/>
+    <listType typeId="8cab4ecd-b037-407d-acdb-35483b0452b8" valueTypeId="c89e1c88-528b-40d9-9726-eef63dec119b"/>
+    <managerType typeId="f309d2b6-40ed-4357-b536-bac21ef35815" valueTypeId="ec1e4cb9-c5e0-43c9-8464-a7c0d9be3481"/>
+    <recordSetType typeId="fdd794dc-ed09-4360-b3cf-dc6f1291dc5d" valueTypeId="7b1ce440-ee5e-49c8-9028-ea967e1333a4"/>
+    <recordKeyType typeId="7141595b-1612-4069-a463-70c70cfc6bab" valueTypeId="892b3b77-4572-41e2-8183-35db7e976163"/>
+    <recordType typeId="fd571b4c-5e8f-4b25-bfca-0d2c1a3a7a98" valueTypeId="dd9d95e9-fcc9-4128-b34c-851d5b561294"/>
+    <recordManagerType typeId="f880d448-0494-41e9-b505-66fa77ee6f49" valueTypeId="0c22afe7-50d1-44db-b63a-0f87c647b57a"/>
+  </producedTypes>
+  <name>ОписаниеМашиныСостояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание машины состояний</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="85c45b4b-73e2-4ced-9ad6-803994154dd3">
+    <name>УсловиеПерехода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие перехода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="c0b35fbc-625f-4914-8d27-bf2529c610fe">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="09a60af9-7cf0-4ed6-89f7-7de3e461fe07">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Игроки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b745c363-fa4b-40b2-82e9-f06b3029edf6">
+    <name>ТекущееСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22686b8b-905d-4f92-8527-7981a1ca3d82">
+    <name>СледующееСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Следующее состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

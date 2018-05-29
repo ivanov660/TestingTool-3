@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ac2d691-f178-494b-a8db-dec58208d7cc">
+  <producedTypes>
+    <objectType typeId="78c439e3-628c-4ff6-8743-524f8eafb0dd" valueTypeId="6a80b28d-f213-4ece-a330-9f2c8d30d675"/>
+    <refType typeId="5a3b1447-805a-4770-8dbd-744584ab77b5" valueTypeId="d0fe54d9-37df-4436-8b47-dee1dff917a8"/>
+    <selectionType typeId="768d08d1-9f60-4b45-84a6-ffa985417b41" valueTypeId="0d261d29-ce0d-4e9f-a9a5-5d063e9cd85f"/>
+    <listType typeId="078e5eba-8642-40c4-9b33-c1729708d86d" valueTypeId="f4a60608-bee8-41ca-b9e6-c0f56d7f90a5"/>
+    <managerType typeId="06eef398-b17c-4052-ba22-1ef8478ad003" valueTypeId="ca3583f8-6653-432e-8f18-e15ab59a1478"/>
+  </producedTypes>
+  <name>ОперационныеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операционные системы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОперационныеСистемы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОперационныеСистемы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Операционная система</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

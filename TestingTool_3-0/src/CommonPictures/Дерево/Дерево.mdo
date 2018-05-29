@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6ab5f0c-3cc7-481b-9ef8-a07be141c788">
+  <name>Дерево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0f5d638-d295-4999-b6b1-d1c3cbf01f3a">
+  <producedTypes>
+    <selectionType typeId="14e1cc44-8f04-469b-abd9-1dd1ba2aa927" valueTypeId="43b1352f-6167-421f-b30a-1698b3a76c9b"/>
+    <listType typeId="6c206c78-c907-44fc-949d-7981030c795a" valueTypeId="1c2d4218-e45d-435b-b843-1fe3bf1e17b2"/>
+    <managerType typeId="94e565aa-9d8a-4490-bff7-11e2aedaf074" valueTypeId="8d308f41-e1cc-47bf-9a8e-a916a5982e7a"/>
+    <recordSetType typeId="c0268003-5c02-4dff-b4b0-55c437cced3b" valueTypeId="622ff064-bcba-44e6-82de-8b11ea77c655"/>
+    <recordKeyType typeId="3c8122bd-abcf-4f72-96c6-baf3a1672a72" valueTypeId="5a151da1-1a54-4dbe-b07d-3fd0519eac4d"/>
+    <recordType typeId="11c2fb7f-3ac5-4c18-b9ab-65af5f719941" valueTypeId="df0f6a3a-7d7a-40b7-8d62-d560e31720da"/>
+    <recordManagerType typeId="bb64afe5-f660-4ed2-9fe6-cfcf3fe1c143" valueTypeId="81d6456a-3abe-455b-9abf-72bc4298ed28"/>
+  </producedTypes>
+  <name>НастройкиОбъединенияТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки объединения тестов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="49d6020f-32e9-44b6-bfea-fed0309dd145">
+    <name>ИмяНстройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя нстройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66a70237-6337-4798-a0eb-b8a2df5e8b72">
+    <name>ТестИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Тесты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="75ec37e0-b2e9-4ed8-866d-60aa88173593">
+    <name>ТестПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест приемник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Тесты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

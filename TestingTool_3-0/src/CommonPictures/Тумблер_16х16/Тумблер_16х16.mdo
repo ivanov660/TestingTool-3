@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="441d650c-5d1f-4440-8fb3-f6501654b09f">
+  <name>Тумблер_16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тумблер 16х16</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

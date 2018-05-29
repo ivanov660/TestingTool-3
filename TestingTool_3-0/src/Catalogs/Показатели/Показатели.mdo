@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84dc6f8d-8901-4758-8731-51bc7f971b96">
+  <producedTypes>
+    <objectType typeId="9e79f771-023e-4e19-913c-68c5682e2820" valueTypeId="55cb2d3a-b207-4504-ae3d-334ec6765682"/>
+    <refType typeId="32fbef13-75c4-40d6-83f2-cad1e1096850" valueTypeId="880fb914-1add-494b-a563-418ce891b78d"/>
+    <selectionType typeId="cb90d8e0-30c7-45a6-b7d2-31732bd254e6" valueTypeId="537e0a05-b4bd-4e47-8146-55b92790fae1"/>
+    <listType typeId="2b7988b5-8ccc-405a-9b7d-acc1ed6d577a" valueTypeId="ef914a4a-c0b6-4883-a0e2-c40382de5ad9"/>
+    <managerType typeId="0ba7a5d4-224d-4881-9b41-cc088dc074c5" valueTypeId="d930c1d0-536d-4ae4-a11e-dde2934fa546"/>
+  </producedTypes>
+  <name>Показатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Показатели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Показатель</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Показатели.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cfd7fa56-37e6-4673-b1bf-9b1e0f8b98e3">
+    <name>ВидПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид показателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыПоказателей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68d2f94a-34bb-406b-ae34-cecbbac1f7c9">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор показателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3ee83ad9-e52a-4b53-9ae0-ebb861cf25f1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

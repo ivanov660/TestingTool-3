@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf776c2a-07a3-4cf9-8284-b8cc5f35111d">
+  <name>Планировщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаПланировщикЗадач</picture>
+  </picture>
+  <content>Catalog.Задания</content>
+  <content>Catalog.ГруппыЗаданий</content>
+  <content>Enum.ТипыДействийЗаданий</content>
+  <content>Enum.СтатусыЗаданий</content>
+  <content>Enum.СтабильностьВыполненияЗаданий</content>
+  <content>InformationRegister.Планировщик</content>
+  <content>InformationRegister.ЛогВыполненныхЗаданий</content>
+  <content>InformationRegister.СоставЗаданий</content>
+  <content>Catalog.ДействияЗаданий</content>
+  <content>CommonCommand.ДополнительныеОбработкиПланировщик</content>
+  <content>InformationRegister.СоставЗаданийПулл</content>
+  <content>InformationRegister.ПеременныеЗаданий</content>
+  <content>CommonCommand.ДополнительныеОтчетыПланировщик</content>
+  <content>DataProcessor.ОсновноеРабочееМестоПользователя</content>
+  <content>InformationRegister.СостоянияЗаданий</content>
+  <content>Catalog.Сборки</content>
+  <content>CommonCommand.ПросмотрУправлениеЗаданиями</content>
+</mdclass:Subsystem>

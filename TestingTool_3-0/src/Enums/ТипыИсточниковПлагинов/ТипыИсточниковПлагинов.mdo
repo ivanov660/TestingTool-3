@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d19b7543-cf4e-48cc-8b30-2cd160630015">
+  <producedTypes>
+    <refType typeId="f73d7dac-2308-48d1-8dd0-7c5eb8e20f19" valueTypeId="0cc21ee7-3cf0-43c1-981f-3cf9c6cbe5eb"/>
+    <listType typeId="e68a0c98-158d-4cc4-9f30-b8a093bb2f38" valueTypeId="93a2392e-208d-41f0-96da-a9979b509826"/>
+    <managerType typeId="8c9e6fd6-d002-4a54-aac1-2a8f589f37f3" valueTypeId="2adce05e-4736-4ea5-bf8b-4306937c8376"/>
+  </producedTypes>
+  <name>ТипыИсточниковПлагинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы источников плагинов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2df6c40-9bed-40a8-98e1-2493137f0ecd">
+    <name>АдресИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес интернет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="08725178-bf1d-4c82-bbbc-e63a8decd2f9">
+    <name>ПутьКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь каталог</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

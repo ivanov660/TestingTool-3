@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c640390-00ad-42b7-9795-5dacb2330c29">
+  <name>РазделНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел НСИ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

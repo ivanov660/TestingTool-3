@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74439da7-8cfa-49e4-96c9-f5826bff7e9d">
+  <producedTypes>
+    <refType typeId="38232c44-17ce-49ba-8811-cea9676569b6" valueTypeId="09ce087f-591f-40f2-ad28-e61e6fb010bc"/>
+    <listType typeId="6ba86094-c29b-44f2-924b-338188da59c1" valueTypeId="2ebb9843-3a11-4469-bf3a-3e5d0be70add"/>
+    <managerType typeId="c0f21a30-a740-4911-9cd9-73993704aa9a" valueTypeId="732f7bcd-889b-4bea-9d52-6753646e2c02"/>
+  </producedTypes>
+  <name>ВариантыХраненияСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты хранения сценариев</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed01dec0-2c72-4af9-9ae6-14cd8d86260a">
+    <name>ВоВнешнемФайле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Во внешнем файле</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aa305cb7-c5dd-4e99-b5d3-c90ee541541e">
+    <name>ВТекущейБазеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>В текущей базе данных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3f4343ab-a266-4f45-b18c-d4842a443059">
+    <name>ПоАдресуИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>По адресу интернет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="43a588b1-364f-466e-bf7d-dffd52e1e0aa">
+    <name>ВоВнешнемФайлеGIT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Во внешнем файле GIT</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4bd52732-28bb-42cd-8e71-5e8010489f78">
+    <name>ПоАдресуИнтернетGIT</name>
+    <synonym>
+      <key>ru</key>
+      <value>По адресу интернет GIT</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

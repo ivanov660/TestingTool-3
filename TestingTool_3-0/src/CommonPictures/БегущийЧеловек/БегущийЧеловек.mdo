@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7eee84-96f6-443b-95a4-8cf252ecdf2d">
+  <name>БегущийЧеловек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бегущий человек</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

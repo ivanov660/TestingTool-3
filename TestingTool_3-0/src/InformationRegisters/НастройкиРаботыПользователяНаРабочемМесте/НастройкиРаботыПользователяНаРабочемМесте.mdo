@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="622cbf79-2df0-42f2-b0ab-fa2996a1bd8d">
+  <producedTypes>
+    <selectionType typeId="5eed7cac-1012-4f33-8980-5e77cd8b510d" valueTypeId="8ff19985-3f77-400a-898d-02018b914625"/>
+    <listType typeId="028e8502-f1c4-44a5-aecd-31c7d155cd61" valueTypeId="3e809f56-5f0b-494d-859f-ee7cd1fbac46"/>
+    <managerType typeId="bba089da-684b-48a3-a366-cca0211d5a20" valueTypeId="907cb7a7-01b0-4ee9-850a-1b9571d226d9"/>
+    <recordSetType typeId="8cfa5b9c-986a-491b-84d3-58b55a67438e" valueTypeId="52edc651-3e26-4370-b4ab-faf39369af07"/>
+    <recordKeyType typeId="788f34c3-613b-40b6-a886-767ce0f482ae" valueTypeId="8db99445-5c34-46f2-b883-e887cbbeb184"/>
+    <recordType typeId="d5d64e18-07a2-457a-81b7-651417a4901a" valueTypeId="b442567e-e5c7-46ce-a160-9e866b6052bb"/>
+    <recordManagerType typeId="a8874c49-736f-42bb-acd5-494ab3e3e93d" valueTypeId="77b3c0c4-c150-4d5b-a482-61fc4a2dc308"/>
+  </producedTypes>
+  <name>НастройкиРаботыПользователяНаРабочемМесте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки работы пользователя на рабочем месте</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиРаботыПользователяНаРабочемМесте.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0b1f4a0a-96fc-423a-a9dd-2981bb3f734d">
+    <name>ЗначениеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение настройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="5cf7ee35-e7cf-45e6-bf03-0209fb39cb0a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="070e4027-4ced-45cf-83e4-1c3a2579fe57">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6be7e912-cfe7-40b9-8c74-bc1cfa32a92d">
+    <name>КлючНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ настройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КлючиНастроек</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="faf9fea1-48d0-43f2-965f-783a340fa515">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

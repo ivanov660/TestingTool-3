@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85ad2f6f-40d9-4a50-9d42-baa62f294b51">
+  <name>ИспользоватьИгровоеМоделирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать игровое моделирование</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьИгровоеМоделирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ИгровоеМоделирование</content>
+  <content>InformationRegister.СвязиСостоянийБлоков</content>
+  <content>InformationRegister.ОписаниеМашиныСостояний</content>
+  <content>InformationRegister.СвязиИгроковБлоков</content>
+  <content>Catalog.Игроки</content>
+  <content>Catalog.Игры</content>
+</mdclass:FunctionalOption>

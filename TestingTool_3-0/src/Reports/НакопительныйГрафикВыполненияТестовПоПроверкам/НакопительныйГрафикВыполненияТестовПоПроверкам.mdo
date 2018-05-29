@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ebf5701-2ea3-4f24-96f4-6c31be3934dc">
+  <producedTypes>
+    <objectType typeId="9d28e92e-9cfe-4d8e-b729-9424aa40c7b1" valueTypeId="399048cd-a8a1-4f51-8b75-4c670f13e33e"/>
+    <managerType typeId="8172fcf5-38fd-493e-a358-767914fca5ef" valueTypeId="8ac5ca3c-b9d3-4cb5-a6f6-4b5c8c8935f6"/>
+  </producedTypes>
+  <name>НакопительныйГрафикВыполненияТестовПоПроверкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накопительный график выполнения тестов по проверкам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НакопительныйГрафикВыполненияТестовПоПроверкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="70a42541-3612-4f29-8ab4-dfd637fe18e0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

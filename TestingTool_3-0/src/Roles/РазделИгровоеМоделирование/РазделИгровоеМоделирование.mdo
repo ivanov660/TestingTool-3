@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a781aca-38b4-42c2-b9d9-bd265120add2">
+  <name>РазделИгровоеМоделирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел игровое моделирование</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

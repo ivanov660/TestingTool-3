@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="820368b7-a0c8-40d4-9d88-774347810cef">
+  <name>Импорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

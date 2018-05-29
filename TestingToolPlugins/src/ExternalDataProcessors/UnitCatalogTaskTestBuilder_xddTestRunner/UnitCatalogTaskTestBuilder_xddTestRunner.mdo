@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0ed666b-320d-4401-b265-3b21c1b36617">
+  <producedTypes>
+    <objectType typeId="da73bfd5-6cc7-434b-a0c1-34a45810f18d" valueTypeId="2447943e-583d-4eef-98ae-91344b52d069"/>
+  </producedTypes>
+  <name>UnitCatalogTaskTestBuilder_xddTestRunner</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор задания выполнения теста</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b2cea627-b3bd-4e70-bef6-d56ffceca27a"/>
+  <defaultForm>ExternalDataProcessor.UnitCatalogTaskTestBuilder_xddTestRunner.Form.Форма</defaultForm>
+  <forms uuid="f02464ae-88c3-4b94-8909-12b799f4c8e4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

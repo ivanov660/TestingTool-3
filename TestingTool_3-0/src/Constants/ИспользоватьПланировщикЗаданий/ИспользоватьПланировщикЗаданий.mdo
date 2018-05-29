@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8229c751-ba60-40d6-9091-1168ac02ca1d">
+  <producedTypes>
+    <managerType typeId="70ef31b5-0f74-432a-b6f0-3cd2309b44bc" valueTypeId="8d87414f-c4f8-4633-9a01-7fe8186c0e68"/>
+    <valueManagerType typeId="cc169446-eca1-4b95-89d0-963868af07e5" valueTypeId="fb48a9e6-d342-40d2-a345-a3a856d50521"/>
+  </producedTypes>
+  <name>ИспользоватьПланировщикЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать планировщик заданий</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

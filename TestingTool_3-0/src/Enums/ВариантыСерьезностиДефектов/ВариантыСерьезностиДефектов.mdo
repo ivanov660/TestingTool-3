@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdd4e207-fdbe-4353-8c25-4aae66d753b8">
+  <producedTypes>
+    <refType typeId="cbed161c-f8a4-4935-bc81-f7591d368907" valueTypeId="50836b79-67e2-436f-8098-a2fc9181fcb9"/>
+    <listType typeId="148ff69b-7eee-49f4-90ff-73341f53ecb0" valueTypeId="e3bb93f6-9b62-4b63-bb45-0e5439c32e56"/>
+    <managerType typeId="ad23fa97-28df-45da-9011-d20d7d865b3c" valueTypeId="34402f41-7a74-4243-8cb6-74504ff8a9dd"/>
+  </producedTypes>
+  <name>ВариантыСерьезностиДефектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты серьезности дефектов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85ec1eaf-9bad-409f-ae24-dee43e210ff9">
+    <name>Блокирующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирующая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="10c28ef9-6a1d-468e-94ff-7ac21e188b6d">
+    <name>Критическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критическая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="945aac3e-faa0-47f1-93e1-52ae26cb661e">
+    <name>Значительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значительная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a0b5c673-199a-4df0-91ad-eb66d25e88db">
+    <name>Незначительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незначительная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="462f48a5-daf5-47ee-a701-f4b1501792b2">
+    <name>Тривиальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тривиальная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

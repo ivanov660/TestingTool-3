@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5165ed2-6244-4161-b701-aedef3eacb9e">
+  <producedTypes>
+    <selectionType typeId="21663bc9-ed60-4f2b-8644-7446341ff0f8" valueTypeId="e094d1f7-3d7c-4a8b-a8a0-119f0c6d6159"/>
+    <listType typeId="46da32e0-b7e0-48fa-b951-ce144f686d24" valueTypeId="b8a8e76b-d03f-4268-906a-671d8f5958e0"/>
+    <managerType typeId="d6e44e3f-e883-4b0f-95ce-25a2497b1d80" valueTypeId="1a9a2449-cf7f-49e0-aa89-75070fbe9ec1"/>
+    <recordSetType typeId="8d4a9f1a-473c-4f6c-a1eb-2b959cfbc78c" valueTypeId="677da281-6485-437d-8a83-56701b342a60"/>
+    <recordKeyType typeId="bc1d0842-effd-43bc-922d-1617458cc296" valueTypeId="37317b95-e1e7-4985-afb0-497a29ce6024"/>
+    <recordType typeId="8943112b-6d0a-42a8-8393-1cec1b4d30b5" valueTypeId="7e1c4750-e994-407d-84df-c23f8b0b3121"/>
+    <recordManagerType typeId="817f20cd-2ad4-41c5-b589-76bd918d50e9" valueTypeId="ee6ca85f-0ece-4402-9a9c-270fa06f3fb2"/>
+  </producedTypes>
+  <name>СоставЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав заданий</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0b1f70f4-be30-4757-828b-9b78387d23a4">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Задания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6201f73e-43d5-4800-bb3f-589f748aa6d5">
+    <name>ПорядокВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок выполнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3802c347-f879-4f9c-a5e0-994ac8a3729c">
+    <name>ПодчиненноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненное задание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Задания</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="600668f3-ddde-42ad-997b-81e8c14bc26a">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДействияЗаданий</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

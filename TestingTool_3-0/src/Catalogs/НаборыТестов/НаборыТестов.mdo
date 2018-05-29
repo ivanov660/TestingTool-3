@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84e1f41f-885e-4deb-8713-224f130ddeba">
+  <producedTypes>
+    <objectType typeId="303fbf74-e848-43bd-96f0-2ce1118271da" valueTypeId="d89516d9-450a-4fb4-a29a-8d8fd38184a7"/>
+    <refType typeId="9c89da3d-0d34-4ec4-9621-0e2c0e4ae569" valueTypeId="a137e561-165b-41be-8c0a-adc15e5a883b"/>
+    <selectionType typeId="ed73916b-5c8e-4983-ac3b-98fefc0c7f06" valueTypeId="18cafa10-40ad-444b-ba99-fdd61a5ea851"/>
+    <listType typeId="4722ba41-9783-4265-9c94-c4d0a7a7071d" valueTypeId="2453db75-8e9e-4c5a-b685-3f8ae7275a36"/>
+    <managerType typeId="a1dc99cb-dcfb-42ef-a9fc-3636339e3b30" valueTypeId="9a4ce5f0-e3c2-4388-9c30-12f0491d2081"/>
+  </producedTypes>
+  <name>НаборыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы тестов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыТестов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="358f9e7b-e964-4be6-a48d-b462aacf9397">
+      <name>БезНаименования</name>
+      <description>Без наименования</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НаборыТестов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2eab2f3a-08dd-4737-8264-9375fcc99f5f">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4941dbf2-2ade-40af-aade-b3d6bde0521c">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c8eec43-5e5a-4996-a3fc-73111fadba20">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Проект</name>
+      <field>Catalog.НаборыТестов.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="821f0c0a-dcfc-4f38-b432-283e32b8262a">
+    <name>ВидНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид набора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыНаборов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыНаборов.EnumValue.СписокТестов</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b703569-562d-4987-9dfa-aa36bd165abd">
+    <name>ПутьКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь каталог</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6875c80b-f5bb-4005-bc5e-553c46d6b2a2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

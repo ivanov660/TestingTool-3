@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="045a23ad-fc4a-469a-a099-acd4df954ea4">
+  <producedTypes>
+    <objectType typeId="f4646eff-9e8d-448b-8d88-2a854ae876af" valueTypeId="d1e9f82f-85ad-4d5e-9e67-e3f18b447632"/>
+  </producedTypes>
+  <name>УправлениеОбновлениемПлагинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление обновлением плагинов</value>
+  </synonym>
+  <comment>автор ivanov660 aka Крючков Владимир</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="74e2886d-7a4d-4499-8ebb-97be9e2e54a7"/>
+  <defaultForm>ExternalDataProcessor.УправлениеОбновлениемПлагинов.Form.Форма</defaultForm>
+  <forms uuid="7daab8cc-fb12-4c6c-8436-15138a10e12a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

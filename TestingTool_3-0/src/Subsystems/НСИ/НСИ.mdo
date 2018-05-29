@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55fe5283-6a72-4c9f-81ec-d6db13fe48a5">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНСИ</picture>
+  </picture>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.ОперационныеСистемы</content>
+  <content>Catalog.ВерсииПлатформы</content>
+  <content>Catalog.Базы1С</content>
+  <content>Catalog.ОбъектыОписанияСтруктурыКонфигурации</content>
+  <content>Catalog.Алгоритмы</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.ШаблоныКоманд</content>
+  <content>Catalog.Запросы</content>
+  <content>Catalog.ТестируемыеКлиенты</content>
+  <content>Catalog.ИменаПеременных</content>
+  <content>Catalog.Проекты</content>
+  <content>Catalog.КлючиНастроек</content>
+</mdclass:Subsystem>

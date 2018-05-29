@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdd36505-c601-43a7-9933-f8e5537f0fa2">
+  <producedTypes>
+    <objectType typeId="e154a281-d1ea-4859-8cb0-8cb8c90d50c3" valueTypeId="d4250d84-d580-40b2-a69b-e042cfd123f2"/>
+    <refType typeId="369bb6ce-426c-4c19-be8a-d12a8f7f8b45" valueTypeId="efd73d43-75bd-42c1-b2d5-a073a9a5c7f4"/>
+    <selectionType typeId="e0195164-834b-453c-9277-2b18467d57ea" valueTypeId="fe986141-b7fb-4d6b-9d60-388ecb05b45f"/>
+    <listType typeId="d077a040-f7c8-4284-9b4c-3dc832186427" valueTypeId="371182f3-32af-4137-b4c2-f5c4ff15e0b3"/>
+    <managerType typeId="fa7a78c6-3673-4b46-a423-7749ad0e864e" valueTypeId="4e7f6f58-5724-4efb-ad5a-29038aed956c"/>
+  </producedTypes>
+  <name>ТестируемыеКлиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестируемые клиенты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТестируемыеКлиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тестируемый клиент</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>110</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="aee68a4e-0dc3-46b4-bf51-c7c8cee31cb5">
+      <name>ТекущийКлиент1С</name>
+      <description>Текущий клиент 1С</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТестируемыеКлиенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2c312e6c-8950-418d-81a3-270339f94517">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Клиента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="15d56c2a-5b02-4ab9-a0a6-01178429105f">
+    <name>База1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>База 1С</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Базы1С</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72185cc9-114f-4e52-aea7-182f4289ded5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольная строка</value>
+    </toolTip>
+    <mask></mask>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53d1e2d0-dd1c-4b47-8ee8-c8d59e8da9b4">
+    <name>ЭтоКлиент1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это клиент1 С</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cad4124-73bc-43c9-9567-2bc54ad2604e">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fb4f3989-7b8e-4008-bbbe-6530434e63ca">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

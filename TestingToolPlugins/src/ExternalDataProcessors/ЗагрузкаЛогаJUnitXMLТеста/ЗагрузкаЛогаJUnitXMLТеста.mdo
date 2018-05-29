@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7fa8ddb-1572-4271-a015-04186303cf69">
+  <producedTypes>
+    <objectType typeId="e5bccf14-fcc7-48dc-83e6-52485734dbe5" valueTypeId="030197ea-2c22-413d-ad25-86a70823406f"/>
+  </producedTypes>
+  <name>ЗагрузкаЛогаJUnitXMLТеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка лога JUnit XML теста</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="689ee1df-fa1f-4570-ae8a-b907ebf9fc36"/>
+  <defaultForm>ExternalDataProcessor.ЗагрузкаЛогаJUnitXMLТеста.Form.Форма</defaultForm>
+  <forms uuid="0835229e-c62b-4ccb-8ade-cce286dad991">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d5dacfaa-6eac-43cd-b8c3-0d7ce873b060">
+    <name>СхемаJUnit4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема j unit4</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

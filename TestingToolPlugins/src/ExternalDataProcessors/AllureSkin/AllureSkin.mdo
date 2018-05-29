@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11abec2b-be13-4643-8815-4b330703028e">
+  <producedTypes>
+    <objectType typeId="e5b3c371-9b9f-4aa4-b4e6-a54bfe00d15a" valueTypeId="af5e2fbf-ca43-48e0-ba0e-6027fffae484"/>
+  </producedTypes>
+  <name>AllureSkin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место по мотивам Allure </value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="7248f884-46b8-431e-b804-050164282bde"/>
+  <defaultForm>ExternalDataProcessor.AllureSkin.Form.Overview</defaultForm>
+  <attributes uuid="380d972e-edb5-4239-ab0a-9d7d2076c7ae">
+    <name>ТестируемыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестируемый клиент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТестируемыеКлиенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd19a9c3-0034-47cb-b545-af4de98b41f9">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проверки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4421df66-2a11-4860-8392-9798a67d0fda">
+    <name>Overview</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обзор</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14f63e8b-28f2-481d-a693-a0f1d45f4632">
+    <name>xUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тесты</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fed6c2a9-0d5d-4544-b54a-225313e0ab7e">
+    <name>Graphs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Графики</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5a7acd4-f21d-4f07-b31b-25be82cb0ae1">
+    <name>TimeLine</name>
+    <synonym>
+      <key>ru</key>
+      <value>На временной оси</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64eb4aa5-bbdf-46e0-b1d3-fa5a7e61d3ec">
+    <name>Behaviors</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменений во времени</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="31a8a33f-c77f-4e7e-9f96-ea7e8c64bc1c">
+    <name>Defects</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дефекты</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="895cdfde-871d-4aa5-85ca-a9b985ab38fd">
+    <name>Options</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3fc6c160-6af5-4873-bd06-73d0729a7575">
+    <name>HappyFace</name>
+    <synonym>
+      <key>ru</key>
+      <value>Happy face</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0812665a-63ed-4832-a276-aca76326c08e">
+    <name>OMGFace</name>
+    <synonym>
+      <key>ru</key>
+      <value>OMGFace</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a471b5a1-e0ff-4a77-82cb-e1bf71cd5689">
+    <name>ThinkingFace</name>
+    <synonym>
+      <key>ru</key>
+      <value>Thinking face</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

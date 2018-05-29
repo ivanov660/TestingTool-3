@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cf319d6-7b45-4372-903f-14fa215ca87a">
+  <name>Тестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаТестирование</picture>
+  </picture>
+  <content>Catalog.Тесты</content>
+  <content>Catalog.ПланыТестирования</content>
+  <content>InformationRegister.ПротоколыВыполненияШаговТестов</content>
+  <content>Catalog.ТестируемыеКлиенты</content>
+  <content>Catalog.НаборыТестов</content>
+  <content>CommonCommand.ДополнительныеОбработкиТестирование</content>
+  <content>InformationRegister.ПротоколыВыполненияТестов</content>
+  <content>InformationRegister.СвзяиТестовОбъектовКонфигураций</content>
+  <content>InformationRegister.СвязиТестовКонфигураций</content>
+  <content>CommonCommand.ДополнительныеОтчетыТестирование</content>
+  <content>InformationRegister.СоставНабораТестов</content>
+  <content>Catalog.Проверки</content>
+  <content>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам</content>
+  <content>Report.ВыполнениеТестовПоПроверкам</content>
+  <content>Report.НакопительныйГрафикВыполненияТестовПоПроверкам</content>
+  <content>DataProcessor.ОсновноеРабочееМестоПользователя</content>
+  <content>InformationRegister.ПротоколыВыполненияТестовыхСлучаев</content>
+  <content>CommonCommand.МенеджерВыполненияЧекЛистТестов</content>
+  <content>Catalog.Проекты</content>
+  <content>InformationRegister.НастройкиОбъединенияТестов</content>
+  <content>CommonCommand.ПросмотрРезультатовВыполненияПроверок</content>
+</mdclass:Subsystem>

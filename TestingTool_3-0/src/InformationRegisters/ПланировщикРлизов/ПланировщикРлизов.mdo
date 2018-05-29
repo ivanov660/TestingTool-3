@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a23915-5fee-47cd-8c45-7a799fb744c5">
+  <producedTypes>
+    <selectionType typeId="0516b047-ffe5-4671-b94a-5bf0200664b9" valueTypeId="5eea192b-764b-49d4-b73d-55e2871c7827"/>
+    <listType typeId="55bdce5c-b7fd-45e4-a9bd-eaf75065dc3c" valueTypeId="152c8ed8-6f21-4043-a6ef-07f6b9fde676"/>
+    <managerType typeId="d4e845aa-8352-47dc-bc64-2dde2e113990" valueTypeId="c1e374ce-5b13-40a7-a604-759faeaded2c"/>
+    <recordSetType typeId="2ef6bea6-48ac-469f-872c-d2be423c639f" valueTypeId="7a613756-cb77-4e77-93e8-da5b92b3876a"/>
+    <recordKeyType typeId="f6971e85-71f1-4223-9f84-2d32329a64ae" valueTypeId="066e8f5d-fc71-42b3-9258-22269e93782b"/>
+    <recordType typeId="7206491d-e0b9-4b11-93c6-57bfb58ad5dd" valueTypeId="8142691f-3643-43bd-939c-54a513c51294"/>
+    <recordManagerType typeId="e5e2c491-81ab-4bcb-ba61-402a5a4f5663" valueTypeId="07dc7572-0dd3-4ec8-b95a-ae3034e3b213"/>
+  </producedTypes>
+  <name>ПланировщикРлизов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик рлизов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="91494513-3412-429a-8ae0-8b4822832b45">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d0a7470c-847c-4a62-b87a-dbee341e7614">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="540cd427-8bd2-4d68-bfa5-f9934510b665">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3505b9ef-d03a-4260-ae7d-78ed48c3f35c">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Релизы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыРелизов.EnumValue.Релиз</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

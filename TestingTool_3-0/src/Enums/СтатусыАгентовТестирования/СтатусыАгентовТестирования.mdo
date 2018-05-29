@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24e7c3fb-3dce-440c-93bf-4ed6c2538a79">
+  <producedTypes>
+    <refType typeId="0233f6d7-3895-4636-993d-16af3dcca447" valueTypeId="c4951293-c55a-4194-8071-ae3e4db92f44"/>
+    <listType typeId="4dbfefb5-d4dc-4322-81f2-1d28a84b7677" valueTypeId="0b251fd6-4567-4a1f-9fc3-6118e73e27d4"/>
+    <managerType typeId="d87e0a41-ebe9-4bf5-a61e-aec0bc85b0d6" valueTypeId="798b8953-5452-4753-b7b8-03182516a5fd"/>
+  </producedTypes>
+  <name>СтатусыАгентовТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы агентов тестирования</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d50d337-835b-405f-a9ed-7e766d193323">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="534ad221-7375-48cd-b518-d8471d42e94d">
+    <name>Готов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c489a8e1-99d8-4731-b87f-01acdf2e811b">
+    <name>Запуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9c91a173-e39c-4666-b7b9-102522d9dce2">
+    <name>Неопределено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неопределено</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="995f9e42-a48e-4e69-95b3-3c95a90a1d81">
+    <name>Останов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Останов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="70567edb-d5dc-4e8a-b5a4-6e4c6e75214d">
+    <name>Отключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4a33c96b-2b24-4d4b-b96f-2091d29d55c2">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

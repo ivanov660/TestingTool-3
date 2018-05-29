@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6510fe5-3beb-49b2-bef6-01fed0ee61ae">
+  <producedTypes>
+    <selectionType typeId="67c8ebbf-f4a8-46c2-8bdb-83b5b56bc887" valueTypeId="81395ac8-d478-429c-8c5d-4e736567c143"/>
+    <listType typeId="ad3d5a01-67dc-411b-b037-a1fa6179daaa" valueTypeId="dabaa347-fa31-466d-a165-1cb7ac6d2769"/>
+    <managerType typeId="6911e342-8c26-4783-adb5-e765944aeda8" valueTypeId="dab03fde-04ba-412e-88be-022a62cd8f7e"/>
+    <recordSetType typeId="deb5a27f-e27e-4beb-9a9a-0142aefa93f4" valueTypeId="b7215bf3-406f-41a3-814b-c458dd203b52"/>
+    <recordKeyType typeId="2e586a19-d103-4484-8ec7-8a7695ae47f2" valueTypeId="b58dd175-34a3-4349-8709-163d5b358a9c"/>
+    <recordType typeId="23dd6855-c3e1-4057-89c0-7f78c9ab3763" valueTypeId="7ded6487-0292-4ef0-874c-60ba69d222fd"/>
+    <recordManagerType typeId="b76be157-91b7-4e32-b6f0-de2403476cb8" valueTypeId="37997277-87f6-405d-94e7-40f33e63a70a"/>
+  </producedTypes>
+  <name>ИсточникиПлагинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники плагинов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5aa948e4-32f7-4c9f-9715-329e72c75372">
+    <name>ТипИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыИсточниковПлагинов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыИсточниковПлагинов.EnumValue.АдресИнтернет</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a61eb022-742e-4b70-b9ef-e9a71132e606">
+    <name>ПутьКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь каталог</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="a18e9225-b8b7-48fc-9f8c-8728b4a5f1d2">
+    <name>АдресИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес интернет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b0317014-4e84-4ddc-ad30-e742647344c3">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="16100c14-b217-4e5a-98f5-3804a71eb590">
+    <name>Отключить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ab6f6ee7-fc6f-4a43-9782-e2db412b1f83">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b71a7fea-ad1c-4344-bf20-5566f0841e32">
+    <name>ИмяИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя источника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

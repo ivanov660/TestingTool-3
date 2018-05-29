@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92d5f8a0-e766-4e05-8774-bc806c4b8a63">
+  <producedTypes>
+    <objectType typeId="89ed4dea-6be5-4de5-9d70-57192d796ebc" valueTypeId="7a0d7588-8aca-4941-a8e9-c18e095b5e87"/>
+    <refType typeId="2f965e8d-3878-495d-9bf5-05a6ac16117b" valueTypeId="383e4db2-1674-4639-94c3-d06d7057eec0"/>
+    <selectionType typeId="a518b15e-b15e-4ab9-a416-45a9c836b501" valueTypeId="2975604f-b9f0-4e28-a10b-0dd05e9ef1c5"/>
+    <listType typeId="0646d8bc-691b-4829-a7f6-368ab3add3dc" valueTypeId="fa535a01-1004-434e-acd1-a325392dd9c3"/>
+    <managerType typeId="1cd06150-9648-42d0-b4f4-451e3f7ec9ea" valueTypeId="c54d9105-545a-4cae-8c5d-2ce4da365fe4"/>
+  </producedTypes>
+  <name>ИменаПеременных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена переменных</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИменаПеременных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="952bbb99-1f08-43a1-806b-9cc83cf72037">
+      <name>PID</name>
+      <description>PID</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="611f392d-42c3-464f-8c2a-d43e5699fc63">
+      <name>АгентТестирования</name>
+      <description>Агент тестирования</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="39dbcc4a-e448-4791-997b-4c61312521c3">
+      <name>Игра</name>
+      <description>Игра</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3670d26b-8496-40ed-9f80-6261fb88333d">
+      <name>Игрок</name>
+      <description>Игрок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7a6aa301-b28a-46ba-adc0-cb4014adc23d">
+      <name>КлючПоиска</name>
+      <description>Ключ поиска</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6ebbe921-101a-4a22-ac33-ff84d323e71b">
+      <name>МенеджерОтчетов</name>
+      <description>Менеджер отчетов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b244e8fa-bbad-411b-be7f-faf72ba16713">
+      <name>МенеджерТестирования</name>
+      <description>Менеджер тестирования</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4adf490b-d8d5-4132-b790-cfc100341447">
+      <name>НаборТестов</name>
+      <description>Набор тестов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8c571729-d629-48e1-9cd5-7955aa9db852">
+      <name>Проект</name>
+      <description>Проект</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="25c1d914-8e81-4edf-934b-0310be0d0ce7">
+      <name>Релиз</name>
+      <description>Релиз</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ea2ab1bc-10d7-46cb-bcc3-a05d6cb4bbbe">
+      <name>Тест</name>
+      <description>Тест</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5bf121d6-cba9-4396-acfb-cc2a7ebf82d5">
+      <name>ТестируемыйКлиент</name>
+      <description>Тестируемый клиент</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="77281634-9378-43f1-b4ec-eefac42c77d8">
+      <name>ФорматФайлаОтчета</name>
+      <description>Формат файла отчета</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

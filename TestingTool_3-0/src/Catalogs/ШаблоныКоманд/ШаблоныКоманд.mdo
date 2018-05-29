@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc2cd2ba-f82f-44cb-9c6c-90cd23f89fc1">
+  <producedTypes>
+    <objectType typeId="69a06a3d-af68-4548-8a44-d631788d8823" valueTypeId="8cb9a70d-c176-4ee6-b3a5-b16c88f35798"/>
+    <refType typeId="70c8d8ee-305e-4992-817c-c5b0830e7be9" valueTypeId="94d3d378-7672-47d0-8e9f-88f700214a18"/>
+    <selectionType typeId="258e168a-0ef9-47f9-8a99-b0b6e4116ef1" valueTypeId="d69c3c03-2a67-44e5-85c0-5167b48d55f0"/>
+    <listType typeId="adb67066-dbff-49c9-8cda-a13329a301dc" valueTypeId="276a3955-3943-4d5d-a942-a69d9b226fa8"/>
+    <managerType typeId="ba626878-67b6-4686-bbf0-6fd936d8f03c" valueTypeId="666035cd-1029-4b0f-8e4f-76c3697d8a61"/>
+  </producedTypes>
+  <name>ШаблоныКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны команд</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныКоманд.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон команды</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШаблоныКоманд.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e475bf81-49aa-49b2-bef5-2f650467c354">
+    <name>ТекстШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст шаблона</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4eb60ef9-61bf-4784-becb-22f54be4d935">
+    <name>ИдентификаторКонструктора</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID конструктора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="01d6db80-9057-4945-8dc4-dc65b6c4c76d">
+    <name>РедактироватьКонструктором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактировать конструктором</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b7419728-b9c2-43e5-97fa-9dc6cd132fb7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

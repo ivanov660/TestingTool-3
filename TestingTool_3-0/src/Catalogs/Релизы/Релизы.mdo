@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73b7cdd4-35ca-487e-bc8c-e305f1e021e9">
+  <producedTypes>
+    <objectType typeId="1d35fcae-7242-4c75-b2f3-cfa960fda43b" valueTypeId="2f0cc380-ef71-4608-8ffd-70306116596a"/>
+    <refType typeId="cfb1627c-71c4-4d32-9e19-ad13ea44ae76" valueTypeId="8811300d-39b6-4c48-a7bf-9e783ed07ed4"/>
+    <selectionType typeId="264c28ae-46a4-42d0-9010-01c763c27de8" valueTypeId="2f9acd29-a5f7-4dd0-a72f-38f85567d790"/>
+    <listType typeId="dccd3b5c-0470-417c-ac34-67aae18e0637" valueTypeId="5c6aeec1-518c-43eb-88a9-1194f100c802"/>
+    <managerType typeId="92406143-f139-401f-9fc5-829a4a8db9ca" valueTypeId="896fb8e5-c6b9-464a-bd34-297b80e3ff9b"/>
+  </producedTypes>
+  <name>Релизы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Релизы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Релизы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="df437bcf-1ad7-4161-b639-643e38f7b9a8">
+    <name>ТипРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип релиза</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыРелизов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8acfc82-0182-4b95-bc46-a9c52f117447">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f6847f2-f514-44ae-853e-03cf942f51bc">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a4c8a71-5205-4e17-85e6-491092948e90">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Проект</name>
+      <field>Catalog.Релизы.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

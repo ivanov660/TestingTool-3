@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccd46c45-def6-4859-aded-5019762aec15">
+  <name>РежимВсеФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим все функции</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

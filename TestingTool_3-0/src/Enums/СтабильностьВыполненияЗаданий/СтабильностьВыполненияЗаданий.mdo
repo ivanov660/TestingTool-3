@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19174bcc-ab93-4f18-a0c1-60ee3cab4d9a">
+  <producedTypes>
+    <refType typeId="2e1b52c7-af9c-4e30-9d4f-0f256fc5dbce" valueTypeId="e3b37f62-5dc3-4441-a704-9e8a3fd541eb"/>
+    <listType typeId="5cfe8115-2659-4955-98cf-30da090b1e10" valueTypeId="de81a6d6-38d2-46d2-8760-d88eda56b576"/>
+    <managerType typeId="200ec74f-5bac-4096-946e-6e94ed47ab85" valueTypeId="55200924-1d33-48f3-a295-d79a5fe7a710"/>
+  </producedTypes>
+  <name>СтабильностьВыполненияЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стабильность выполнения заданий</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5f1c8bd7-f307-4514-b906-fd00bcb970dd">
+    <name>СредиПоследнихЗаданийНетПровалившихся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среди последних заданий нет провалившихся</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="df438ea6-4e21-4221-8231-4b44120e138e">
+    <name>СредиПоследних5Провалилось1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среди последних 5 провалилось 1</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="30158190-476b-42a8-8030-998238ddb77e">
+    <name>СредиПоследних5Провалилось2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среди последних 5 провалилось 2</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="688ec478-ac7a-489f-b93a-96f77cf634f1">
+    <name>СредиПоследних5Провалилось3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среди последних 5 провалилось 3</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="15a3a9c0-fb4c-4550-9c9d-72cc94c8d3f2">
+    <name>СредиПоследних5Провалилось4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среди последних 5 провалилось 4</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a775ef4-1722-4cf4-8413-aa386a7ea451">
+    <name>ВсеПослдениеЗаданияПровалились</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все послдение задания провалились</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

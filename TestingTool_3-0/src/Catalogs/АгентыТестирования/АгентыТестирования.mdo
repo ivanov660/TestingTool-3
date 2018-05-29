@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21ccd4ec-1fad-44ff-9b4f-92fdee949eae">
+  <producedTypes>
+    <objectType typeId="27324f56-7b92-42e0-845b-5d333c0de832" valueTypeId="1fae9a57-8afe-4dee-a035-2fc4cf045645"/>
+    <refType typeId="061a263b-248c-4b56-ac58-92a8396af08f" valueTypeId="40c2857f-5e0c-46d1-8c95-16414481ea9b"/>
+    <selectionType typeId="9e2fad59-c635-4359-bc12-f052949090bc" valueTypeId="f368e24e-9210-48e9-9c98-7e3bc4364f60"/>
+    <listType typeId="a29739ee-ce1f-4ab1-a0fb-24aad8ba87da" valueTypeId="f7c9d13e-2970-44c6-80dc-75ae80603929"/>
+    <managerType typeId="84fb5eed-bb26-4b5e-973e-e4d0636ecfbb" valueTypeId="cb0bbd4e-7456-4926-b003-40bf428655bb"/>
+  </producedTypes>
+  <name>АгентыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агенты тестирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АгентыТестирования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Агент тестирования</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АгентыТестирования.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2ae048a4-6003-44aa-b60d-258e84cb87eb">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Агента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d467dd4-9110-448a-bb33-2d34efd4cffc">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29471df2-9d5f-453e-871e-f044d97753d7">
+    <name>КаталогДляОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог для обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a58a6a65-7367-42ab-9c99-d4d7bd19dfee">
+    <name>ЛимитЭкземпляров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит экземпляров</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5a4043f2-adbf-45df-b5e1-93e7248164f9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

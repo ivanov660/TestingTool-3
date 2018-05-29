@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced13275-4ee0-4c1d-a211-618a8dc8dbe3">
+  <producedTypes>
+    <objectType typeId="afb3c718-3400-4db2-bc00-b06424ae5c00" valueTypeId="49c7b537-fb77-4a18-89a3-aa724ec311a5"/>
+    <refType typeId="b4026c06-db7b-4d87-9484-d5081778f823" valueTypeId="0a67dd9c-35d7-421d-8aee-5fcea9e105eb"/>
+    <selectionType typeId="947c2af9-e93e-4af7-bb1f-137f9ed0ad41" valueTypeId="7fcdc9e3-18c7-47b5-8c33-773ed36bb9ea"/>
+    <listType typeId="a91ebac5-58f9-4330-b5d1-23ad0e1b253b" valueTypeId="54bcae4b-0d20-4435-ad8a-31ec0ba9facf"/>
+    <managerType typeId="e9c7b7f5-e612-4242-8080-f37fd885ed41" valueTypeId="455e770f-b782-4ab1-8681-6bacacb3c965"/>
+  </producedTypes>
+  <name>Игры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Игры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Игра</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c581d778-6961-4342-9787-6c431ce6ae7b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

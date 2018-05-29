@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bfed6a0-87cd-4dee-8bca-aad2d4826e3f">
+  <producedTypes>
+    <managerType typeId="88eac09f-f12a-4b0a-b685-97be170d94e6" valueTypeId="a79f3001-d152-4f14-a2fd-2a0ba5ddbd2c"/>
+    <valueManagerType typeId="0e188d26-32cc-490c-a23b-a8ddb297cad3" valueTypeId="e570e5d7-c6ef-4dea-8e4f-c8b285182328"/>
+  </producedTypes>
+  <name>ИспользоватьИгровоеМоделирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать игровое моделирование</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49c1381f-f36c-4e14-88a7-1856155bc329">
+  <producedTypes>
+    <refType typeId="f5ea548e-d9b4-4e80-834d-fa8657220fa8" valueTypeId="7f16c08e-7797-4a08-855b-5d359f545bb8"/>
+    <listType typeId="12a7bee0-ae63-4477-a16f-5bd26781d746" valueTypeId="3bf4e367-7327-4e55-9197-d81121df7fba"/>
+    <managerType typeId="a8007ef6-7bd2-416b-be7f-78ffeafeb18f" valueTypeId="5d3db4af-969a-49b2-87c0-1558385bbc57"/>
+  </producedTypes>
+  <name>ТипыКлючейНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ключей настроек</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="efb1c4f7-4eab-4466-b845-d80b0954fb7a">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="34bc7247-a738-4998-bcc1-31a03f13d35a">
+    <name>Каталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f72cf485-1400-4f81-aa98-bba3211f81ba">
+    <name>АдресИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес интернет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

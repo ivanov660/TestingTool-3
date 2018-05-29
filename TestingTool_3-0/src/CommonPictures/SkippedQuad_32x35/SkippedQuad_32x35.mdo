@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd5353c9-10cc-4d3f-921d-0babd6321f8f">
+  <name>SkippedQuad_32x35</name>
+  <synonym>
+    <key>ru</key>
+    <value>Skipped quad 32x35</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

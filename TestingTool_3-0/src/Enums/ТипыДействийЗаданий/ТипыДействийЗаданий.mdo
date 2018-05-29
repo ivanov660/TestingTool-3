@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3f76ec8-e95b-48bf-8b83-8e53798b2f4a">
+  <producedTypes>
+    <refType typeId="2d09b8dc-ce75-4e2f-8674-fa8e2c99445e" valueTypeId="c04f56d8-3eeb-4c6c-9a0f-68ac18e03b4d"/>
+    <listType typeId="86fbbbb7-eff2-4aa4-9603-32a38e4ec6f3" valueTypeId="554b6761-0de8-4a5b-ae2b-421f06a28653"/>
+    <managerType typeId="8ac13e2e-84e7-4665-9239-7b2754d43c57" valueTypeId="b38f59df-fe13-4c82-bd4e-8f8073321d05"/>
+  </producedTypes>
+  <name>ТипыДействийЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы действий заданий</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="99131e11-f702-48d0-9a86-fde62b0b7e9a">
+    <name>ВыгрузитьДополнительнуюОбработкуОтчетВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить дополнительную обработку/отчет в файл</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4d76da25-1e50-4675-9108-fb7a828694fd">
+    <name>ВыполнитьОбработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить обработку</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1c46f429-232d-4cb8-8a1c-570a2b5852fc">
+    <name>ВыполнитьПроизвольныйКодСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить произвольный код сервер</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ceb1a130-b2a9-4e27-b7a3-a36f71f42ee9">
+    <name>ЗакрытьПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть приложение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2e89df18-a618-4d46-9e2a-e7adcfc9822f">
+    <name>ЗапуститьПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запустить приложение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7306ad63-9b72-4fe7-aa2f-83495e13cd99">
+    <name>ОжидатьСобытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидать событие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c0633f31-17a0-4c0b-8963-5195d98a894f">
+    <name>ОтправитьПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить почту</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f38775cd-8f58-4c6d-91ba-5d7aa857efee">
+    <name>Пустое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустое (Тест)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>
