@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4794d6f6-40f5-4e55-a351-85d19c08f72b">
+  <producedTypes>
+    <selectionType typeId="a8edc1cb-b317-46bd-b7bb-547310b662be" valueTypeId="b3452b30-e6cc-4d13-9882-9ecd54fd56d6"/>
+    <listType typeId="7329c670-d898-40aa-b58f-04c4eba0dc1c" valueTypeId="329a5dd0-8264-4b7d-baa7-3d721716c8b5"/>
+    <managerType typeId="d2a2d8e9-7bbe-44b8-a03d-4e00a0ecbc37" valueTypeId="1e3d6bf8-8001-4107-98f3-c9b67ff12269"/>
+    <recordSetType typeId="64c06900-3fd6-4518-8add-5aa92065267b" valueTypeId="d2863d81-e61d-48ac-aeb7-a6a72586acb1"/>
+    <recordKeyType typeId="483b0a00-9b34-4644-aa5b-8e687ee9bc12" valueTypeId="ca8a881e-5b24-4664-8fe5-220b2aa64c74"/>
+    <recordType typeId="2613d65e-a4ee-4854-be0a-e8b45a6ebd5d" valueTypeId="2eec577b-4a66-49bc-a67d-6e9073fde708"/>
+    <recordManagerType typeId="86949f54-7150-4243-9770-201dc06e86c6" valueTypeId="011254d2-5f9d-4dad-a77e-56bdf0bbb2f6"/>
+  </producedTypes>
+  <name>ЛогВыполненныхЗаданийДопИнфо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лог выполненных заданий (дополнительная информация)</value>
+  </synonym>
+  <comment>Содержит дополнительную информацию информацию</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dbc3561d-260d-4864-b19d-6f655d1533d6">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="685315cc-41eb-45f9-90fd-84dbc9be9a0e">
+    <name>ДополнительноеСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное сообщение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1ff27dee-6dac-48a4-bdeb-7e97cac631df">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтатусыЗаданий</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2623531e-2005-4796-9116-ee99c9ab2308">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a3a7a6e-884d-4001-94fc-af8db0b9c64d">
+    <name>Сборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сборки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>
