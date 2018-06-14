@@ -882,10 +882,11 @@
 &НаСервереБезКонтекста
 Функция ПолучитьТекстШаблонаКомандыЗагрузкиОтчетаВыполнени(ФорматФайлаОтчета)
 	Возврат """%ПутьКИсполняемомуФайлу1С%"" %СтрокаСоединенияМенеджер% /UseHwLicenses- /DisableStartupMessages 
-	| /Execute ""%ПутьККаталогуGIT%\PluginsUI\"+?(ФорматФайлаОтчета="Allure","ЗагрузкаAllureЛогаТеста.epf","ЗагрузкаJUnitЛогаТеста.epf")+"""  
+	| /Execute ""%ПутьККаталогуGIT%\PluginsUI\"+?(ФорматФайлаОтчета="Allure","ЗагрузкаЛогаAllureXMLТеста.epf","ЗагрузкаЛогаJUnitXMLТеста.epf")+"""  
 	| /C""
 	| TestLogUI %ПутьККаталогуОтчетовВыполненияТестов%\report-%НомерПроверки%_%Тест%.xml 
-	| TestNumberUI %НомерПроверки% 
+	| TestNumberUI %НомерПроверки%
+	| TestAssemblyUI %НомерСборки% 
 	| TestClientIdUI %ИдентификаторКлиента% 
 	| TestCloseUI
 	| TestDeleteLogUI 

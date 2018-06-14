@@ -337,10 +337,11 @@
 &НаСервереБезКонтекста
 Функция ПолучитьТекстШаблонаКомандыЗагрузкиОтчетаВыполнени()
 	Возврат """%ПутьКИсполняемомуФайлу1С%"" %СтрокаСоединенияМенеджер% /UseHwLicenses- /DisableStartupMessages 
-	| /Execute ""%ПутьККаталогуGIT%\PluginsUI\ЗагрузкаJUnitЛогаТеста.epf""  
+	| /Execute ""%ПутьККаталогуGIT%\PluginsUI\ЗагрузкаЛогаJUnitXMLТеста.epf""  
 	| /C""
 	| TestLogUI %ПутьККаталогуОтчетовВыполненияТестов%\%Тест%.xml 
-	| TestNumberUI %НомерПроверки% 
+	| TestNumberUI %НомерПроверки%
+	| TestAssemblyUI %НомерСборки% 
 	| TestClientIdUI %ИдентификаторКлиента% 
 	| TestCloseUI
 	| TestDeleteLogUI 
