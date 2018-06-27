@@ -3127,7 +3127,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ЗагрузкаЛогаJUnitXMLТеста</types>
+      <types>ExternalDataProcessor.ЗагрузкаЛогаJUnitXMLТеста</types>
     </valueType>
     <view>
       <common>true</common>
@@ -4620,6 +4620,26 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>РежимПоискаТестируемогоКлиента</segments>
     </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>НомерСборки</name>
+    <title>
+      <key>ru</key>
+      <value>Номер сборки</value>
+    </title>
+    <id>31</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ЗагрузитьЛог</name>

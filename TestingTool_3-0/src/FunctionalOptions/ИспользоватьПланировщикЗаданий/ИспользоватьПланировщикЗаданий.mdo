@@ -24,4 +24,5 @@
   <content>InformationRegister.СоставЗаданий</content>
   <content>InformationRegister.СоставЗаданийПулл</content>
   <content>InformationRegister.СостоянияЗаданий</content>
+  <content>InformationRegister.ЛогВыполненныхЗаданийДопИнфо</content>
 </mdclass:FunctionalOption>

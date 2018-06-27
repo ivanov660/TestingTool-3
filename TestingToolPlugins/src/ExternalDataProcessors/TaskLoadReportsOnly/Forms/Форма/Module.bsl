@@ -247,7 +247,8 @@
 	| /Execute ""%ПутьККаталогуGIT%\PluginsUI\"+?(ФорматФайлаОтчета="Allure","ЗагрузкаAllureЛогаТеста.epf","ЗагрузкаJUnitЛогаТеста.epf")+"""  
 	| /C""
 	| TestLogUI %ПутьККаталогуОтчетовВыполненияТестов%\report-%НомерПроверки%_%Тест%.xml 
-	| TestNumberUI %НомерПроверки% 
+	| TestNumberUI %НомерПроверки%
+	| TestAssemblyUI %НомерСборки%
 	| TestClientIdUI %ИдентификаторКлиента% 
 	| TestCloseUI
 	| TestDeleteLogUI 

@@ -28,4 +28,5 @@
   <content>InformationRegister.СостоянияЗаданий</content>
   <content>Catalog.Сборки</content>
   <content>CommonCommand.ПросмотрУправлениеЗаданиями</content>
+  <content>InformationRegister.ЛогВыполненныхЗаданийДопИнфо</content>
 </mdclass:Subsystem>
