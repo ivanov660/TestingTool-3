@@ -1735,7 +1735,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.УправлениеОбновлениемПлагинов</types>
+      <types>ExternalDataProcessor.УправлениеОбновлениемПлагинов</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2393,6 +2393,24 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>ИмяКлюча</name>
+    <title>
+      <key>ru</key>
+      <value>Имя ключа</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>УстановитьФлажки</name>
