@@ -23,7 +23,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.МенеджерСценарногоТеста</types>
+      <types>ExternalDataProcessor.МенеджерСценарногоТеста</types>
     </valueType>
     <view>
       <common>true</common>

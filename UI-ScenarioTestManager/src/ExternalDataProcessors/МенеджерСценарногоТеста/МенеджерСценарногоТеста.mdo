@@ -659,10 +659,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="9205dc09-969a-4676-9f21-0fc31633cb79">
-    <name>ТипТестируемогоКлиента</name>
+    <name>ИспользуемыйAPI</name>
     <synonym>
       <key>ru</key>
-      <value>Тип тестируемого клиента</value>
+      <value>Используемый API</value>
     </synonym>
     <comment></comment>
     <type>
@@ -674,6 +674,17 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab4ee327-f3ba-4be8-a8f5-620acb398c81">
+    <name>ПутьКФайлуExternAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу extern automation UI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
   </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
