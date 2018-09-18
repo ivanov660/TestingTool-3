@@ -786,6 +786,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="ab5ab532-51aa-4022-beb9-02586978c382">
+    <name>Модуль_ЗаписьЖурналаДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль запись журнала действий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="97eab47b-abb1-4bd9-9bb5-72b41ba93c08">
     <name>Help</name>
     <synonym>

@@ -494,6 +494,10 @@
               <segments>ТаблицаДоступныхПриложений.Выбрана</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТаблицаДоступныхПриложенийВыбранаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ТаблицаДоступныхПриложенийВыбранаРасширеннаяПодсказка</name>
               <id>946</id>
@@ -631,6 +635,35 @@
           <autoCommandBar>
             <name>ТаблицаДоступныхПриложенийКоманднаяПанель</name>
             <id>926</id>
+            <items xsi:type="form:Button">
+              <name>ТаблицаДоступныхПриложениймСценСкрипт_ОбновитьСписокДоступныхПриложений</name>
+              <id>947</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТаблицаДоступныхПриложениймСценСкрипт_ОбновитьСписокДоступныхПриложенийРасширеннаяПодсказка</name>
+                <id>948</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.мСценСкрипт_ОбновитьСписокДоступныхПриложений</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -16448,6 +16481,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>мНастройки_Выбрать</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>мСценСкрипт_ОбновитьСписокДоступныхПриложений</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить список доступных приложений</value>
+    </title>
+    <id>53</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Синхронизировать_16х16</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>мСценСкрипт_ОбновитьСписокДоступныхПриложений</name>
       </handler>
     </action>
     <representation>Picture</representation>
