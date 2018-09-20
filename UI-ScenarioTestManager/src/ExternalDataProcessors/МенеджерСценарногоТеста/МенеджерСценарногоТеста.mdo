@@ -766,6 +766,24 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="09d5d1f8-a4f2-41c5-897e-8d1ff4d6ed6f">
+    <name>Модуль_ПреобразоватьЖурналДействийВДеревоAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль преобразовать журнал действий в дерево automation UI</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="282eddc7-ee3b-48b4-9d87-b33d44630cf1">
+    <name>Модуль_ПреобразоватьЖурналДействийВДеревоSelenium</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль преобразовать журнал действий в дерево selenium</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="2033ba27-db56-4375-aaee-8dfaa9afd0c7">
     <name>Модуль_ВыгрузитьЗагрузитьФорматПроектаСценарияXML</name>
     <synonym>
@@ -791,6 +809,15 @@
     <synonym>
       <key>ru</key>
       <value>Модуль запись журнала действий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6abdcbc2-cac9-4493-b003-f8fbe02d506c">
+    <name>Модуль_СервисныеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль сервисные функции</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
