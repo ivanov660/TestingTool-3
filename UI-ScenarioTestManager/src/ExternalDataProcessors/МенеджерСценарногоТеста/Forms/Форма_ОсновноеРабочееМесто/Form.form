@@ -12622,6 +12622,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ИмяКлассаОбъекта</name>
+      <title>
+        <key>ru</key>
+        <value>Имя класса объекта</value>
+      </title>
+      <id>58</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТаблицаСценария</name>
@@ -14005,6 +14023,24 @@
         <value>API</value>
       </title>
       <id>52</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяКлассаОбъекта</name>
+      <title>
+        <key>ru</key>
+        <value>Имя класса объекта</value>
+      </title>
+      <id>57</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
