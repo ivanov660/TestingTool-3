@@ -822,6 +822,33 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="0b03dd25-d6e9-4407-baf1-95dae4512fb9">
+    <name>Модуль_ОбработкаДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка действий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ed6216e-b0d7-4c47-a7d1-a08244e8bf4d">
+    <name>Модуль_ОбработкаДействийAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка действий automation UI</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aec69101-2935-432e-84e6-fe8e446a24e4">
+    <name>Модуль_ОбработкаДействийSelenuim</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка действий selenuim</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="97eab47b-abb1-4bd9-9bb5-72b41ba93c08">
     <name>Help</name>
     <synonym>

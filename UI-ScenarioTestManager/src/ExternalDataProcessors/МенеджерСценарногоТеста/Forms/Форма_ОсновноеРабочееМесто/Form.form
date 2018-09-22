@@ -15353,6 +15353,24 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>ТекущийAPI</name>
+    <title>
+      <key>ru</key>
+      <value>Текущий API</value>
+    </title>
+    <id>59</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>мСценСкрипт_Преобразовать</name>
     <title>
