@@ -679,11 +679,25 @@
     <name>ПутьКФайлуExternAutomationUI</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к файлу extern automation UI</value>
+      <value>Путь к файлу или http сервису extern automation UI</value>
     </synonym>
+    <comment>Если планируется использовать на текущей машине то будет использоваться localhost</comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="2747106f-e41d-4d95-8d6f-38387061265f">
+    <name>НомерПортаExternAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер порта extern automation UI</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
   </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
