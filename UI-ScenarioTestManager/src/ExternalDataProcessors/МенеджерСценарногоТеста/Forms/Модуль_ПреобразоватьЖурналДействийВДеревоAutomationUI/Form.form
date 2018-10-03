@@ -242,17 +242,15 @@
       </edit>
     </columns>
     <columns>
-      <name>ClickXpos</name>
+      <name>ClickX</name>
       <title>
         <key>ru</key>
-        <value>Click xpos</value>
+        <value>Click X</value>
       </title>
       <id>13</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -262,17 +260,15 @@
       </edit>
     </columns>
     <columns>
-      <name>ClickYpos</name>
+      <name>ClickY</name>
       <title>
         <key>ru</key>
-        <value>Click ypos</value>
+        <value>Click Y</value>
       </title>
       <id>14</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>

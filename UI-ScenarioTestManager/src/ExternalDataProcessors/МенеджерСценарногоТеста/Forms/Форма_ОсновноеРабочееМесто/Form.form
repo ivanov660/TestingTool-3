@@ -12693,6 +12693,42 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ClickX</name>
+      <title>
+        <key>ru</key>
+        <value>Click X</value>
+      </title>
+      <id>64</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ClickY</name>
+      <title>
+        <key>ru</key>
+        <value>Click Y</value>
+      </title>
+      <id>65</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТаблицаСценария</name>
@@ -14094,6 +14130,42 @@
         <value>Имя класса объекта</value>
       </title>
       <id>57</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ClickX</name>
+      <title>
+        <key>ru</key>
+        <value>Click X</value>
+      </title>
+      <id>62</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ClickY</name>
+      <title>
+        <key>ru</key>
+        <value>Click Y</value>
+      </title>
+      <id>63</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
