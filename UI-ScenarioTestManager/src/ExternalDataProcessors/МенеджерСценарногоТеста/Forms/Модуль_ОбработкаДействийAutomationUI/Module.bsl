@@ -284,6 +284,7 @@
 	СтрокаКоманды = "&Operation=play_step&answer_format=json&session_id="+ТестовоеПриложение;
 	СтрокаКоманды = СтрокаКоманды + "&api=Automation UI";
 	СтрокаКоманды = СтрокаКоманды + "&action=command";
+	СтрокаКоманды = СтрокаКоманды + "&element_text="+OutputText;
 	СтрокаКоманды = СтрокаКоманды + "&command="+ИмяКоманды;
 	СтрокаКоманды = СтрокаКоманды + "&clickX="+ClickX;
 	СтрокаКоманды = СтрокаКоманды + "&clickY="+ClickY;
