@@ -866,10 +866,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="aec69101-2935-432e-84e6-fe8e446a24e4">
-    <name>Модуль_ОбработкаДействийSelenuim</name>
+    <name>Модуль_ОбработкаДействийSelenium</name>
     <synonym>
       <key>ru</key>
-      <value>Модуль обработка действий selenuim</value>
+      <value>Модуль обработка действий selenium</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
