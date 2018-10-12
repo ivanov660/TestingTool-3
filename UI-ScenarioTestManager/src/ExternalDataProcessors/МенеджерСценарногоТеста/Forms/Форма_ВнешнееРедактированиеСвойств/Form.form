@@ -630,6 +630,10 @@
           <event>OnChange</event>
           <name>СвойстваТаблицейПриИзменении</name>
         </handlers>
+        <handlers>
+          <event>OnActivateRow</event>
+          <name>СвойстваТаблицейПриАктивизацииСтроки</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
