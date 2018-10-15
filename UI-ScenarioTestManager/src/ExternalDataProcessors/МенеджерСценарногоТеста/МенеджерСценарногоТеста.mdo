@@ -679,9 +679,9 @@
     <name>ПутьКФайлуExternAutomationUI</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к файлу или http сервису extern automation UI</value>
+      <value>Путь к файлу extern automation UI</value>
     </synonym>
-    <comment>Если планируется использовать на текущей машине то будет использоваться localhost</comment>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
@@ -698,6 +698,18 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="31d7837d-e5b2-4e82-82b5-7dfc87cdd95a">
+    <name>АдресИнтернетExternAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес интернет extern automation UI</value>
+    </synonym>
+    <comment>По умолчанию localhost</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
   </attributes>
   <attributes uuid="c492a3c3-0ecf-45ea-9c77-ef7f1fde8de5">
