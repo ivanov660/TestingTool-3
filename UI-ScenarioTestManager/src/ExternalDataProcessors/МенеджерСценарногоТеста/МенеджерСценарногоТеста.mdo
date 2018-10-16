@@ -659,10 +659,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="9205dc09-969a-4676-9f21-0fc31633cb79">
-    <name>ТипТестируемогоКлиента</name>
+    <name>ИспользуемыйAPI</name>
     <synonym>
       <key>ru</key>
-      <value>Тип тестируемого клиента</value>
+      <value>Используемый API</value>
     </synonym>
     <comment></comment>
     <type>
@@ -674,6 +674,54 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab4ee327-f3ba-4be8-a8f5-620acb398c81">
+    <name>ПутьКФайлуExternAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу extern automation UI</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="2747106f-e41d-4d95-8d6f-38387061265f">
+    <name>НомерПортаExternAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер порта extern automation UI</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="31d7837d-e5b2-4e82-82b5-7dfc87cdd95a">
+    <name>АдресИнтернетExternAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес интернет extern automation UI</value>
+    </synonym>
+    <comment>По умолчанию localhost</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="c492a3c3-0ecf-45ea-9c77-ef7f1fde8de5">
+    <name>Браузер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Браузер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
   </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
@@ -755,6 +803,24 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="09d5d1f8-a4f2-41c5-897e-8d1ff4d6ed6f">
+    <name>Модуль_ПреобразоватьЖурналДействийВДеревоAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль преобразовать журнал действий в дерево automation UI</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="282eddc7-ee3b-48b4-9d87-b33d44630cf1">
+    <name>Модуль_ПреобразоватьЖурналДействийВДеревоSelenium</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль преобразовать журнал действий в дерево selenium</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="2033ba27-db56-4375-aaee-8dfaa9afd0c7">
     <name>Модуль_ВыгрузитьЗагрузитьФорматПроектаСценарияXML</name>
     <synonym>
@@ -772,6 +838,51 @@
       <value>Модуль обработка команд из каталога обмена</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab5ab532-51aa-4022-beb9-02586978c382">
+    <name>Модуль_ЗаписьЖурналаДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль запись журнала действий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6abdcbc2-cac9-4493-b003-f8fbe02d506c">
+    <name>Модуль_СервисныеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль сервисные функции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b03dd25-d6e9-4407-baf1-95dae4512fb9">
+    <name>Модуль_ОбработкаДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка действий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ed6216e-b0d7-4c47-a7d1-a08244e8bf4d">
+    <name>Модуль_ОбработкаДействийAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка действий automation UI</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aec69101-2935-432e-84e6-fe8e446a24e4">
+    <name>Модуль_ОбработкаДействийSelenium</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка действий selenium</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
