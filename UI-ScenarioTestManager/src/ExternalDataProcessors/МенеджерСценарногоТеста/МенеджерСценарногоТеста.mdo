@@ -723,6 +723,16 @@
       <stringQualifiers/>
     </type>
   </attributes>
+  <attributes uuid="50ded233-6120-4112-8cd8-dfdb402fb30d">
+    <name>ИсключатьКомандуFocus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать команду focus</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
     <synonym>
