@@ -59,6 +59,7 @@
 	| Есть возможность запуска с обработкой командной строки.
 	| Есть возможность работы с внешними API: Selenium и Microsoft Automation UI.
 	|
+	|
 	| Проект по адресу: https://github.com/ivanov660/TestingTool-3
 	|";
 	
