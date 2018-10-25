@@ -10422,6 +10422,56 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>РежимScreenShot</name>
+          <id>1014</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.РежимScreenShot</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>РежимScreenShotРасширеннаяПодсказка</name>
+            <id>1016</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>РежимScreenShotКонтекстноеМеню</name>
+            <id>1015</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <listChoiceMode>true</listChoiceMode>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>ИспользоватьКомандуЗапуститьСистему</name>
           <id>821</id>
           <visible>true</visible>
@@ -12152,6 +12202,9 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ИсключатьКомандуFocus</segments>
     </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Объект.РежимScreenShot</segments>
+    </settingsSavedData>
     <main>true</main>
   </attributes>
   <attributes>
@@ -13099,6 +13152,23 @@
       <valueType>
         <types>String</types>
         <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Attachments</name>
+      <title>
+        <key>ru</key>
+        <value>Attachments</value>
+      </title>
+      <id>71</id>
+      <valueType>
+        <types>Arbitrary</types>
       </valueType>
       <view>
         <common>true</common>
