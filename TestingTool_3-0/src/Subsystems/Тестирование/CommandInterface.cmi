@@ -61,6 +61,8 @@
       <commands>InformationRegister.ПротоколыВыполненияТестов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыВыполненияШаговТестов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПротоколыВыполненияШаговТестов.Command.ОчиститьВесьРегистрПротоколыВыполненияШаговСценария</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -81,13 +83,15 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.ПротоколыВыполненияШаговТестов.Command.ОчиститьВесьРегистрПротоколыВыполненияШаговСценария</commands>
       <commands>InformationRegister.СвязиТестовКонфигураций.StandardCommand.OpenList</commands>
       <commands>InformationRegister.СвзяиТестовОбъектовКонфигураций.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыВыполненияТестов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПротоколыВыполненияШаговТестов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПротоколыВыполненияШаговТестов.Command.ОчиститьВесьРегистрПротоколыВыполненияШаговСценария</commands>
       <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.Command.ОчиститьВесьРегистрПротоколыВыполненияТестовыхСценария</commands>
+      <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.Command.ОчиститьВесьРегистрПриложений</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

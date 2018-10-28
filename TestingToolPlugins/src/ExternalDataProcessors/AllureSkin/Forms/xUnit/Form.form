@@ -1808,6 +1808,35 @@
               <name>Группа4</name>
               <id>151</id>
               <items xsi:type="form:Button">
+                <name>ПанельСКартинками</name>
+                <id>275</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ПанельСКартинкамиРасширеннаяПодсказка</name>
+                  <id>276</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ПанельСКартинками</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+              </items>
+              <items xsi:type="form:Button">
                 <name>СкрытьДетализацию</name>
                 <id>149</id>
                 <visible>true</visible>
@@ -1996,6 +2025,107 @@
                   <segments>СписокШагов</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <items xsi:type="form:FormField">
+                  <name>СписокШаговЕстьПриложение</name>
+                  <id>272</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокШагов.ЕстьПриложение</segments>
+                  </dataPath>
+                  <titleLocation>None</titleLocation>
+                  <extendedTooltip>
+                    <name>СписокШаговЕстьПриложениеРасширеннаяПодсказка</name>
+                    <id>274</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>СписокШаговЕстьПриложениеКонтекстноеМеню</name>
+                    <id>273</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>PictureField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:ImageFieldExtInfo">
+                    <width>1</width>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <horizontalStretch>true</horizontalStretch>
+                    <verticalStretch>true</verticalStretch>
+                    <valuesPicture xsi:type="core:PictureRef">
+                      <picture>CommonPicture.Screenshot_32х32</picture>
+                    </valuesPicture>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>СписокШаговТест</name>
+                  <id>269</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible/>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокШагов.Тест</segments>
+                  </dataPath>
+                  <extendedTooltip>
+                    <name>СписокШаговТестРасширеннаяПодсказка</name>
+                    <id>271</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>СписокШаговТестКонтекстноеМеню</name>
+                    <id>270</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>InputField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:InputFieldExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <wrap>true</wrap>
+                    <chooseType>true</chooseType>
+                    <typeDomainEnabled>true</typeDomainEnabled>
+                    <textEdit>true</textEdit>
+                  </extInfo>
+                </items>
                 <items xsi:type="form:FormField">
                   <name>СписокШаговНомерШага</name>
                   <id>253</id>
@@ -2315,6 +2445,10 @@
                   </userVisible>
                   <horizontalAlign>Left</horizontalAlign>
                 </autoCommandBar>
+                <handlers>
+                  <event>OnActivateRow</event>
+                  <name>СписокШаговПриАктивизацииСтроки</name>
+                </handlers>
                 <searchStringAddition>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2625,6 +2759,92 @@
           <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКартинка</name>
+        <id>264</id>
+        <items xsi:type="form:FormField">
+          <name>Картинка</name>
+          <id>266</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Картинка</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>КартинкаРасширеннаяПодсказка</name>
+            <id>268</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КартинкаКонтекстноеМеню</name>
+            <id>267</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>HTMLDocumentField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:HtmlFieldExtInfo">
+            <width>50</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <height>10</height>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <width>5</width>
+        <extendedTooltip>
+          <name>ГруппаКартинкаРасширеннаяПодсказка</name>
+          <id>265</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <showTitle>true</showTitle>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2674,6 +2894,7 @@
       <key>ru</key>
       <value>Группа тело</value>
     </toolTip>
+    <height>10</height>
     <extendedTooltip>
       <name>ГруппаТелоРасширеннаяПодсказка</name>
       <id>136</id>
@@ -2729,7 +2950,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.AllureSkin</types>
+      <types>ExternalDataProcessor.AllureSkin</types>
     </valueType>
     <view>
       <common>true</common>
@@ -3111,11 +3332,26 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокШагов.ЕстьПриложение</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокШагов.Проверка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокШагов.ТестовыйСлучай</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокШагов.Тест</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокШагов.Шаг</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	Т.Проверка,
 	Т.ТестируемыйКлиент,
-	Т.Тест,
+	Т.Тест как Тест,
 	Т.ТестовыйСлучай,
 	Т.Шаг,
 	Т.РезультатВыполнения,
@@ -3129,7 +3365,6 @@
 	Т.НомерПоПорядку,
 	Т.НетПодчиненных,
 	Т.ЭтоПапка,
-	Т.Приложение,
 	Т.ЕстьПриложение,
 	ВЫБОР
 		КОГДА Т.РезультатВыполнения = ЗНАЧЕНИЕ(Перечисление.РезультатыВыполненияШагов.Провал)
@@ -3193,6 +3428,24 @@
       <value>Текущий тестовый случай</value>
     </title>
     <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Картинка</name>
+    <title>
+      <key>ru</key>
+      <value>Картинка</value>
+    </title>
+    <id>18</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -3372,6 +3625,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбновитьВсе</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПанельСКартинками</name>
+    <title>
+      <key>ru</key>
+      <value>Панель с картинками</value>
+    </title>
+    <id>11</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Screenshot_32х32</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПанельСКартинками</name>
       </handler>
     </action>
     <representation>Picture</representation>

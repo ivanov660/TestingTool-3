@@ -32,4 +32,5 @@
   <content>Catalog.Проекты</content>
   <content>InformationRegister.НастройкиОбъединенияТестов</content>
   <content>CommonCommand.ПросмотрРезультатовВыполненияПроверок</content>
+  <content>InformationRegister.ПриложенияПротоколовВыполненияТестов</content>
 </mdclass:Subsystem>

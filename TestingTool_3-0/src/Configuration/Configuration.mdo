@@ -18,7 +18,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.18.07.02</version>
+  <version>3.18.10.25</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -109,6 +109,8 @@
   <commonPictures>CommonPicture.Тумблер_16х16</commonPictures>
   <commonPictures>CommonPicture.УстановитьФлажок</commonPictures>
   <commonPictures>CommonPicture.Часы_32х32</commonPictures>
+  <commonPictures>CommonPicture.Screenshot_32х32</commonPictures>
+  <commonPictures>CommonPicture.Screenshot_gray_32х32</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ИмяКомпьютера</sessionParameters>
   <sessionParameters>SessionParameter.ТекущееРабочееМесто</sessionParameters>
@@ -298,6 +300,7 @@
   <informationRegisters>InformationRegister.ПротоколыВыполненияТестов</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколыВыполненияТестовыхСлучаев</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколыВыполненияШаговТестов</informationRegisters>
+  <informationRegisters>InformationRegister.ПриложенияПротоколовВыполненияТестов</informationRegisters>
   <informationRegisters>InformationRegister.СвзяиТестовОбъектовКонфигураций</informationRegisters>
   <informationRegisters>InformationRegister.СвязиИгроковБлоков</informationRegisters>
   <informationRegisters>InformationRegister.СвязиСостоянийБлоков</informationRegisters>
