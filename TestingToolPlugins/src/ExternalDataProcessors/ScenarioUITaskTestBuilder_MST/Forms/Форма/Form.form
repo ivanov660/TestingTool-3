@@ -2812,6 +2812,24 @@ All - снимок каждого шага
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>Версия</name>
+    <title>
+      <key>ru</key>
+      <value>Версия</value>
+    </title>
+    <id>31</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Вперед</name>
     <title>

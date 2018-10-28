@@ -117,20 +117,6 @@
         <value></value>
       </code>
     </items>
-    <items id="96e661c0-ae62-46da-a5b9-4654ceff4cab">
-      <name>АдресИнтернетExternAutomationUI</name>
-      <description>Адрес интернет &quot;extern automation UI&quot;</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="6562bc8d-d5a2-4751-9e8a-ed44b3bff590">
-      <name>РежимScreenShot</name>
-      <description>Режим &quot;Screenshot&quot;</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
