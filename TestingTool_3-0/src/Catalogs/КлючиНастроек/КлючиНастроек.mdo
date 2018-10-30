@@ -25,84 +25,91 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <descriptionLength>50</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="ab98afca-ce9c-4461-8bff-fd4427e26d59">
       <name>ПутьКВременномуКаталогуФайлов</name>
-      <description>Путь к временному каталогу файлов</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="ea7ad2fb-28b8-4367-8032-97d86fc457bb">
       <name>ПутьКИсполняемомуФайлу1С</name>
-      <description>Путь к исполняемому файлу 1С</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="7577a8cd-469a-448d-a765-a2f89eecead9">
       <name>ПутьКИсполняемомуФайлуGIT</name>
-      <description>Путь к исполняемому файлу GIT</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="b66b6a4f-7c39-45fa-a7e2-98b047452731">
       <name>ПутьККаталогуGIT</name>
-      <description>Путь к каталогу GIT</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="700913ab-73ae-4da3-a9d2-d162db7d3426">
       <name>ПутьККаталогуSoapUI</name>
-      <description>Путь к каталогу SoapUI</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="5797a750-1844-475f-bab2-a5c2ecabbaab">
       <name>ПутьККаталогуБиблиотекиСценариев</name>
-      <description>Путь к каталогу библиотеки сценариев</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="777c55f4-58b7-4b02-ba1d-c9a298f2e147">
       <name>ПутьККаталогуНаборовСценариев</name>
-      <description>Путь к каталогу наборов сценариев</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="3dfe0121-ea79-4e8d-8d63-384fbb4c5074">
       <name>ПутьККаталогуОтчетовВыполненияТестов</name>
-      <description>Путь к каталогу отчетов выполнения тестов</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="b83e094e-60ae-4215-ad07-41259642c345">
       <name>ПутьКОбработкеxddTestRunner</name>
-      <description>Путь к обработке xddTestRunner</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="d10431d9-a6a6-485d-9d3f-3aff1595d105">
       <name>ПутьКОбработкеМенеджерСценарногоТеста</name>
-      <description>Путь к обработке менеджер сценарного теста</description>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
     </items>
     <items id="b71d4c44-5c70-4d16-809a-61cf5e23ce84">
       <name>ПутьКРабочемуКаталогу</name>
-      <description>Путь к рабочему каталогу</description>
+      <description>П</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ae54ed1e-6178-499e-b41d-7d5608553983">
+      <name>ПутьКФайлуExternAutomationUI</name>
+      <description>П</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
