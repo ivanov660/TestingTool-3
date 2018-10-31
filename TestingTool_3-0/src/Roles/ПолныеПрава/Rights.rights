@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.5">
-	<setForNewObjects>true</setForNewObjects>
-	<setForAttributesByDefault>true</setForAttributesByDefault>
-	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
 	<object>
 		<name>Catalog.ОперационныеСистемы</name>
 		<right>
@@ -36,15 +33,15 @@
 	<object>
 		<name>Catalog.АгентыТестирования</name>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -539,4 +536,7 @@
 			<value>false</value>
 		</right>
 	</object>
+	<setForNewObjects>true</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 </Rights>
