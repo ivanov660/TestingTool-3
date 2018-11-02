@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18c04a15-0ec5-4107-8aa8-59140e7066b8">
+  <producedTypes>
+    <selectionType typeId="1e220a59-8fde-4619-8876-fb11c5c7e854" valueTypeId="8dea8337-e7bf-4147-bc4b-c9be73f19f8e"/>
+    <listType typeId="afa9ee3e-8d25-48ed-8659-f4eab67fde2b" valueTypeId="fc46ee1a-ce9f-49e7-857f-5f13ac92813b"/>
+    <managerType typeId="c764513f-3deb-4ee4-b816-a86e50d2f51b" valueTypeId="de15149a-57c9-4bf6-93d2-d8c0fd63d38b"/>
+    <recordSetType typeId="846f8094-2cf1-407d-9fe1-717cd552c4b0" valueTypeId="4775ab5e-f564-4962-9254-64413d415856"/>
+    <recordKeyType typeId="c741393d-7360-4f23-8c9e-7837d7ccc2d3" valueTypeId="0ddec73e-846d-4ce9-a10f-129a58138e18"/>
+    <recordType typeId="525e75b5-c015-43e9-82f8-5057e7f3d1fe" valueTypeId="02105ae9-0ab8-471e-9b2f-429b16ca44a0"/>
+    <recordManagerType typeId="829ceaa5-dcac-45c7-8be0-0886f4673f03" valueTypeId="cb8fd0cc-9156-42b7-8d3c-182daea7d81b"/>
+  </producedTypes>
+  <name>ПриложенияПротоколовВыполненияТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приложения протоколов выполнения тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="86d31db0-28aa-475c-b093-a3637cb4aa80">
+    <name>Приложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0f2c7a34-530f-49c1-b6ca-acb914efc812">
+    <name>ТипФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="bdf83419-1f2d-4227-9a3b-9af5da7d38b3">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="4a9fc3a7-81ce-4a3d-a9cd-43e51bb7883b">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="9d55a98d-2b71-47f5-85b3-1cdb9e0a67b5">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проверки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a996b59e-c989-47a1-9839-ea4e6eb73f25">
+    <name>ТестируемыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестируемый клиент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТестируемыеКлиенты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="61fd57e3-a3b9-4c2c-9e1e-c867a154543a">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Тесты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="e7d9e608-e744-42cb-b0f2-621bb64dbe7c">
+    <name>ТестовыйСлучай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый случай</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ccba3458-4a5a-4a0d-acb0-9fc349483e33">
+    <name>Шаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>73</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                                                         </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9f8f943f-b968-4433-a053-99ac67b8331d">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="2d6d56d1-31b2-4d17-b6f8-ab94e486a3a0">
+    <name>ОчиститьВесьРегистрПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистить весь регистр приложений</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

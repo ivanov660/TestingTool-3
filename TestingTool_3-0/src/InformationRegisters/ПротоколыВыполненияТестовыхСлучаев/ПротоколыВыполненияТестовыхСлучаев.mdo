@@ -271,23 +271,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="5814a806-51f2-4b69-be92-963ffeaaab48">
-    <name>Приложение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Приложение</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="a1397a0e-97d2-4809-8aa5-ee3c6509ff6a">
     <name>ЕстьПриложение</name>
     <synonym>

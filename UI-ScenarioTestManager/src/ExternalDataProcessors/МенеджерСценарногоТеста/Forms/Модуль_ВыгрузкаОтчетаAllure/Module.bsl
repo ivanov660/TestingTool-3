@@ -175,6 +175,24 @@
 		Шаг.stop = д_шаг.stop;
 		Шаг.status = Allure_ПолучитьСтатус(д_шаг.РезультатВыполнения);
 		
+		Если д_шаг.Свойство("Attachments") Тогда
+		// подключаем attachments
+			ТипAttachments = Фабрика.Тип("urn:model.allure.qatools.yandex.ru", "attachments");
+			Attachments = Фабрика.Создать(ТипAttachments);
+
+			Для каждого влож из д_шаг.Attachments Цикл
+				ТипAttach = Фабрика.Тип("urn:model.allure.qatools.yandex.ru", "attachment");
+				Attach = Фабрика.Создать(ТипAttach);
+				Attach.title = влож.title;
+				Attach.source = влож.source;
+				Attach.type = влож.type;
+
+				Attachments.attachment.Добавить(Attach);
+			КонецЦикла;
+
+			Шаг.attachments = Attachments;
+		КонецЕсли;
+		
 		Если д_шаг.Шаги.Количество()>0 Тогда
 			
 			НаборШагов2 = Неопределено;
