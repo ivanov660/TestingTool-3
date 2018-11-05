@@ -12238,9 +12238,6 @@
       <segments>Объект.ПутьККаталогуGIT</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ПутьККаталогуБиблиотекиСценариев</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ПутьККаталогуНаборовСценариев</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
@@ -12287,6 +12284,9 @@
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ЭтоНеПредприятие1С</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Объект.ПутьККаталогуБиблиотекиСценариев</segments>
     </settingsSavedData>
     <main>true</main>
   </attributes>
