@@ -13260,6 +13260,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ИдентификаторОбъекта</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор объекта</value>
+      </title>
+      <id>72</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТаблицаСценария</name>
@@ -14715,6 +14733,24 @@
         <value>X path</value>
       </title>
       <id>69</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИдентификаторОбъекта</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор объекта</value>
+      </title>
+      <id>73</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
