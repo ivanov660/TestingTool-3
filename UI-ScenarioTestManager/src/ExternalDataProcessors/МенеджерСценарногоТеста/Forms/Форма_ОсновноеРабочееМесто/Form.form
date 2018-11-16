@@ -13278,6 +13278,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Attribute</name>
+      <title>
+        <key>ru</key>
+        <value>Attribute</value>
+      </title>
+      <id>74</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТаблицаСценария</name>
@@ -14751,6 +14769,24 @@
         <value>Идентификатор объекта</value>
       </title>
       <id>73</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Attribute</name>
+      <title>
+        <key>ru</key>
+        <value>Attribute</value>
+      </title>
+      <id>75</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
