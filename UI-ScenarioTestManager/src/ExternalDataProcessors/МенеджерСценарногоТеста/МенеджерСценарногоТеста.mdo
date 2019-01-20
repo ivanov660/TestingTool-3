@@ -756,6 +756,27 @@
       <types>Boolean</types>
     </type>
   </attributes>
+  <attributes uuid="f02e9e82-8988-43d7-af3a-adb0e4f55819">
+    <name>DataDrivenTest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Data driven test</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="39f718d7-5f7b-4d6d-88bc-e9edafc25052">
+    <name>ПутьКФайлуДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
     <synonym>
@@ -915,6 +936,15 @@
     <synonym>
       <key>ru</key>
       <value>Модуль обработка действий selenium</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df3dfd63-982a-41ad-a211-16fadace1974">
+    <name>Модуль_ЗагрузкаФайлаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль загрузка файла данных</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
