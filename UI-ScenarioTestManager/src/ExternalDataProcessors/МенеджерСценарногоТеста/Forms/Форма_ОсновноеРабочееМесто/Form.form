@@ -844,6 +844,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
           <height>2</height>
           <autoMaxHeight>true</autoMaxHeight>
@@ -15240,46 +15241,6 @@
         <common>true</common>
       </edit>
     </columns>
-  </attributes>
-  <attributes>
-    <name>ВремяНачалаТеста</name>
-    <title>
-      <key>ru</key>
-      <value>Время начала теста</value>
-    </title>
-    <id>27</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВремяОкончанияаТеста</name>
-    <title>
-      <key>ru</key>
-      <value>Время начала теста</value>
-    </title>
-    <id>28</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>ДеревоНаборСценариев</name>
