@@ -777,6 +777,17 @@
       <stringQualifiers/>
     </type>
   </attributes>
+  <attributes uuid="5be87ca7-171f-4233-8ebe-9f333518e11c">
+    <name>TestID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Test ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
     <synonym>

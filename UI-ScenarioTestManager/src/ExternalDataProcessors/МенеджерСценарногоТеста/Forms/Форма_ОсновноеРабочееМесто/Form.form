@@ -844,6 +844,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
           <height>2</height>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1665,6 +1666,132 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОтладкаDDT</name>
+        <id>1039</id>
+        <items xsi:type="form:FormField">
+          <name>ИндексТекущегоШагаDDT</name>
+          <id>1041</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИндексТекущегоШагаDDT</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ИндексТекущегоШагаDDTРасширеннаяПодсказка</name>
+            <id>1043</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИндексТекущегоШагаDDTКонтекстноеМеню</name>
+            <id>1042</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ОстанавливатьсяПоОшибкеDDT</name>
+          <id>1044</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОстанавливатьсяПоОшибкеDDT</segments>
+          </dataPath>
+          <titleLocation>Right</titleLocation>
+          <extendedTooltip>
+            <name>ОстанавливатьсяПоОшибкеDDTРасширеннаяПодсказка</name>
+            <id>1046</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОстанавливатьсяПоОшибкеDDTКонтекстноеМеню</name>
+            <id>1045</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ГруппаОтладкаDDTРасширеннаяПодсказка</name>
+          <id>1040</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -7512,6 +7639,10 @@
             <segments>Объект.DataDrivenTest</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>DataDrivenTestПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>DataDrivenTestРасширеннаяПодсказка</name>
             <id>1031</id>
@@ -15112,46 +15243,6 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ВремяНачалаТеста</name>
-    <title>
-      <key>ru</key>
-      <value>Время начала теста</value>
-    </title>
-    <id>27</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВремяОкончанияаТеста</name>
-    <title>
-      <key>ru</key>
-      <value>Время начала теста</value>
-    </title>
-    <id>28</id>
-    <valueType>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ДеревоНаборСценариев</name>
     <title>
       <key>ru</key>
@@ -16441,6 +16532,280 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИндексТекущегоШагаDDT</name>
+    <title>
+      <key>ru</key>
+      <value>Индекс текущего шага DDT</value>
+    </title>
+    <id>78</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТаблицаОтчетаСценария</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица отчета сценария</value>
+    </title>
+    <id>79</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Выполнено</name>
+      <title>
+        <key>ru</key>
+        <value>Выполнено</value>
+      </title>
+      <id>80</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИдентификаторУзелаДерева</name>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор узела дерева</value>
+      </title>
+      <id>81</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Свойства</name>
+      <title>
+        <key>ru</key>
+        <value>Свойства</value>
+      </title>
+      <id>82</id>
+      <valueType>
+        <types>Arbitrary</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Наименование</name>
+      <title>
+        <key>ru</key>
+        <value>Наименование</value>
+      </title>
+      <id>83</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>НомерШагаDDT</name>
+      <title>
+        <key>ru</key>
+        <value>Номер шага DDT</value>
+      </title>
+      <id>84</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ТекстОшибки</name>
+      <title>
+        <key>ru</key>
+        <value>Текст ошибки</value>
+      </title>
+      <id>85</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>НомерШага</name>
+      <title>
+        <key>ru</key>
+        <value>Номер шага</value>
+      </title>
+      <id>86</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>РезультатВыполнения</name>
+      <title>
+        <key>ru</key>
+        <value>Результат выполнения</value>
+      </title>
+      <id>87</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Действие</name>
+      <title>
+        <key>ru</key>
+        <value>Действие</value>
+      </title>
+      <id>88</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Команда</name>
+      <title>
+        <key>ru</key>
+        <value>Команда</value>
+      </title>
+      <id>89</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>UTC</name>
+      <title>
+        <key>ru</key>
+        <value>UTC</value>
+      </title>
+      <id>90</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Attachments</name>
+      <title>
+        <key>ru</key>
+        <value>Attachments</value>
+      </title>
+      <id>91</id>
+      <valueType>
+        <types>Arbitrary</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ОстанавливатьсяПоОшибкеDDT</name>
+    <title>
+      <key>ru</key>
+      <value>Останавливаться по ошибке DDT</value>
+    </title>
+    <id>92</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
