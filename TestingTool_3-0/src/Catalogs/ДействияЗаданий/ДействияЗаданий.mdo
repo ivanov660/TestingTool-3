@@ -48,6 +48,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ДействияЗаданий.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ДействияЗаданий.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДействияЗаданий.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="23d20ef3-6001-45e2-9152-c1dc3d7d8128">
     <name>Каталог</name>
     <synonym>
@@ -619,6 +620,15 @@
       <value>Форма элемента</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1b2995e-29ad-4226-b763-846decb54c0f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

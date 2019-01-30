@@ -34,6 +34,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ШаблоныКоманд.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ШаблоныКоманд.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="e475bf81-49aa-49b2-bef5-2f650467c354">
     <name>ТекстШаблона</name>
     <synonym>
@@ -114,6 +115,15 @@
       <value>Форма элемента</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9592e67-405d-47ab-8e1b-86318ebe7881">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -53,6 +53,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Тесты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Тесты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Тесты.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="8267565d-ea19-4740-a408-ccfeb82457be">
     <name>ID</name>
     <synonym>
@@ -370,6 +371,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="33231a1c-43d2-4307-b042-7b02b036f69c">
+    <name>ПутьКФайлуДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad7bd501-8363-4b1e-9a1b-3e04c1e90867">
+    <name>DataDrivenTest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Data driven test</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e3045950-3914-431c-a1a0-76cf00053d20">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -397,6 +423,15 @@
       <value>Форма доска канбан</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="17c10d7e-c9cb-476d-9104-5c3605686ac7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
