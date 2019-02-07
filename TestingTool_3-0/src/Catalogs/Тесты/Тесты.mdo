@@ -396,6 +396,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="95274cfb-a9ff-4221-a8d6-8f9e83cd11bb">
+    <name>ПутьККаталогуБиблиотекиСценариев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу библиотеки сценариев</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9216863-0a1d-4191-ab3a-760390248607">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e3045950-3914-431c-a1a0-76cf00053d20">
     <name>ФормаЭлемента</name>
     <synonym>
