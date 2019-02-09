@@ -788,6 +788,26 @@
       <stringQualifiers/>
     </type>
   </attributes>
+  <attributes uuid="910c24bb-6fa2-4535-aa38-8c9a7b28d0c3">
+    <name>ИсключатьПоискФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать поиск форм</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="daa8a95b-6a88-4ad5-8d96-750e9d81b4a0">
+    <name>Исключать_xPath</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать xPath</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
     <synonym>
