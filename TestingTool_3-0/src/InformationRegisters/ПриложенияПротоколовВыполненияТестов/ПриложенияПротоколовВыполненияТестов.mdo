@@ -15,6 +15,7 @@
     <value>Приложения протоколов выполнения тестов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ПриложенияПротоколовВыполненияТестов.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="86d31db0-28aa-475c-b093-a3637cb4aa80">
     <name>Приложение</name>
@@ -212,6 +213,15 @@
     <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="36891474-9a5f-45a2-a441-ba5008b05221">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="2d6d56d1-31b2-4d17-b6f8-ab94e486a3a0">
     <name>ОчиститьВесьРегистрПриложений</name>
     <synonym>

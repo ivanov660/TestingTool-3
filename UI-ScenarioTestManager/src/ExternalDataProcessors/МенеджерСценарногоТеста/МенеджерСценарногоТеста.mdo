@@ -11,23 +11,6 @@
   <comment>автор ivanov660 (Владимир Крючков)</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="634e947e-0561-4b81-9a00-1c0dca2b50ba"/>
   <defaultForm>ExternalDataProcessor.МенеджерСценарногоТеста.Form.Форма_ОсновноеРабочееМесто</defaultForm>
-  <attributes uuid="d4dcab57-1bd9-40f0-ad5d-0ec16b7fc2a0">
-    <name>GUID</name>
-    <synonym>
-      <key>ru</key>
-      <value>GUID (Устарел)</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>36</length>
-      </stringQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="5b4774c8-b311-4ee2-9f72-2ce91c64c75c">
     <name>Severity</name>
     <synonym>
@@ -244,23 +227,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
   </attributes>
-  <attributes uuid="ea5ac9f1-8b7d-4ed2-a0c4-a72a659368e8">
-    <name>НаименованиеНабораСценариев</name>
-    <synonym>
-      <key>ru</key>
-      <value>Наименование набора сценариев</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="790b008f-98e2-4d08-9226-a0b6a2c27d3b">
     <name>НеПроизводитьОтключениеЕслиДальшеПодключаетсяТудаЖе</name>
     <synonym>
@@ -279,7 +245,7 @@
     <name>НомерПорта</name>
     <synonym>
       <key>ru</key>
-      <value>Номер порта клиента тестирования (по умолчанию)</value>
+      <value>Номер порта/сессии клиента тестирования</value>
     </synonym>
     <comment></comment>
     <type>
@@ -786,6 +752,26 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="910c24bb-6fa2-4535-aa38-8c9a7b28d0c3">
+    <name>ИсключатьПоискФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать поиск форм</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="daa8a95b-6a88-4ad5-8d96-750e9d81b4a0">
+    <name>Исключать_xPath</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать xPath</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
   </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
