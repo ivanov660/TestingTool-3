@@ -297,12 +297,12 @@
       </edit>
     </columns>
     <columns>
-      <name>OutputText</name>
+      <name>ИдентификаторОбъекта</name>
       <title>
         <key>ru</key>
-        <value>Output text</value>
+        <value>Идентификатор объекта</value>
       </title>
-      <id>3</id>
+      <id>16</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -315,12 +315,12 @@
       </edit>
     </columns>
     <columns>
-      <name>ИдентификаторОбъекта</name>
+      <name>OutputText</name>
       <title>
         <key>ru</key>
-        <value>Идентификатор объекта</value>
+        <value>Output text</value>
       </title>
-      <id>16</id>
+      <id>17</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
