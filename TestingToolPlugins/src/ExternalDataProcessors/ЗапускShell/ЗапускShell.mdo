@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d53b3b6-3424-43ff-9169-7d9b8e553d13">
+  <producedTypes>
+    <objectType typeId="1166acb3-a6af-42fe-8b88-e75bbc1c5be8" valueTypeId="744d2cb3-9299-4ba8-805e-02394c618ad8"/>
+  </producedTypes>
+  <name>ЗапускShell</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск shell</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b3e5b784-5b7f-4b9d-80a5-e80d69580951"/>
+  <defaultForm>ExternalDataProcessor.ЗапускShell.Form.Форма</defaultForm>
+  <forms uuid="0c46434b-f34b-479a-8947-3e1d1f98af59">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
