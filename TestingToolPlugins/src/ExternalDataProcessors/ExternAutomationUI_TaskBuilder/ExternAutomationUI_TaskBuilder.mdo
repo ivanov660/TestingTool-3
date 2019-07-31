@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e240212-855a-42f8-94ba-0e25813c6ff6">
+  <producedTypes>
+    <objectType typeId="032957c3-a771-4aaa-9ea3-306b142fa837" valueTypeId="8d205a8e-94aa-4022-b7f5-5f6408db4948"/>
+  </producedTypes>
+  <name>ExternAutomationUI_TaskBuilder</name>
+  <synonym>
+    <key>ru</key>
+    <value>Extern automation UI task builder</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="84945ed7-4e8f-40dd-afbf-aebbf2c449a6"/>
+  <defaultForm>ExternalDataProcessor.ExternAutomationUI_TaskBuilder.Form.Форма</defaultForm>
+  <forms uuid="4394fe39-134f-450b-b400-5419b427a46f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
