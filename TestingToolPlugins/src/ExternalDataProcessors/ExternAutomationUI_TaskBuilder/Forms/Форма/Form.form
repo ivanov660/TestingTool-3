@@ -385,10 +385,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Задание</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Задание</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -567,21 +565,19 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>Параметр1</name>
-        <id>126</id>
+        <name>АдресИнтернетExternAutomationUI</name>
+        <id>129</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Параметр1</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АдресИнтернетExternAutomationUI</segments>
         </dataPath>
         <extendedTooltip>
-          <name>Параметр1РасширеннаяПодсказка</name>
-          <id>128</id>
+          <name>АдресИнтернетExternAutomationUIРасширеннаяПодсказка</name>
+          <id>131</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -595,8 +591,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>Параметр1КонтекстноеМеню</name>
-          <id>127</id>
+          <name>АдресИнтернетExternAutomationUIКонтекстноеМеню</name>
+          <id>130</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1293,7 +1289,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.TemplateTaskBuilder</types>
+      <types>ExternalDataProcessor.ExternAutomationUI_TaskBuilder</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1346,7 +1342,7 @@
     </title>
     <id>4</id>
     <valueType>
-      <types>CatalogRef.ГруппыЗаданий</types>
+      <types>CatalogRef.ДействияЗаданий</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1548,12 +1544,30 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Параметр1</name>
+    <name>АдресИнтернетExternAutomationUI</name>
     <title>
       <key>ru</key>
-      <value>Параметр1</value>
+      <value>Адрес интернет extern automation UI</value>
     </title>
-    <id>16</id>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Версия</name>
+    <title>
+      <key>ru</key>
+      <value>Версия</value>
+    </title>
+    <id>18</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
