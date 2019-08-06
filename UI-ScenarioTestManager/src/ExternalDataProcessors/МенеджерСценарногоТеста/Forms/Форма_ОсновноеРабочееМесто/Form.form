@@ -8323,10 +8323,6 @@
           <name>ПараметрыСценарияПриАктивизацииСтроки</name>
         </handlers>
         <handlers>
-          <event>BeforeRowChange</event>
-          <name>ПараметрыСценарияПередНачаломИзменения</name>
-        </handlers>
-        <handlers>
           <event>OnStartEdit</event>
           <name>ПараметрыСценарияПриНачалеРедактирования</name>
         </handlers>
