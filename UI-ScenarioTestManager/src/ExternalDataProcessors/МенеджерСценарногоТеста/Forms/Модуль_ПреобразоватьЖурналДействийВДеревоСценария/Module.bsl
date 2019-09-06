@@ -1127,6 +1127,19 @@ EndProcedure
 		//AddLine(Writer, VariableName + ? (ScriptVariant = "en", ".ExecuteCommand(""", ".ВыполнитьКоманду(""") + CommandRef + """);", True);
 		LastProcessedCommand = "ВыполнитьКоманду";
 		ЧтениеXML.Read();
+	ElsIf ЧтениеXML.Name = "clickFormattedStringHyperlink" Then
+		Presentation = "";
+		While ЧтениеXML.ReadAttribute() Do
+			If ЧтениеXML.Name = "title" Then
+				Presentation = ЧтениеXML.Value;
+			Else
+				Raise NStr("en = 'Unknown attribute '; ru = 'Неопознанный атрибут '") + ЧтениеXML.Name + ": " + ЧтениеXML.Value;
+			EndIf;
+		EndDo;
+		//AddLine(Writer, VariableName + ? (ScriptVariant = "en", ".SelectOption(""", ".ВыбратьВариант(""") + DoubleQuotationMarks(Presentation) + """);", True);
+		ТекущаяВетка.Presentation = Presentation;
+		LastProcessedCommand = "НажатьНаГиперссылкуВФорматированнойСтроке";
+		ЧтениеXML.Read();
 
 	Else
 		Return False;
