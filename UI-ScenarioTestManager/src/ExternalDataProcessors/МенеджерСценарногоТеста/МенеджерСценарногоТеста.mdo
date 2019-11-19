@@ -774,6 +774,16 @@
       <types>Boolean</types>
     </type>
   </attributes>
+  <attributes uuid="f7def03c-01aa-4a28-8959-84f70456cf2a">
+    <name>ЭкспериментальныйФункционал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспериментальный функционал</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
     <synonym>
@@ -781,6 +791,11 @@
       <value>Форма основное рабочее место</value>
     </synonym>
     <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

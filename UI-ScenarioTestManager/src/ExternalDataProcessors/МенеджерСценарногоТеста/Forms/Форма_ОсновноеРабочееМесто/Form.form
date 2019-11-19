@@ -10545,6 +10545,10 @@
             </paths>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Позволяет открыть вкладку, в которой вы можете создать набор сценариев для запуска. (Используйте функционал управления заданиями конфигурации &quot;Тестирование 3.0&quot; вместо этого)</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>РедактироватьНаборСценариевПриИзменении</name>
@@ -10640,6 +10644,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>При открытии менеджера будет автоматически загружаться последний открытый сценарий</value>
+            </toolTip>
             <extendedTooltip>
               <name>АвтозагрузкаПоследнегоСценарияРасширеннаяПодсказка</name>
               <id>798</id>
@@ -10686,6 +10694,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>При открытии сценария будет автоматически загружаться дерево проектов и библиотеки</value>
+            </toolTip>
             <extendedTooltip>
               <name>АвтозагрузкаДереваПроектовРасширеннаяПодсказка</name>
               <id>801</id>
@@ -10761,6 +10773,10 @@
             </paths>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Для 1С API в сценарий добавляет поиск групп на форме. (Не реомендуем использование данного функционала - увеличивает объем скрипта, время выполнения и снижает стабильность )</value>
+          </toolTip>
           <extendedTooltip>
             <name>ГенерироватьПолучениеРодительскихОбъектовВИерархииРасширеннаяПодсказка</name>
             <id>553</id>
@@ -10808,6 +10824,10 @@
               <segments>Объект.ИсключатьКомандуFocus</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Используется для Selenium (браузер). Исключает при конвертации выполнение команды focus.  (Рекомендуем использовать - это снижает объем скрипта и время выполнения)</value>
+            </toolTip>
             <extendedTooltip>
               <name>ИсключатьКомандуFocusРасширеннаяПодсказка</name>
               <id>1010</id>
@@ -10852,6 +10872,10 @@
               <segments>Объект.Исключать_xPath</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Для UI Automation и Selenium позволяет очищать свойства xPath при преобразовании журнала действий в дерево сценариев. (Если пути обладают динамическими свойствами наименований, то рекомендуем исключать свойство xPath)</value>
+            </toolTip>
             <extendedTooltip>
               <name>Исключать_xPath2РасширеннаяПодсказка</name>
               <id>1083</id>
@@ -10896,6 +10920,10 @@
               <segments>Объект.ИсключатьПоискФорм</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Для 1С API позволяет исключать при преобразовании журнала действий в сценарий поиск форм. (Рекомендуем использовать этот функционал)</value>
+            </toolTip>
             <extendedTooltip>
               <name>ИсключатьПоискФорм1РасширеннаяПодсказка</name>
               <id>1086</id>
@@ -11030,6 +11058,10 @@
             </paths>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Для возможности использования отмены изменений в процессе редактирования</value>
+          </toolTip>
           <extendedTooltip>
             <name>ИспользоватьСохранениеДереваРасширеннаяПодсказка</name>
             <id>894</id>
@@ -11048,6 +11080,58 @@
           <contextMenu>
             <name>ИспользоватьСохранениеДереваКонтекстноеМеню</name>
             <id>893</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ЭкспериментальныйФункционал</name>
+          <id>1091</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЭкспериментальныйФункционал</segments>
+          </dataPath>
+          <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Включить возможность работы с экспериментальным функционалом</value>
+          </toolTip>
+          <handlers>
+            <event>OnChange</event>
+            <name>ЭкспериментальныйФункционалПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ЭкспериментальныйФункционалРасширеннаяПодсказка</name>
+            <id>1093</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЭкспериментальныйФункционалКонтекстноеМеню</name>
+            <id>1092</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -11548,6 +11632,10 @@
             </paths>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Использует типовую команду запуска приложений (Не рекомендуем использовать)</value>
+          </toolTip>
           <extendedTooltip>
             <name>ИспользоватьКомандуЗапуститьСистемуРасширеннаяПодсказка</name>
             <id>823</id>
@@ -11728,6 +11816,10 @@
             <segments>Объект.ЭтоНеПредприятие1С</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Если вы тестируете не 1С предприятие, то включите флаг</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ЭтоНеПредприятие1СПриИзменении</name>
@@ -17374,7 +17466,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Преобразовать</value>
+      <value>Преобразовать текст журнала регистрации в дерево сценария</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -18337,7 +18429,8 @@
     <id>44</id>
     <toolTip>
       <key>ru</key>
-      <value>Преобразовать в буфер</value>
+      <value>Преобразовать текст журнала регистрации в дерево сценария в буфер.
+Потом через команду вставить, вы сможете добавить преобразованный сценарий в любую часть дерева сценариев.</value>
     </toolTip>
     <use>
       <common>true</common>
