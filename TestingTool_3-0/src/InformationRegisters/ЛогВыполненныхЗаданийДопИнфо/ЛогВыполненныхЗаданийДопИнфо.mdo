@@ -16,6 +16,7 @@
   </synonym>
   <comment>Содержит дополнительную информацию информацию</comment>
   <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.ЛогВыполненныхЗаданийДопИнфо.Form.ФормаЗаписи</defaultRecordForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="dbc3561d-260d-4864-b19d-6f655d1533d6">
     <name>Сообщение</name>
@@ -112,4 +113,13 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
+  <forms uuid="5b4bb66a-f8a3-48e8-b838-68b449f9d5b0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

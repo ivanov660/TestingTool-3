@@ -17,6 +17,7 @@
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЛогВыполненныхЗаданий.Form.ФормаЗаписи</defaultRecordForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="b3f57867-8e64-4110-9673-5a79b882cc65">
     <name>Сборка</name>
@@ -289,6 +290,15 @@
       <value>Журнал событий</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d598e712-5cbf-4e9e-964f-63ece7b5178f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
