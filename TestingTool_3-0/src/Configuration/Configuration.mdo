@@ -178,6 +178,7 @@
   <httpServices>HTTPService.Reports</httpServices>
   <scheduledJobs>ScheduledJob.ОбработкаЗаданий</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаДействийЗаданий</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьИгровоеМоделирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНагрузочноеТестирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьОценкуЭффективности</functionalOptions>
@@ -209,6 +210,7 @@
   <constants>Constant.ИспользоватьТестирование</constants>
   <constants>Constant.ИспользоватьУправлениеРелизами</constants>
   <constants>Constant.УдалятьПереносыСтрокИзКомандыЗапуска</constants>
+  <constants>Constant.СрокХраненияСобытий</constants>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОбщиеНастройиСистемы</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
@@ -270,6 +272,7 @@
   <enums>Enum.ТипыШагов</enums>
   <enums>Enum.ТипЭлемента</enums>
   <enums>Enum.ТипыКлючейНастроек</enums>
+  <enums>Enum.ВариантыХраненияСобытий</enums>
   <reports>Report.ВыполнениеТестовПоПроверкам</reports>
   <reports>Report.НакопительныйГрафикВыполненияТестовПоПроверкам</reports>
   <reports>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам</reports>

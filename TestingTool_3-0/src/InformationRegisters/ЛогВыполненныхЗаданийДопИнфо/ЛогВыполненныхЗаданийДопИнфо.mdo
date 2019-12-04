@@ -108,10 +108,10 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
   </dimensions>
   <forms uuid="5b4bb66a-f8a3-48e8-b838-68b449f9d5b0">
     <name>ФормаЗаписи</name>

@@ -47,7 +47,7 @@
     <name>ID</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор Клиента</value>
+      <value>Идентификатор клиента</value>
     </synonym>
     <comment></comment>
     <type>
