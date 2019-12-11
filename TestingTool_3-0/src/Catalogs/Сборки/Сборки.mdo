@@ -177,4 +177,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="87ebcc96-7a7d-4e05-809c-eebc9e071c11">
+    <name>ВидСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид события</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыХраненияСобытий</types>
+    </type>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыХраненияСобытий.EnumValue.Стандартное</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
