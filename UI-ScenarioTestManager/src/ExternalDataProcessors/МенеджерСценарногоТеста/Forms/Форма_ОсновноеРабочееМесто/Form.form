@@ -9661,6 +9661,10 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <inputHint>
+              <key>ru</key>
+              <value>имя проекта/сценария</value>
+            </inputHint>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -9931,6 +9935,10 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <inputHint>
+              <key>ru</key>
+              <value>идентификатор для привязки в базе Тестирование 3.0</value>
+            </inputHint>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -11204,6 +11212,10 @@
               <segments>Объект.ПутьККаталогуНаборовСценариев</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к каталогу, где лежат готовые сценарии для запуска</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ПутьККаталогуНаборовСценариевПриИзменении</name>
@@ -11265,6 +11277,10 @@
               <segments>Объект.ПутьККаталогуБиблиотекиСценариев</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к каталогу, где лежат шаблоны, блоки скриптов - не готовые для самостоятельного запуска </value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ПутьККаталогуБиблиотекиСценариевПриИзменении</name>
@@ -11367,6 +11383,10 @@
               <segments>Объект.ПутьККаталогуОтчетовВыполненияТестов</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к каталогу, где будут хранится отчеты выполнения</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ПутьКаталогаОтчетаВыполненияПриИзменении</name>
@@ -11479,6 +11499,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.РежимScreenShot</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Если выбран режим сохранения файлов, то будут сохраняться снимки экранов в корневой каталог отчетов или в отдельный подкаталог отчетов &quot;ScreenShots&quot; (если существует)</value>
+          </toolTip>
           <extendedTooltip>
             <name>РежимScreenShotРасширеннаяПодсказка</name>
             <id>1016</id>
@@ -12417,9 +12441,7 @@
           <id>917</id>
           <visible>true</visible>
           <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <userVisible/>
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ПутьКФайлуExternAutomationUI</segments>
           </dataPath>
@@ -12465,6 +12487,10 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <inputHint>
+              <key>ru</key>
+              <value>не обязательно</value>
+            </inputHint>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
