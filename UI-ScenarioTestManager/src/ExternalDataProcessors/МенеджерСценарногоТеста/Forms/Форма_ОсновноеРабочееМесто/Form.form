@@ -515,6 +515,10 @@
             <segments>Объект.Исключать_xPath</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Если количество элементов сильно меняется динамически, то рекомендуем не использовать эту опцию или дорабатыать вручную эти пути согласно инструкции. </value>
+          </toolTip>
           <extendedTooltip>
             <name>Исключать_xPathРасширеннаяПодсказка</name>
             <id>1052</id>
@@ -952,6 +956,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.Браузер</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Тип браузера</value>
+            </toolTip>
             <extendedTooltip>
               <name>Браузер1РасширеннаяПодсказка</name>
               <id>1004</id>
@@ -996,6 +1004,10 @@
               <segments>Объект.ИсключатьКомандуFocus</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>В рамках преобразования записи действий приложения selenium  будет включать команду фокус (focus). Обычно не требуется.</value>
+            </toolTip>
             <extendedTooltip>
               <name>ИсключатьКомандуFocus1РасширеннаяПодсказка</name>
               <id>1013</id>
@@ -1040,6 +1052,10 @@
               <segments>Объект.Исключать_xPath</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>В рамках преобразования записи действий приложения selenium  будет очищать поле xPath. Если в приложении используется динамическое изменение элементов и имен элементов, то луше включать флаг. Для web приложений 1С рекомендуем включать.</value>
+            </toolTip>
             <extendedTooltip>
               <name>Исключать_xPath1РасширеннаяПодсказка</name>
               <id>1055</id>
@@ -1143,6 +1159,10 @@
             <segments>Объект.ГенерироватьПолучениеРодительскихОбъектовВИерархии</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>В рамках преобразования записи действий приложения 1С  будет включать поиск групп (не рекомендуется использовать)</value>
+          </toolTip>
           <extendedTooltip>
             <name>ГенерироватьПолучениеРодительскихОбъектовВИерархии1РасширеннаяПодсказка</name>
             <id>1026</id>
@@ -1187,6 +1207,10 @@
             <segments>Объект.ИсключатьПоискФорм</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>В рамках преобразования записи действий приложения 1С  будет включать поиск форм (не рекомендуется использовать, обычно достаточно выполнить поиск окна)</value>
+          </toolTip>
           <extendedTooltip>
             <name>ИсключатьПоискФормРасширеннаяПодсказка</name>
             <id>1049</id>
@@ -1818,6 +1842,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>ИндексТекущегоШагаDDT</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Текущий номер строки в таблице параметров.</value>
+          </toolTip>
           <extendedTooltip>
             <name>ИндексТекущегоШагаDDTРасширеннаяПодсказка</name>
             <id>1043</id>
@@ -1869,6 +1897,10 @@
             <segments>ОстанавливатьсяПоОшибкеDDT</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Будет выполняться прерываение выполнения скрипта по таблице параметров.</value>
+          </toolTip>
           <extendedTooltip>
             <name>ОстанавливатьсяПоОшибкеDDTРасширеннаяПодсказка</name>
             <id>1046</id>
@@ -1954,6 +1986,10 @@
                   <segments>Объект.ИспользуемыйAPI</segments>
                 </dataPath>
                 <titleLocation>Top</titleLocation>
+                <toolTip>
+                  <key>ru</key>
+                  <value>Используемый API, может меняться в процессе работы сценария. Т.е. выможете выполнять скрипт переключаясь между разнародными приложениями.</value>
+                </toolTip>
                 <handlers>
                   <event>OnChange</event>
                   <name>ИспользуемыйAPIПриИзменении</name>
@@ -7771,6 +7807,10 @@
             <segments>Объект.DataDrivenTest</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Включает возможность использовать режим DDT. Где параметры будут браться из строки таблицы.</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>DataDrivenTestПриИзменении</name>
@@ -7818,6 +7858,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ПутьКФайлуДанных</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к файлу с таблицей параметров для режима DDT.</value>
+          </toolTip>
           <extendedTooltip>
             <name>ПутьКФайлуДанныхРасширеннаяПодсказка</name>
             <id>1036</id>
@@ -11204,6 +11248,10 @@
               <segments>Объект.ПутьККаталогуНаборовСценариев</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к каталогу, где расположены полноценные готовые сценарии, которые могут содержать ссылки на блоки из библиотеки сценариев</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ПутьККаталогуНаборовСценариевПриИзменении</name>
@@ -11265,6 +11313,10 @@
               <segments>Объект.ПутьККаталогуБиблиотекиСценариев</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к каталогу набора вспомогательных сценариев/ шаблонов/ примеров и кусокв кода - библиотека. Не используются для самостоятельного запуска.</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ПутьККаталогуБиблиотекиСценариевПриИзменении</name>
@@ -11367,6 +11419,10 @@
               <segments>Объект.ПутьККаталогуОтчетовВыполненияТестов</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Путь к каталогу хранения отчетов результатов тестов. Для того чтобы сохранялись картинки в каталоге рекомендуем создать папку &quot;Screenshots&quot;.Если каталог не указан, то отчеты сохраняться не будут.</value>
+          </toolTip>
           <handlers>
             <event>OnChange</event>
             <name>ПутьКаталогаОтчетаВыполненияПриИзменении</name>
@@ -11428,6 +11484,10 @@
               <segments>Объект.ФорматФайлаОтчета</segments>
             </paths>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Формат сохранения Junit  и Allure.</value>
+          </toolTip>
           <extendedTooltip>
             <name>ФорматФайлаОтчетаРасширеннаяПодсказка</name>
             <id>826</id>
@@ -11479,6 +11539,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.РежимScreenShot</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Режим сохранения снимков экранов. Для работы требуется запуск внешнего приложения WinAutomationUI и настройка параметров группы &quot;Внешние инструменты&quot;</value>
+          </toolTip>
           <extendedTooltip>
             <name>РежимScreenShotРасширеннаяПодсказка</name>
             <id>1016</id>
@@ -12423,6 +12487,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ПутьКФайлуExternAutomationUI</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>Не обязательно</value>
+          </toolTip>
           <extendedTooltip>
             <name>ПутьКФайлуExternAutomationUIРасширеннаяПодсказка</name>
             <id>919</id>
