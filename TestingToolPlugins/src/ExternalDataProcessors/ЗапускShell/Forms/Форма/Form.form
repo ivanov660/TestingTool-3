@@ -345,7 +345,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ЗапускShell</types>
+      <types>ExternalDataProcessor.ЗапускShell</types>
     </valueType>
     <view>
       <common>true</common>

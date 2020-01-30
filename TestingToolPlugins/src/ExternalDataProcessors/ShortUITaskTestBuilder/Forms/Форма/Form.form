@@ -2225,7 +2225,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.ShortUITaskTestBuilder</types>
+      <types>ExternalDataProcessor.ShortUITaskTestBuilder</types>
     </valueType>
     <view>
       <common>true</common>
