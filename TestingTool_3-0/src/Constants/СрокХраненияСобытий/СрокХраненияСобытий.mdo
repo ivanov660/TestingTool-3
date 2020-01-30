@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24780591-705f-4270-9932-92464eaf98b2">
+  <producedTypes>
+    <managerType typeId="fa4031b3-4add-42ac-959c-878d02429293" valueTypeId="20a5e21d-dbb6-4c4a-a560-ed917c4443d0"/>
+    <valueManagerType typeId="eaa74786-0752-412f-a947-45c5a284edfc" valueTypeId="0a44e68e-4b96-446b-9a81-d079697b4efc"/>
+    <valueKeyType typeId="524c0d7e-570f-40fb-97e5-a9229b83c797" valueTypeId="cf44bd1d-83b0-4eba-9b5a-ca53a9aa466a"/>
+  </producedTypes>
+  <name>СрокХраненияСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения событий (дн.)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

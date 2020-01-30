@@ -33,4 +33,5 @@
   <content>InformationRegister.НастройкиОбъединенияТестов</content>
   <content>CommonCommand.ПросмотрРезультатовВыполненияПроверок</content>
   <content>InformationRegister.ПриложенияПротоколовВыполненияТестов</content>
+  <content>InformationRegister.СвязиПользователейБаз1С</content>
 </mdclass:Subsystem>

@@ -1,205 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3fdd26b-fe49-4ca4-80d9-dc1d76cff366">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9be8bf35-3464-42d7-a28b-bb57be65d1ee">
   <producedTypes>
-    <objectType typeId="74e06c04-078f-43cb-9f55-6d531bf7cf13" valueTypeId="5e81caf8-6ea8-47a6-a68d-e744f9c430e2"/>
-    <refType typeId="dc088cad-0376-454b-9bf8-b2f1d9b20b31" valueTypeId="a2f35dbd-f57f-4812-9fa5-39a5040a19d9"/>
-    <selectionType typeId="22f0016b-1a08-4b90-bc5e-818c5fd64279" valueTypeId="5cd26c6d-e111-43be-baec-d5f8293b64f4"/>
-    <listType typeId="58770f0d-9c60-4758-a433-f4dc202a9f7f" valueTypeId="c0a29ffa-3ea7-4a91-a698-dd3267e97481"/>
-    <managerType typeId="efcfb6a9-ab0c-49e6-8d51-90c780257748" valueTypeId="f82fca4f-fe2b-49f0-ac49-3becee41b9eb"/>
+    <objectType typeId="98a97504-db16-4ddf-aaa9-c2a766fcc8f6" valueTypeId="c9514d99-8f43-464b-b08d-26d253df3183"/>
+    <refType typeId="3ea91aa0-8b15-4b3e-8d5a-5c32fbf18d2e" valueTypeId="9ce2b867-7a61-40c2-bae9-a5396d2dd751"/>
+    <selectionType typeId="d9ef936e-1dea-468f-bbcf-0b489de8b644" valueTypeId="b3946fb7-2fba-4d6f-8308-a3a0cbbadf88"/>
+    <listType typeId="36a7b0f2-229a-4b6b-a187-5e039b79871c" valueTypeId="741e6a01-9f41-4495-9b57-d30af4023fa9"/>
+    <managerType typeId="d6733e1f-fe78-4f6a-916d-5e6e6307ebb9" valueTypeId="a558e108-9f11-45e6-969f-3e7a6013c5c8"/>
   </producedTypes>
-  <name>Проверки</name>
+  <name>ПользователиБаз1С</name>
   <synonym>
     <key>ru</key>
-    <value>Проверки</value>
+    <value>Пользователи баз 1С</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Проверки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПользователиБаз1С.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер</value>
-    </synonym>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Проверка</value>
-  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>15</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultChoiceForm>Catalog.Проверки.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="900d69a8-3495-4f1f-9eed-db122cbe9379">
-    <name>ДатаНачала</name>
+  <defaultListForm>Catalog.ПользователиБаз1С.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПользователиБаз1С.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="232cf773-6aca-496a-9d63-802cba7bd581">
+    <name>Имя</name>
     <synonym>
       <key>ru</key>
-      <value>Дата начала</value>
+      <value>Имя</value>
     </synonym>
-    <comment></comment>
     <type>
-      <types>Date</types>
-      <dateQualifiers/>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="820de285-7cbd-4bd3-848b-7dd0cce0c86d">
-    <name>Релиз</name>
+  <attributes uuid="404c4dc5-f2b8-479e-b502-5f864394bb8d">
+    <name>Пароль</name>
     <synonym>
       <key>ru</key>
-      <value>Релиз</value>
+      <value>Пароль</value>
     </synonym>
-    <comment></comment>
     <type>
-      <types>CatalogRef.Релизы</types>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
-    <mask></mask>
+    <passwordMode>true</passwordMode>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7cb748e9-878e-4547-a31e-cb936e888cc4">
-    <name>Автор</name>
+  <attributes uuid="0daf5858-16ad-4ab9-953f-bff836f3155d">
+    <name>Роли</name>
     <synonym>
       <key>ru</key>
-      <value>Автор</value>
+      <value>Роли</value>
     </synonym>
-    <comment></comment>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d30910d2-0e86-4393-84a0-d07cd96e7a44">
-    <name>АвтоЗапуск</name>
-    <synonym>
-      <key>ru</key>
-      <value>Авто запуск</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9caa2bd1-2973-4b88-a149-ed89c7de640e">
+  <attributes uuid="d7180500-7928-4a33-afd5-e4aeb1f94a15">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -209,33 +171,29 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4788a0fa-cfa3-46e7-bb13-cbaf27b4d08b">
-    <name>ВидСобытия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид события</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВариантыХраненияСобытий</types>
-    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.ВариантыХраненияСобытий.EnumValue.Стандартное</value>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="c73acf8e-05c2-41a7-811d-6c937af49aad">
+  <forms uuid="959f6614-2523-4c8d-b2ed-d3eec26d48f5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ada0bd97-654d-41c4-a1fa-60cf4595c65a">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
