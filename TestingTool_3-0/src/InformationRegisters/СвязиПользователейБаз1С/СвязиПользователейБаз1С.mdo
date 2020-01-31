@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="912c3a3b-e6ab-4090-8845-5599ec182a02">
+  <producedTypes>
+    <selectionType typeId="497cf521-d9ad-4ec7-a477-2b44403025c7" valueTypeId="610de984-c560-442a-a0d1-ac43538bd3c6"/>
+    <listType typeId="f588e2e9-1c8f-4f45-af03-9f9cd67f63ce" valueTypeId="09bed29e-614e-4347-9063-ab0818203c68"/>
+    <managerType typeId="5045ec10-6926-4699-87fc-2b77cddd6422" valueTypeId="a66fe8a3-5537-41e8-9d6f-50e7b71128d5"/>
+    <recordSetType typeId="ec1684ba-9216-4211-b0a3-17d60c5bf342" valueTypeId="8fbdfb87-806d-42f1-8679-68c40d83bb99"/>
+    <recordKeyType typeId="6aaf76ec-a8b7-4267-8055-a9e1b47af586" valueTypeId="fae5b13e-db30-41d0-a348-158198b3507d"/>
+    <recordType typeId="3b08794d-fae2-46f5-b3d9-fc4b3f446755" valueTypeId="df6840c1-c897-4cf3-9076-78e4a0b2008a"/>
+    <recordManagerType typeId="8034ac46-ef9b-4e46-ae0a-00e69ab09b3b" valueTypeId="8caca31b-eaf0-44a2-9efa-96b9bc8a0f09"/>
+  </producedTypes>
+  <name>СвязиПользователейБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи пользователей баз1 С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b8036de5-189b-47c8-87c7-c621ae5e7d7f">
+    <name>ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="108cb3bd-580a-4ff6-a29a-d71657ce8392">
+    <name>НомерПорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер порта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fdb6ab54-f8e7-4781-a338-9660b5d709ba">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиБаз1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a398e66-fd56-42d8-a1dc-9344a5d964f7">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa60a93b-aaee-4b9f-b98a-646ab27c5711">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
