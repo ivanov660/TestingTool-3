@@ -18,7 +18,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.20.02.05</version>
+  <version>3.20.03.11</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -155,6 +155,7 @@
   <commonModules>CommonModule.ОсновноеРабочееМестоВызовСервера</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоСервер</commonModules>
   <commonModules>CommonModule.ПерепрефиксацияОбъектов</commonModules>
+  <commonModules>CommonModule.ПланировщикЗаданийВызовСервера</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийКлиентСервер</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийСервер</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
