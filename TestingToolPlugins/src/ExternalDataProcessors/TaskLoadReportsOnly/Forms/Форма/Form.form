@@ -1283,7 +1283,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.TaskLoadReportsOnly</types>
+      <types>ExternalDataProcessor.TaskLoadReportsOnly</types>
     </valueType>
     <view>
       <common>true</common>

@@ -2051,7 +2051,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.JenkinsSkin</types>
+      <types>ExternalDataProcessor.JenkinsSkin</types>
     </valueType>
     <view>
       <common>true</common>
