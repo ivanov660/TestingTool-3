@@ -67,7 +67,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.AllureSkin</types>
+      <types>ExternalDataProcessor.AllureSkin</types>
     </valueType>
     <view>
       <common>true</common>

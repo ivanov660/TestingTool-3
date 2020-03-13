@@ -2077,7 +2077,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.UnitTaskTestBuilder_xddTestRunner</types>
+      <types>ExternalDataProcessor.UnitTaskTestBuilder_xddTestRunner</types>
     </valueType>
     <view>
       <common>true</common>
