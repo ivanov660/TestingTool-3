@@ -32,4 +32,5 @@
   <content>InformationRegister.ПользовательскиеПеременныеЗаданий</content>
   <content>InformationRegister.НовостиПользователей</content>
   <content>Catalog.Новости</content>
+  <content>DataProcessor.УдалениеДанных</content>
 </mdclass:Subsystem>

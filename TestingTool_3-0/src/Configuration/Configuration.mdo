@@ -282,6 +282,7 @@
   <dataProcessors>DataProcessor.ОсновноеРабочееМестоПользователя</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСпискомПроцессовОСWindows</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеДанных</dataProcessors>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ВременныеЗатратыНаОбслуживание</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиНагрузки</informationRegisters>

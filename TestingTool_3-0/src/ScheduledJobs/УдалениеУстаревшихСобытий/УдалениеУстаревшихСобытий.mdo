@@ -8,7 +8,7 @@
   <methodName>CommonModule.СценарноеТестированиеСервер.УдалениеУстаревшихСобытий</methodName>
   <description>УдалениеУстаревшихСобытий</description>
   <key>УдалениеУстаревшихСобытий</key>
-  <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>
