@@ -12,12 +12,18 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>DataProcessor.ОсновноеРабочееМестоПользователя.Command.ОсновноеРабочееМесто</commands>
+      <commands>CommonCommand.ПросмотрУправлениеЗаданиями</commands>
+      <commands>CommonCommand.ПросмотрРезультатовВыполненияПроверок</commands>
+      <commands>CommonCommand.МенеджерВыполненияЧекЛистТестов</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>DataProcessor.ОсновноеРабочееМестоПользователя.Command.ОсновноеРабочееМесто</commands>
+      <commands>CommonCommand.ПросмотрУправлениеЗаданиями</commands>
+      <commands>CommonCommand.ПросмотрРезультатовВыполненияПроверок</commands>
+      <commands>CommonCommand.МенеджерВыполненияЧекЛистТестов</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

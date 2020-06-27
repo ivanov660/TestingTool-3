@@ -33,4 +33,6 @@
   <content>InformationRegister.НовостиПользователей</content>
   <content>Catalog.Новости</content>
   <content>DataProcessor.УдалениеДанных</content>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
 </mdclass:Subsystem>

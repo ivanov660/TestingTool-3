@@ -63,5 +63,16 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>Catalog.РабочиеМеста.StandardCommand.OpenList</commands>
     </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commands>
+      <commands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commands>
+      <commands>DataProcessor.ПолнотекстовыйПоискВДанных.Command.ПолнотекстовыйПоиск</commands>
+      <commands>DataProcessor.РегламентныеИФоновыеЗадания.StandardCommand.Open</commands>
+      <commands>DataProcessor.УдалениеДанных.StandardCommand.Open</commands>
+      <commands>DataProcessor.УправлениеСпискомПроцессовОСWindows.StandardCommand.Open</commands>
+      <commands>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси.StandardCommand.Open</commands>
+      <commands>DataProcessor.КонсольЗаданий.StandardCommand.Open</commands>
+    </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

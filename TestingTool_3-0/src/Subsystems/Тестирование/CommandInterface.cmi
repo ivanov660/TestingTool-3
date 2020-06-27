@@ -55,14 +55,10 @@
       <commands>Catalog.ПланыТестирования.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.СвязиТестовКонфигураций.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.СвзяиТестовОбъектовКонфигураций.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПротоколыВыполненияТестов.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПротоколыВыполненияШаговТестов.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.StandardCommand.OpenList</commands>
+      <group>ActionsPanelTools</group>
       <commands>InformationRegister.ПротоколыВыполненияШаговТестов.Command.ОчиститьВесьРегистрПротоколыВыполненияШаговСценария</commands>
+      <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.Command.ОчиститьВесьРегистрПриложений</commands>
+      <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.Command.ОчиститьВесьРегистрПротоколыВыполненияТестовыхСценария</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -82,13 +78,9 @@
       <commands>Catalog.Проекты.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.СвязиТестовКонфигураций.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.СвзяиТестовОбъектовКонфигураций.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПротоколыВыполненияТестов.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПротоколыВыполненияШаговТестов.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.StandardCommand.OpenList</commands>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.ДополнительныеОбработкиТестирование</commands>
+      <commands>CommonCommand.ДополнительныеОтчетыТестирование</commands>
       <commands>InformationRegister.ПротоколыВыполненияШаговТестов.Command.ОчиститьВесьРегистрПротоколыВыполненияШаговСценария</commands>
       <commands>InformationRegister.ПротоколыВыполненияТестовыхСлучаев.Command.ОчиститьВесьРегистрПротоколыВыполненияТестовыхСценария</commands>
       <commands>InformationRegister.ПриложенияПротоколовВыполненияТестов.Command.ОчиститьВесьРегистрПриложений</commands>
