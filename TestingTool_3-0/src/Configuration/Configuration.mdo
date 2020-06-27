@@ -20,6 +20,7 @@
   <vendor>ivanov660</vendor>
   <version>3.20.03.11</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
+  <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
@@ -51,6 +52,7 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ИгровоеМоделирование</subsystems>
   <subsystems>Subsystem.Информация</subsystems>
@@ -61,6 +63,9 @@
   <subsystems>Subsystem.НагрузочноеТестирование</subsystems>
   <subsystems>Subsystem.УправлениеРелизами</subsystems>
   <subsystems>Subsystem.ОценкаЭффективности</subsystems>
+  <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <commonPictures>CommonPicture.BrokenQuad_32x32</commonPictures>
   <commonPictures>CommonPicture.clock</commonPictures>
   <commonPictures>CommonPicture.FailedQuad_32x33</commonPictures>
@@ -149,7 +154,9 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоВызовСервера</commonModules>
@@ -158,28 +165,41 @@
   <commonModules>CommonModule.ПланировщикЗаданийВызовСервера</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийКлиентСервер</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonModules>CommonModule.РабочееМестоСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
   <commonModules>CommonModule.СлужебныйВызовСервереПовтИсп</commonModules>
   <commonModules>CommonModule.СлужебныйКлиент</commonModules>
   <commonModules>CommonModule.СлужебныйСервер</commonModules>
   <commonModules>CommonModule.СлужебныйСерверВызовСервера</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
   <commonModules>CommonModule.СтроковыеФункции</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.СценарноеТестированиеВызовСервера</commonModules>
   <commonModules>CommonModule.СценарноеТестированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.СценарноеТестированиеСервер</commonModules>
+  <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <httpServices>HTTPService.Reports</httpServices>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаЗаданий</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаДействийЗаданий</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьИгровоеМоделирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНагрузочноеТестирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьОценкуЭффективности</functionalOptions>
@@ -203,6 +223,7 @@
   <commonCommands>CommonCommand.ПросмотрРезультатовВыполненияПроверок</commonCommands>
   <commonCommands>CommonCommand.ПросмотрУправлениеЗаданиями</commonCommands>
   <commonCommands>CommonCommand.УправлениеОбновлениемПлагинов</commonCommands>
+  <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИспользоватьИгровоеМоделирование</constants>
   <constants>Constant.ИспользоватьНагрузочноеТестирование</constants>
@@ -215,6 +236,7 @@
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОбщиеНастройиСистемы</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
+  <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.АгентыТестирования</catalogs>
   <catalogs>Catalog.Алгоритмы</catalogs>
   <catalogs>Catalog.Базы1С</catalogs>
@@ -278,6 +300,8 @@
   <reports>Report.ВыполнениеТестовПоПроверкам</reports>
   <reports>Report.НакопительныйГрафикВыполненияТестовПоПроверкам</reports>
   <reports>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам</reports>
+  <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
+  <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
   <dataProcessors>DataProcessor.ОсновноеРабочееМестоПользователя</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСпискомПроцессовОСWindows</dataProcessors>
