@@ -19,24 +19,6 @@
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.ЛогВыполненныхЗаданий.Form.ФормаЗаписи</defaultRecordForm>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="b3f57867-8e64-4110-9673-5a79b882cc65">
-    <name>Сборка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сборка</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Сборки</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-  </resources>
   <resources uuid="bc0f52d7-a458-4165-a159-9ddd180fb399">
     <name>ЭтоЗавершениеЗадания</name>
     <synonym>
@@ -181,6 +163,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f5c959b1-742a-4616-b4d1-c638e83fb620">
+    <name>Сборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сборки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
   </dimensions>
   <dimensions uuid="0316fc6d-18b3-49ac-ad36-e5d1140729ed">
     <name>Задание</name>

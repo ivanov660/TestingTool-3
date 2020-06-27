@@ -49,6 +49,10 @@
       <commands>InformationRegister.ЛогВыполненныхЗаданийДопИнфо.StandardCommand.OpenList</commands>
       <commands>InformationRegister.СоставЗаданийПулл.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelTools</group>
+      <commands>InformationRegister.ЛогВыполненныхЗаданий.Command.ОчиститьВесьРегистрЛогаВыполненныхЗаданий</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
@@ -60,10 +64,15 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
-      <commands>InformationRegister.ЛогВыполненныхЗаданий.Command.ОчиститьВесьРегистрЛогаВыполненныхЗаданий</commands>
       <commands>InformationRegister.СоставЗаданийПулл.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЛогВыполненныхЗаданий.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЛогВыполненныхЗаданийДопИнфо.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.ДополнительныеОбработкиПланировщик</commands>
+      <commands>CommonCommand.ДополнительныеОтчетыПланировщик</commands>
+      <commands>InformationRegister.ЛогВыполненныхЗаданий.Command.ОчиститьВесьРегистрЛогаВыполненныхЗаданий</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
