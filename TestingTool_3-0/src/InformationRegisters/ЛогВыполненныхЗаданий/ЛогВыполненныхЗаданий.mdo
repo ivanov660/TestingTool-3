@@ -144,6 +144,28 @@
       <value></value>
     </fillValue>
   </resources>
+  <resources uuid="fcfcef22-516f-4dd9-8f4d-2fcc6add0533">
+    <name>ИмяКомпьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя компьютера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
   <dimensions uuid="e3ef8774-6f62-40a9-aef9-0da9b6f6a5e9">
     <name>Дата</name>
     <synonym>

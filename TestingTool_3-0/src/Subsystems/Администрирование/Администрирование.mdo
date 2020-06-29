@@ -35,4 +35,5 @@
   <content>DataProcessor.УдалениеДанных</content>
   <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>CommonCommand.ReleaseDescription</content>
 </mdclass:Subsystem>

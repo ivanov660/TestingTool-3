@@ -2681,4 +2681,25 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Constant.АдресИнтернетReleaseDescription</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ReleaseDescription</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
