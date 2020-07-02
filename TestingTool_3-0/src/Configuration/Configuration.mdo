@@ -327,7 +327,7 @@
   <informationRegisters>InformationRegister.ОценкаВыполненияВремениТестовВручную</informationRegisters>
   <informationRegisters>InformationRegister.ПеременныеЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.Планировщик</informationRegisters>
-  <informationRegisters>InformationRegister.ПланировщикРлизов</informationRegisters>
+  <informationRegisters>InformationRegister.ПланировщикРелизов</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеПеременныеЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.ПриложенияПротоколовВыполненияТестов</informationRegisters>

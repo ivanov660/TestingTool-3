@@ -11,7 +11,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов</name>
+		<name>InformationRegister.ПланировщикРелизов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
