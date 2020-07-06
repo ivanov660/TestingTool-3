@@ -57,7 +57,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов</name>
+		<name>InformationRegister.ПланировщикРелизов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -68,28 +68,28 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.StandardAttribute.Active</name>
+		<name>InformationRegister.ПланировщикРелизов.StandardAttribute.Active</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.StandardAttribute.LineNumber</name>
+		<name>InformationRegister.ПланировщикРелизов.StandardAttribute.LineNumber</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.StandardAttribute.Recorder</name>
+		<name>InformationRegister.ПланировщикРелизов.StandardAttribute.Recorder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.StandardAttribute.Period</name>
+		<name>InformationRegister.ПланировщикРелизов.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -463,7 +463,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.Dimension.Релиз</name>
+		<name>InformationRegister.ПланировщикРелизов.Dimension.Релиз</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -755,7 +755,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.Dimension.Проект</name>
+		<name>InformationRegister.ПланировщикРелизов.Dimension.Проект</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1358,7 +1358,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.Resource.Ответственный</name>
+		<name>InformationRegister.ПланировщикРелизов.Resource.Ответственный</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2031,7 +2031,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПланировщикРлизов.Attribute.Комментарий</name>
+		<name>InformationRegister.ПланировщикРелизов.Attribute.Комментарий</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2678,6 +2678,27 @@
 		<name>Catalog.ПользователиБаз1С</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.АдресИнтернетReleaseDescription</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ReleaseDescription</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

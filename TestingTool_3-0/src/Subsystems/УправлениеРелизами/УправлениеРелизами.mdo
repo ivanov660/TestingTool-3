@@ -12,7 +12,7 @@
     <picture>CommonPicture.ПодсистемаУправлениеРелизами</picture>
   </picture>
   <content>Catalog.Релизы</content>
-  <content>InformationRegister.ПланировщикРлизов</content>
+  <content>InformationRegister.ПланировщикРелизов</content>
   <content>Catalog.Проверки</content>
   <content>82862854-50aa-45c1-a5f7-6365608c7545</content>
 </mdclass:Subsystem>

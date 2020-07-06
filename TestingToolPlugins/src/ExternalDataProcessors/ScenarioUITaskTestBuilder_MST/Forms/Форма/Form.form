@@ -1097,7 +1097,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>АдресИнтернетExternAutomationUI</name>
+            <name>АдресИнтернетExternalAutomationUI</name>
             <id>133</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1105,7 +1105,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>АдресИнтернетExternAutomationUI</segments>
+              <segments>АдресИнтернетExternalAutomationUI</segments>
             </dataPath>
             <extendedTooltip>
               <name>АдресИнтернетExternAutomationUIРасширеннаяПодсказка</name>
@@ -2795,10 +2795,10 @@ All - снимок каждого шага
     </edit>
   </attributes>
   <attributes>
-    <name>АдресИнтернетExternAutomationUI</name>
+    <name>АдресИнтернетExternalAutomationUI</name>
     <title>
       <key>ru</key>
-      <value>Адрес интернет extern automation UI</value>
+      <value>Адрес интернет external automation UI</value>
     </title>
     <id>30</id>
     <valueType>

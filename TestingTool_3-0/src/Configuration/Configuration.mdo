@@ -18,7 +18,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.20.06.27</version>
+  <version>3.20.07.02</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
   <mainSectionPicture/>
@@ -223,6 +223,7 @@
   <commonCommands>CommonCommand.ПросмотрРезультатовВыполненияПроверок</commonCommands>
   <commonCommands>CommonCommand.ПросмотрУправлениеЗаданиями</commonCommands>
   <commonCommands>CommonCommand.УправлениеОбновлениемПлагинов</commonCommands>
+  <commonCommands>CommonCommand.ReleaseDescription</commonCommands>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИспользоватьИгровоеМоделирование</constants>
@@ -233,10 +234,12 @@
   <constants>Constant.ИспользоватьУправлениеРелизами</constants>
   <constants>Constant.УдалятьПереносыСтрокИзКомандыЗапуска</constants>
   <constants>Constant.СрокХраненияСобытий</constants>
+  <constants>Constant.АдресИнтернетReleaseDescription</constants>
   <commonForms>CommonForm.ДополнительныеОтчетыИОбработки</commonForms>
   <commonForms>CommonForm.ОбщиеНастройиСистемы</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийСистемы</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
+  <commonForms>CommonForm.ReleaseDescription</commonForms>
   <catalogs>Catalog.АгентыТестирования</catalogs>
   <catalogs>Catalog.Алгоритмы</catalogs>
   <catalogs>Catalog.Базы1С</catalogs>
@@ -324,7 +327,7 @@
   <informationRegisters>InformationRegister.ОценкаВыполненияВремениТестовВручную</informationRegisters>
   <informationRegisters>InformationRegister.ПеременныеЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.Планировщик</informationRegisters>
-  <informationRegisters>InformationRegister.ПланировщикРлизов</informationRegisters>
+  <informationRegisters>InformationRegister.ПланировщикРелизов</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеПеременныеЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.ПриложенияПротоколовВыполненияТестов</informationRegisters>
