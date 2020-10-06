@@ -319,7 +319,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -365,7 +364,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>

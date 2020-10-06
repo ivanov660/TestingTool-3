@@ -988,4 +988,12 @@
     <comment></comment>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="21b403e4-e150-4f7f-920d-04ea53860861">
+    <name>Editor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Editor</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>
