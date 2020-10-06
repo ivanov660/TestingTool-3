@@ -18444,7 +18444,7 @@
       <name>Variable</name>
       <title>
         <key>ru</key>
-        <value>Variable</value>
+        <value>Терм/переменная в памяти</value>
       </title>
       <id>99</id>
       <valueType>
@@ -18462,7 +18462,7 @@
       <name>Value</name>
       <title>
         <key>ru</key>
-        <value>Value</value>
+        <value>Значение</value>
       </title>
       <id>100</id>
       <valueType>
@@ -18507,7 +18507,7 @@
       <name>Variable</name>
       <title>
         <key>ru</key>
-        <value>Variable</value>
+        <value>Терм/переменная в памяти</value>
       </title>
       <id>97</id>
       <valueType>
@@ -18525,7 +18525,7 @@
       <name>Value</name>
       <title>
         <key>ru</key>
-        <value>Value</value>
+        <value>Значение</value>
       </title>
       <id>98</id>
       <valueType>
