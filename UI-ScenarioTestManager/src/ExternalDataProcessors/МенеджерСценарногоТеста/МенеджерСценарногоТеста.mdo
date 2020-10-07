@@ -415,20 +415,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
   </attributes>
-  <attributes uuid="36af273d-f61d-4629-b769-6cb893954482">
-    <name>РедактироватьНаборСценариев</name>
-    <synonym>
-      <key>ru</key>
-      <value>Показывать набор сценариев в отдельном окне</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="f796491a-9058-4e4f-b07c-7d05619e528d">
     <name>РежимАвтотест</name>
     <synonym>
@@ -529,52 +515,6 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="cff45511-a4fd-442c-ad34-a6151665c0b5">
-    <name>КаталогДляОбмена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Каталог для обмена командами</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="16b6cc75-595b-40e4-9a3a-b9b2daf9b720">
-    <name>ИдентификаторЭкземпляраАгента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор экземпляра агента</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="be8d5084-f0ed-4e5f-83b1-d1fee3a6f278">
-    <name>РежимРаботаАгента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Режим работа агента</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Boolean</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -892,16 +832,6 @@
     <synonym>
       <key>ru</key>
       <value>Модуль выгрузить загрузить формат проекта сценария XML</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="dc9be1e5-e9dd-4c09-b70a-0af214f0546f">
-    <name>Модуль_ОбработкаКомандИзКаталогаОбмена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Модуль обработка команд из каталога обмена</value>
     </synonym>
     <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
