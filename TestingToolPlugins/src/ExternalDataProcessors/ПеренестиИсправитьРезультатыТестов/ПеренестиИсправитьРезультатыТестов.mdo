@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c4fa497-0703-47e2-b150-082b222f79a0">
+  <producedTypes>
+    <objectType typeId="f45b8f5c-b998-4af8-b0f6-464bcaf9dfd3" valueTypeId="063dff1d-154a-4881-88cd-6f200193d292"/>
+  </producedTypes>
+  <name>ПеренестиИсправитьРезультатыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенести исправить результаты тестов</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="8910a7c1-958d-442e-837c-2dcffcf6ba3b"/>
+  <defaultForm>ExternalDataProcessor.ПеренестиИсправитьРезультатыТестов.Form.Форма</defaultForm>
+  <forms uuid="66d75465-9abf-4d94-b370-001ff69e1631">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
