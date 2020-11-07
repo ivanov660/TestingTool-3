@@ -891,6 +891,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="8298be19-ac47-4707-be87-ee3650cf73c0">
+    <name>Модуль_ФункцияПамять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль функция память</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="97eab47b-abb1-4bd9-9bb5-72b41ba93c08">
     <name>Help</name>
     <synonym>

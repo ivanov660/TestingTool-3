@@ -14171,10 +14171,10 @@
       </edit>
     </columns>
     <columns>
-      <name>filename</name>
+      <name>FileName</name>
       <title>
         <key>ru</key>
-        <value>Filename</value>
+        <value>File name</value>
       </title>
       <id>29</id>
       <valueType>
@@ -14646,6 +14646,42 @@
       <id>76</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Type</name>
+      <title>
+        <key>ru</key>
+        <value>Type</value>
+      </title>
+      <id>111</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Key</name>
+      <title>
+        <key>ru</key>
+        <value>Key</value>
+      </title>
+      <id>112</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -16165,6 +16201,60 @@
       <id>77</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>FileName</name>
+      <title>
+        <key>ru</key>
+        <value>File name</value>
+      </title>
+      <id>108</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Type</name>
+      <title>
+        <key>ru</key>
+        <value>Type</value>
+      </title>
+      <id>109</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Key</name>
+      <title>
+        <key>ru</key>
+        <value>Key</value>
+      </title>
+      <id>110</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
