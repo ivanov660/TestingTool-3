@@ -17,7 +17,6 @@
   <content>Catalog.ШаблоныКоманд</content>
   <content>Enum.СтатусыЗаданий</content>
   <content>Enum.ТипыДействийЗаданий</content>
-  <content>DataProcessor.КонсольЗаданий</content>
   <content>InformationRegister.ЛогВыполненныхЗаданий</content>
   <content>InformationRegister.НастройкаСозданияЗаданий</content>
   <content>InformationRegister.Планировщик</content>

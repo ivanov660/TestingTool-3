@@ -79,4 +79,20 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="6a46416d-a3fa-4df3-bd31-20454bc6a536">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>
