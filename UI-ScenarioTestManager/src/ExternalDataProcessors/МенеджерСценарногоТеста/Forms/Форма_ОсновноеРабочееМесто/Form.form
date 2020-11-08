@@ -14690,6 +14690,23 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>TurnToCommentInBlock</name>
+      <title>
+        <key>ru</key>
+        <value>Turn to comment in block</value>
+      </title>
+      <id>114</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТаблицаСценария</name>
@@ -16255,6 +16272,23 @@
       <valueType>
         <types>String</types>
         <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>TurnToCommentInBlock</name>
+      <title>
+        <key>ru</key>
+        <value>Turn to comment in block</value>
+      </title>
+      <id>113</id>
+      <valueType>
+        <types>Boolean</types>
       </valueType>
       <view>
         <common>true</common>
