@@ -15,7 +15,6 @@
   <content>InformationRegister.НастройкиРаботыПользователяНаРабочемМесте</content>
   <content>Catalog.РабочиеМеста</content>
   <content>DataProcessor.УправлениеСпискомПроцессовОСWindows</content>
-  <content>DataProcessor.КонсольЗаданий</content>
   <content>Catalog.ДополнительныеОтчетыИОбработки</content>
   <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
   <content>Catalog.ИдентификаторыОбъектовМетаданных</content>

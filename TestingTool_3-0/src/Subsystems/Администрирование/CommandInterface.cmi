@@ -72,7 +72,6 @@
       <commands>DataProcessor.УдалениеДанных.StandardCommand.Open</commands>
       <commands>DataProcessor.УправлениеСпискомПроцессовОСWindows.StandardCommand.Open</commands>
       <commands>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси.StandardCommand.Open</commands>
-      <commands>DataProcessor.КонсольЗаданий.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
