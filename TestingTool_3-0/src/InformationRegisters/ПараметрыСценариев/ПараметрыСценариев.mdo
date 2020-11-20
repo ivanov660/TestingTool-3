@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f67155ad-80b1-4fb5-a54f-265c3e00980d">
+  <producedTypes>
+    <selectionType typeId="f795e55d-334b-41ec-8db2-16aae68004f4" valueTypeId="4d5ce6ee-62ff-41e4-8533-fd24cf350b6d"/>
+    <listType typeId="3bb43aeb-4db7-4e77-9c02-52ed5d5287a8" valueTypeId="bea23f16-07a5-4ad4-ab4e-ee23c9025b41"/>
+    <managerType typeId="f9b00845-94ad-4d3f-8c80-1f7fcf82eccd" valueTypeId="3a0c37f7-6d89-4242-b820-a3880f9228d1"/>
+    <recordSetType typeId="974cfad4-3e90-43a2-8f46-85cc4dfec8f2" valueTypeId="69f35d18-77e0-4883-925c-e1de7b66bec3"/>
+    <recordKeyType typeId="d5f49fdf-ba8d-4313-a71f-deb1c856d0f8" valueTypeId="b97efcb1-7fb7-4666-ae88-522c5ead1858"/>
+    <recordType typeId="c8762a08-9c2a-4c88-b5c0-a700d423cf48" valueTypeId="b92b4375-66af-47c8-959e-5786c0ef3c89"/>
+    <recordManagerType typeId="c9df9c29-ce49-4651-b65a-3c7046efccbb" valueTypeId="82498919-ba28-481b-9b5e-fa7e9884f2ce"/>
+  </producedTypes>
+  <name>ПараметрыСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="322fdb63-9ad6-43c2-af60-54a11eef588d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <types>Date</types>
+      <types>Boolean</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="b91ef1d7-d471-4979-8bc1-7cdba355ec07">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05bd8530-a761-4a8a-b0e6-dd7449b0c5f1">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b57d7b1e-84e3-4b0e-9242-35a30e1f8c48">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e614dc12-78e5-49b8-8c68-17694ad7b1fa">
+    <name>ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>
