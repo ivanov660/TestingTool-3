@@ -413,6 +413,62 @@ EndProcedure
 EndProcedure
 
 &НаСервере
+Процедура мСцен_ConvertItemAddition(ЧтениеXML, РодительВетка)
+
+	// создадим ветку
+	ТекущаяВетка = РодительВетка.ПолучитьЭлементы().Добавить();
+	ТекущаяВетка.UID = строка(новый UUID());
+	ТекущаяВетка.FUID = ТекущаяВетка.UID;
+	ТекущаяВетка.Наименование = "";
+	ТекущаяВетка.ТипОбъекта = ЧтениеXML.Name;
+	ТекущаяВетка.ИмяОбъекта = "";
+	ТекущаяВетка.ЗаголовокОбъекта = "";
+	
+	While ЧтениеXML.ReadAttribute() Do
+		If ЧтениеXML.Name = "name" Then
+			ТекущаяВетка.ИмяОбъекта = ЧтениеXML.Value;
+		ElsIf ЧтениеXML.Name = "title" Then
+			ТекущаяВетка.ЗаголовокОбъекта = ЧтениеXML.Value;
+		EndIf;
+	EndDo;
+
+	LastProcessedControl = ПреобразоватьЗаголовокИмяПеременной(ТекущаяВетка.ТипОбъекта, ? (ТекущаяВетка.ЗаголовокОбъекта = "", ТекущаяВетка.ИмяОбъекта, ТекущаяВетка.ЗаголовокОбъекта));
+	ИмяПеременной = РодительВетка.ИмяПеременной + LastProcessedControl;
+	ТекущаяВетка.ИмяПеременной = ИмяПеременной;
+	ТекущаяВетка.Действие = "НайтиОбъект";
+	
+	// основные элементы отображения
+	ТекущаяВетка.Наименование = мСцен_ПолучитьНаименованиеЧПУ(ТекущаяВетка);
+	ТекущаяВетка.ДанныеКартинки = мСцен_ПолучитьДанныеКартинки_НаКлиенте(ТекущаяВетка);	
+
+	ЧтениеXML.Read();
+
+	CommandConverted = False;
+	While ЧтениеXML.NodeType <> XMLNodeType.EndElement Do
+
+		If ЧтениеXML.Name = "FormField" Then			
+			мСцен_ConvertField(ЧтениеXML, ТекущаяВетка); // GetFullHierarchy
+		ElsIf ЧтениеXML.Name = "FormButton" Then
+			мСцен_ConvertButton(ЧтениеXML, ТекущаяВетка);  // GetFullHierarchy
+		Else 
+			//ТекущаяВетка.Наименование = "Команда";
+			If мСцен_ConvertCommand(ЧтениеXML, ТекущаяВетка) Then
+				CommandConverted = True;
+			Else
+				Raise NStr("en = 'Unknown node'; ru = 'Неопознанный узел '") + ЧтениеXML.Name + ": " + ЧтениеXML.Value;
+			EndIf;
+		EndIf;
+	EndDo;
+	
+	//Если CommandConverted = Ложь И Объект.ГенерироватьПолучениеРодительскихОбъектовВИерархии=Ложь Тогда
+	//	РодительВетка.ПолучитьЭлементы().Удалить(ТекущаяВетка); // GetFullHierarchy
+	//КонецЕсли;
+
+	ЧтениеXML.Read();
+
+EndProcedure
+
+&НаСервере
 Процедура мСцен_ConvertTable(ЧтениеXML, РодительВетка)
 
 	// создадим ветку
@@ -449,6 +505,8 @@ EndProcedure
 		If ЧтениеXML.Name = "FormField" Then
 			//мСцен_ConvertField(ЧтениеXML, ТекущаяВетка);  // GetFullHierarchy
 			мСцен_ConvertField(ЧтениеXML, ТекущаяВетка);  // GetFullHierarchy
+		ElsIf ЧтениеXML.Name="FormItemAddition" Then
+			мСцен_ConvertItemAddition(ЧтениеXML, ТекущаяВетка); // GetFullHierarchy
 		ElsIf ЧтениеXML.Name = "FormGroup" Then
 			//мСцен_ConvertGroup(ЧтениеXML, ТекущаяВетка); // GetFullHierarchy
 			мСцен_ConvertGroup(ЧтениеXML, ТекущаяВетка); // GetFullHierarchy
@@ -1602,6 +1660,8 @@ EndFunction
 		VariableName = "Форма";
 	ElsIf ТипОбъекта = "FormField" Then
 		VariableName = "Поле";
+	ElsIf ТипОбъекта = "FormItemAddition" Then
+		VariableName = "ДополнениеЭлементаФормы";
 	ElsIf ТипОбъекта = "FormButton" Then
 		VariableName = "Кнопка";
 	ElsIf ТипОбъекта = "FormGroup" Then

@@ -18,7 +18,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.20.11.07</version>
+  <version>3.20.11.20</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
   <mainSectionPicture/>
@@ -324,6 +324,7 @@
   <informationRegisters>InformationRegister.НовостиПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ОписаниеМашиныСостояний</informationRegisters>
   <informationRegisters>InformationRegister.ОценкаВыполненияВремениТестовВручную</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыСценариев</informationRegisters>
   <informationRegisters>InformationRegister.ПеременныеЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.Планировщик</informationRegisters>
   <informationRegisters>InformationRegister.ПланировщикРелизов</informationRegisters>

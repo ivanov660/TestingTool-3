@@ -34,4 +34,5 @@
   <content>CommonCommand.ПросмотрРезультатовВыполненияПроверок</content>
   <content>InformationRegister.ПриложенияПротоколовВыполненияТестов</content>
   <content>InformationRegister.СвязиПользователейБаз1С</content>
+  <content>InformationRegister.ПараметрыСценариев</content>
 </mdclass:Subsystem>
