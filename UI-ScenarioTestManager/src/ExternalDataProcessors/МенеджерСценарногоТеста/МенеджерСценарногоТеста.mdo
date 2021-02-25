@@ -900,6 +900,60 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="c7cf2454-17af-453c-98d8-1de0e0a8d2fd">
+    <name>Форма_АнализаСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма анализа сценария</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7abb0805-b20f-45b9-8079-fa208353ba5c">
+    <name>Модуль_ВекторноеПространство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль векторное пространство</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="390fc060-f23d-466b-80af-26bca432f18d">
+    <name>Модуль_СтеммерПортера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль стеммер портера</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f15c30cf-c9fe-45d1-b953-8d766bb1004b">
+    <name>Модуль_НаивныйБайес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль наивный байес</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="59eadbb4-0bf9-4134-93fc-ecf78c5f84a2">
+    <name>Модуль_ОбработкаТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обработка текста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb7b32d5-0d08-4528-8d1c-0e7687adcb1c">
+    <name>Модуль_ВероятностнаяСеть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль вероятностная сеть</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="97eab47b-abb1-4bd9-9bb5-72b41ba93c08">
     <name>Help</name>
     <synonym>
@@ -932,6 +986,30 @@
     <synonym>
       <key>ru</key>
       <value>Editor</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="99d9658b-f0ba-4506-9c50-041097660f3c">
+    <name>СтопСлова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоп слова</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2fd2ba8c-a876-4beb-bd16-a615d1fca4f6">
+    <name>СтопФразы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоп фразы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a5f5c068-b087-4b1a-ad19-1a2db46e4c4d">
+    <name>ФразыСинонимы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фразы синонимы</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
