@@ -40,6 +40,13 @@
     </edit>
     <main>true</main>
   </attributes>
+  <parameters>
+    <name>ПутьКФайлу</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
