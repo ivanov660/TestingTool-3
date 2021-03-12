@@ -1766,6 +1766,10 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
+              <handlers>
+                <event>TextEditEnd</event>
+                <name>ТаблицаСвойствШаблоновШаблонОкончаниеВводаТекста</name>
+              </handlers>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
@@ -1931,6 +1935,10 @@
           <handlers>
             <event>OnChange</event>
             <name>ТаблицаСвойствШаблоновПриИзменении</name>
+          </handlers>
+          <handlers>
+            <event>BeforeDeleteRow</event>
+            <name>ТаблицаСвойствШаблоновПередУдалением</name>
           </handlers>
           <searchStringAddition>
             <visible>true</visible>
