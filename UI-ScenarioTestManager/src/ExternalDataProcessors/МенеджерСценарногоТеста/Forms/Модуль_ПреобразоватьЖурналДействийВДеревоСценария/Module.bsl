@@ -448,6 +448,8 @@ EndProcedure
 
 		If ЧтениеXML.Name = "FormField" Then			
 			мСцен_ConvertField(ЧтениеXML, ТекущаяВетка); // GetFullHierarchy
+		ElsIf ЧтениеXML.Name = "FormItemAddition" Then			
+			мСцен_ConvertItemAddition(ЧтениеXML, ТекущаяВетка); // GetFullHierarchy
 		ElsIf ЧтениеXML.Name = "FormButton" Then
 			мСцен_ConvertButton(ЧтениеXML, ТекущаяВетка);  // GetFullHierarchy
 		Else 
@@ -786,6 +788,43 @@ EndProcedure
 		//AddLine(Writer, VariableName + ? (ScriptVariant = "en", ".Click();", ".Нажать();"), True);
 		LastProcessedCommand = "Нажать";    // обработано +
 		ЧтениеXML.Read();
+	
+	ElsIf ЧтениеXML.Name = "ClickViewStatusItem" Then
+		Presentation = "";
+		While ЧтениеXML.ReadAttribute() Do
+			If ЧтениеXML.Name = "item" Then
+				Presentation = ЧтениеXML.Value;
+			EndIf;
+		EndDo;
+		ТекущаяВетка.Presentation = Presentation;
+		LastProcessedCommand = "НажатьНаЭлементСостоянияПросмотра";    // обработано +
+		ЧтениеXML.Read();
+	ElsIf ЧтениеXML.Name = "GetViewStatusItemTexts" Then
+		LastProcessedCommand = "ПолучитьТекстыЭлементовСостоянияПросмотра";    // обработано +
+		ЧтениеXML.Read();
+	ElsIf ЧтениеXML.Name = "DeleteViewStatusItem" Then
+		Presentation = "";
+		While ЧтениеXML.ReadAttribute() Do
+			If ЧтениеXML.Name = "item" Then
+				Presentation = ЧтениеXML.Value;
+			EndIf;
+		EndDo;
+		ТекущаяВетка.Presentation = Presentation;
+		LastProcessedCommand = "УдалитьЭлементСостоянияПросмотра";    // обработано +
+		ЧтениеXML.Read();
+		
+	ElsIf ЧтениеXML.Name = "inputHTML" Then
+		
+		OutputText = "";
+		While ЧтениеXML.ReadAttribute() Do
+			If ЧтениеXML.Name = "HTML" Then
+				OutputText = ЧтениеXML.Value;
+			//Else
+			//	Raise NStr("en = 'Unknown attribute '; ru = 'Неопознанный атрибут '") + ЧтениеXML.Name + ": " + ЧтениеXML.Value;
+			EndIf;
+		EndDo;
+		LastProcessedCommand = "inputHTML";    // обработано +
+		ЧтениеXML.Read();
 
 	ElsIf ЧтениеXML.Name = "clear" Then
 		//AddLine(Writer, VariableName + ? (ScriptVariant = "en", ".Clear();", ".Очистить();"), True);
@@ -1000,13 +1039,15 @@ EndProcedure
 
 	ElsIf ЧтениеXML.Name = "goOneLevelUp" Then
 		//AddLine(Writer, VariableName + ? (ScriptVariant = "en", ".GoOneLevelUp();", ".ПерейтиНаУровеньВверх();"), True);
-		LastProcessedCommand = "ПерейтиНаУровеньВверх";
 		ЧтениеXML.Read();
+		мСцен_ConvertCommandPartRowDescriptionPartInt(ЧтениеXML, РодительВетка, ТекущаяВетка);
+		LastProcessedCommand = "ПерейтиНаУровеньВверх";
 
 	ElsIf ЧтениеXML.Name = "goOneLevelDown" Then
 		//AddLine(Writer, VariableName + ? (ScriptVariant = "en", ".GoOneLevelDown();", ".ПерейтиНаУровеньВниз();"), True);
-		LastProcessedCommand = "ПерейтиНаУровеньВниз";
 		ЧтениеXML.Read();
+		мСцен_ConvertCommandPartRowDescriptionPartInt(ЧтениеXML, РодительВетка, ТекущаяВетка);
+		LastProcessedCommand = "ПерейтиНаУровеньВниз";
 
 	ElsIf ЧтениеXML.Name = "gotoNextRow" Then
 		SwitchSelection = false;
