@@ -4076,4 +4076,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>InformationRegister.НастройкиПользователя</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
