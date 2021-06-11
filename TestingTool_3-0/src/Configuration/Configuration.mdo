@@ -18,7 +18,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.20.11.20</version>
+  <version>3.20.06.21</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
   <mainSectionPicture/>
@@ -66,6 +66,8 @@
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styles>Style.Стандартный</styles>
+  <styles>Style.Темный</styles>
   <commonPictures>CommonPicture.BrokenQuad_32x32</commonPictures>
   <commonPictures>CommonPicture.clock</commonPictures>
   <commonPictures>CommonPicture.FailedQuad_32x33</commonPictures>
@@ -159,13 +161,13 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоВызовСервера</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоСервер</commonModules>
   <commonModules>CommonModule.ПерепрефиксацияОбъектов</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийВызовСервера</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийКлиентСервер</commonModules>
   <commonModules>CommonModule.ПланировщикЗаданийСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПолнотекстовыйПоискКлиент</commonModules>
   <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
   <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
@@ -173,6 +175,7 @@
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
+  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <commonModules>CommonModule.РабочееМестоСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСлужебный</commonModules>
@@ -190,7 +193,6 @@
   <commonModules>CommonModule.СценарноеТестированиеСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
-  <commonModules>CommonModule.ПрограммноеИзменениеФормСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <httpServices>HTTPService.Reports</httpServices>
@@ -320,6 +322,7 @@
   <informationRegisters>InformationRegister.НастройкаРабочегоМестаНачальнойСтранцы</informationRegisters>
   <informationRegisters>InformationRegister.НастройкаСозданияЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиОбъединенияТестов</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПользователя</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиРаботыПользователяНаРабочемМесте</informationRegisters>
   <informationRegisters>InformationRegister.НовостиПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ОписаниеМашиныСостояний</informationRegisters>
