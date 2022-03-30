@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="__STYLE__"></link></head><body>
+<h2>Параметры запуска обработки в системе автоматического тестирования</h2>
+<div><br></div>
+<div>Параметры запуска:</div>
+
+<div><br></div>
+<div>-<i><b><font color="#536ac2">TestCommand</font></b></i> или <font color="#536ac2"><i><b>ТестКоманда</b></i></font> - команда запуска теста имя действия или сценария;</div>
+<div>-<font color="#536ac2"><i><b>TestLibDir</b></i></font> или <font color="#536ac2"><i><b>ТестБиблиотека</b></i></font> - путь к библиотеке скриптов;</div>
+<div>-<b><i><font color="#536ac2">TestLog</font></i></b> или <b><i><font color="#536ac2">ТестКаталогОтчетов</font></i></b> - путь к каталогу отчетов;</div>
+<div>-<b><i><font color="#536ac2">TestИмяЛога</font></i></b> или <b><i><font color="#536ac2">TestReportNameUI</font></i></b> - путь к файлу отчета;</div>
+<div>-<b><i><font color="#536ac2">ТестСценарий</font></i></b> или <b><i><font color="#536ac2">TestScript</font></i></b> - путь к сценарию</div>
+<div><br></div>
+<div>Пример запуска:</div>
+<div>"<i>c:\Program Files\1cv8\8.3.9.2170\bin\1cv8.exe</i>" </div>
+<div> <i>Сервер:Порт/ИмяБазы</i> </div>
+<div> /DisableStartupMessages </div>
+<div> /Execute </div>
+<div> "<i>e:\GIT\МенеджерТестовКонфигурации1С.epf</i>"  /C"<b><i><font color="#536ac2">TestCommand</font></i></b> создать новый заказ клиента</div>
+<div> <i><font color="#536ac2"><b>TestLog</b></font></i> c:\temp\reports\ <b><font color="#536ac2"><i>TestLibDir</i></font></b>   c:\GIT\Lib\ <b><i><font color="#536ac2">TestReportName</font></i></b> сцен-1010.xml"</div></body></html>

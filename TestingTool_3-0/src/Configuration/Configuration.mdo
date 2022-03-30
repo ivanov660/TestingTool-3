@@ -12,6 +12,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9b7d90a3-c2a7-4841-aea2-e3e3d92c6d37"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="46132507-4ccd-4283-a6cd-258bc8734d0d"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="89c44b1e-024a-46ca-9cc9-81b524900577"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="10d01cfd-f3a0-4ae7-a9bd-4ebc3c6964c1" /> 
   <namePrefix></namePrefix>
   <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>

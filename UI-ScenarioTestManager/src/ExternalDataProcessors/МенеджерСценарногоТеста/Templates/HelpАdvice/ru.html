@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="__STYLE__"></link></head><body>
+<h2>Советы по разработке</h2>
+<div>В этом разделе приведены советы по программированию при использовании инструмента тестирования. </div>
+<div>
+<h3>Как открыть журнал, форму списка, форму элемента?</h3></div>
+<div>1) Используйте <span style="font-weight: bold;"><i><font color="#536ac2">ПерейтиПоНавигационнойСсылке</font></i></span></div>
+<div>2) Используйте <i><b><font color="#536ac2">Форма=ПолучитьФорму()</font></b></i> и <font color="#536ac2"><i><b>Форма.Открыть()</b></i></font></div>
+<div>
+<h3>Как найти и открыть документ, справочник в динамическом списке, таблице?</h3></div>
+<div>1) Используйте <b><i><font color="#536ac2">ПерейтиПоНавигационнойСсылке </font></i></b></div>
+<div>2) Используйте <span style="font-weight: bold;"><font color="#536ac2"><i>ПоказатьЗначение</i></font></span></div>
+<div>3) Выполните последовательность действий: </div><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div>- открыть журнал, </div>
+<div>- найти документ по номеру или справочник по наименованию, </div>
+<div>- выделить текущую строку, </div>
+<div>- нажать открыть.</div></blockquote>
+<div>4) Если это динамический список, то вы можете установить программно отбор по номеру или другим полям.</div>
+<div>       <b><i><font color="#536ac2">Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Заказы клиентов");</font></i></b></div>
+<div></div>
+<div>       <b><font color="#536ac2"><i>ОбщегоНазначенияКлиентСервер.УстановитьЭлементОтбораДинамическогоСписка(Форма.Список, "Номер", "ТД00-000023",,,,РежимОтображенияЭлементаНастройкиКомпоновкиДанных.БыстрыйДоступ);</i></font></b></div>
+<div>5) Если это таблица значений, то вы можете установить программно отбор по номеру или другим полям. Пример:
+
+</div>
+<div>       <b><i><font color="#536ac2">Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Заказ клиента*");</font></i></b></div>
+<div>
+<div><b><i><font color="#536ac2">       мОтбор = Новый Структура("Номенклатура",Номенклатура);</font></i></b></div>
+<div><b><i><font color="#536ac2">       Форма.Элементы.Товары.ОтборСтрок = Новый ФиксированнаяСтруктура(мОтбор);</font></i></b></div>
+<div>или снять</div>
+<div>       <b><i><font color="#536ac2"> Форма.Элементы.Товары.ОтборСтрок = Неопределено;</font></i></b></div></div>
+<h3>Как найти ссылку на справочник, документ?   </h3>
+<div>1) Используйте <b><i><font color="#536ac2">Модуль_СправочникиКлиент.НайтиСправочник</font></i></b> или <b><i><font color="#536ac2">Модуль_ДокументыКлиент.НайтиДокумент</font></i></b></div>
+<div>2) Используйте язык запросов 1С и объект <b><i><font color="#536ac2">Запрос </font></i></b>(для блока включить опцию сервер). Далее сохраните в параметры и используйте это значение.</div>
+<div>5) Создайте серверное действие (в библиотеку) по аналогии с пунктом 2. Далее в требуемом месте клиентского блока вызовите команду </div>
+<div>4) Используйте объектную модель (не рекомендуем), <b><i><font color="#536ac2">НайтиПоКоду</font></i></b>, <b><i>НайтиПоНаименованию</i></b>.</div>
+<div><br></div>
+<h3>Как добавить новую строку товара в табличную часть?</h3>
+<div>1) Используйте объектную модель: </div><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div>- найдите форму, используйте <b><i><font color="#536ac2">Модуль_СервисныеФункцииКлиент.НайтиФорму()</font></i></b> </div>
+<div>- для табличной части выполните функцию добавить: <b><i><font color="#536ac2">Форма.Объект.Товары.Добавить()</font></i></b> и после обязательно установите ТекущуюСтроку на первую позицию: <i><b><font color="#536ac2">Форма.Элементы.Товары.ТекущаяСтрока=0</font></b></i></div></blockquote>
+<div>2) Откройте форму и вкладку "Товары", затем нажмите кнопку добавить.</div>
+<h3>Как нажать на кнопку программно?</h3>
+<div><u>Подготовительные действия</u>:</div>
+<div>1) Добавьте в расширение требуемую форму</div>
+<div>2) В форме расширения или текущей форме конфигурации добавьте экспортную функцию <font color="#536ac2"><b><i>ВыполнитьДействиеФормы</i></b></font></div>
+<div>(код ищите ниже):</div>
+<div><u>Программные действия</u>:</div>
+<div>2) Найдите форму <font color="#536ac2"><i><b>Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму()</b></i></font></div>
+<div>3) Найдите элемент <font color="#536ac2"><i><b>Элемент = Модуль_СервисныеФункцииКлиент.НайтиЭлемент()</b></i></font></div>
+<div>4) Выполните функцию <i><b><font color="#536ac2">Форма.ВыполнитьДействиеФормы("ИмяОбработчика",Элемент)</font></b></i> или <i><b><font color="#536ac2">Форма.ВыполнитьДействиеФормы("ИмяОбработчика", МассивПараметров)</font></b></i></div>
+<h3>Как нажать на типовую кнопку кнопку у которой нет обработчика?</h3>
+<div>1) Откройте/найдите форму <i style="caret-color: rgb(83, 106, 194); color: rgb(83, 106, 194);"><b>Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму</b></i></div>
+<div>2) Активизируйте форму <i style="caret-color: rgb(83, 106, 194); color: rgb(83, 106, 194);"><b>Модуль_СервисныеФункцииКлиент.АктивизироватьФорму(Форма)</b></i></div>
+<div>3) Найдите кнопку <b><i><font color="#536ac2">Элемент = Модуль_СервисныеФункцииКлиент.НайтиЭлемент</font></i></b></div>
+<div>4) Установите кнопки свойство КнопкаПоУмолчанию в Истина: <b><i><font color="#536ac2">Элемент.КнопкаПоУмолчанию=Истина</font></i></b></div>
+<div>5) Отправьте команду <i style="caret-color: rgb(83, 106, 194); color: rgb(83, 106, 194);"><b>Модуль_СервисныеФункцииКлиент.ОтправитьEnter()</b></i></div>
+<h3>Как установить значение элемента формы?</h3>
+<div>1) Найдите форму</div>
+<div>2) Установите значение для объекта ЭтаФорма. Пример:</div>
+<div><br><b><i><font color="#536ac2">        Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Заказ клиента*");</font></i></b></div>
+<div><b><i><font color="#536ac2">        Форма.Объект.Склад=СкладСсылка;</font></i></b></div>
+<div><b><i><font color="#536ac2">        Форма.ВызватьДействиеФормы("СкладПриИзменении",Неопределено);</font></i></b></div>
+<div>или<br><i><b><font color="#536ac2">        Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Управление поступлением");</font></b></i></div>
+<div><i><b><font color="#536ac2">        Форма.Склад = СкладСсылка;</font></b></i></div>
+<div><i><b><font color="#536ac2">        Форма.ВызватьДействиеФормы("СкладПриИзменении",Неопределено);</font></b></i></div>
+<h3>Как найти форму по части названия?</h3>
+<div>Для поиска по части строки в командах поддерживается добавление символа '<font color="#536ac2"><b><i>*</i></b></font>'. Пример: "Заказ клиента *" и <b><i><font color="#536ac2">Модуль_СервисныеФункцииКлиент.НайтиФорму("Заказ клиента*")</font></i></b></div>
+<h3>Как вызвать процедуру внутри обработчика формы, которая не экспортная?</h3>
+<div>Необходимо в каждую форму, с которой будете работать, добавить экспортную функцию <font color="#536ac2"><i><b>ВыполнитьДействияФормы.</b></i></font></div>
+<div>После этого вам будет доступно вызвать эту функцию для выбранной формы. Пример:</div>
+<div><b><i><font color="#536ac2">   Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Заказы клиентов");</font></i></b></div>
+<div><b><i><font color="#536ac2">  Форма.ВыполнитьДействиеФормы("Имя действия", Массив элементов или Элемент, или Неопределено)</font></i></b></div>
+<h3>Как установить фокус на элемент управления?</h3>
+<div>Если форма поддерживает установку фокуса на выбранный элемент, то необходимо выполнить следующие действия:</div>
+<div>1) Открыть/найти форму: <b><i><font color="#536ac2">Форма=Модуль_СервисныеФункцииКлиент.НайтиФорму</font></i></b></div>
+<div>2) Найти элемент: <font color="#536ac2"><b><i>Элемент = Модуль_СервисныеФункцииКлиент.НайтиЭлемент</i></b></font></div>
+<div>3) Вызвать функцию установки фокуса: <font color="#536ac2"><i><b>Модуль_СервисныеФункцииКлиент.УстановитьФокус(Форма,Элемент)</b></i></font></div>
+<div><br></div>
+<h3>Как выполнять код при работе с разными формами?</h3>
+<div>Если вы выполняете программную работу с формами, то у вас должен быть разрыв в программном контексте между ними. Т.е. если вы из одной формы программно вызываете открытие второй и что-то хотите выполнить в ней, то вам необходимо разделить эту операцию на два или три действия, т.к. управление должно быть передано платформе для открытия и отрисовки второй формы. Пример:</div>
+<div>1) Действие открыть форму выбора клиента в из формы заказа клиента</div>
+<div>    <b><i><font color="#536ac2">Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Заказ клиента*");</font></i></b></div>
+<div><b><i><font color="#536ac2">    Элемент = Модуль_СервисныеФункцииКлиент.НайтиЭлемент(Форма,"Партнер");</font></i></b></div>
+<div><b><i><font color="#536ac2">    Модуль_СервисныеФункции.УстановитьФокус(Форма,Элемент);</font></i></b></div>
+<div><b><i><font color="#536ac2">    Модуль_СервисныеФункции.АктивироватьФорму(Форма);</font></i></b></div>
+<div><b><i><font color="#536ac2">    Модуль_СервисныеФункции.ОтправитьКлавиши("^{F4}");</font></i></b></div>
+<div>действие завершается и передается контекст платформе для отрисовки</div>
+<div>2) Действие ввод в поле поиска текста</div>
+<div>
+<div>    <i><b><font color="#536ac2">Форма = Модуль_СервисныеФункцииКлиент.НайтиФорму("Клиенты*");</font></b></i></div></div>
+<div><i><b><font color="#536ac2">    Форма.ПолеПоиска="Алхимов";</font></b></i></div>
+<div><i><b><font color="#536ac2">    // и т.д.</font></b></i></div>
+<div><br></div>
+<h3>Какие хитные функции я могу вызвать из БСП?</h3>
+<div><br></div>
+<div>1) Функция позволяет провести и закрыть документ из общего назначения <b><i><font color="#536ac2">ОбщегоНазначенияУТКлиент, </font></i></b><font color="#536ac2"><span style="caret-color: rgb(83, 106, 194);"><b><i>ОбщегоНазначенияУТКлиентСервер</i></b></span></font>. Пример:</div>
+<div><br></div>
+<div>- Записать:</div>
+<div>  <b><i><font color="#536ac2">ОбщегоНазначенияУТКлиент.Записать(Форма);</font></i></b></div>
+<div>- Провести и закырть:</div>
+<div>  <b><i><font color="#536ac2">ОбщегоНазначенияУТКлиент.ПровестиИЗакрыть(Форма, Истина) ;</font></i></b></div>
+<div>- Провести документы:</div>
+<div>  <font color="#536ac2"><b><i>ОбщегоНазначенияУТКлиент.ПровестиДокументы(СписокДокументов);</i></b></font></div>
+<div><b><i><font color="#536ac2"><br></font></i></b></div>
+<div>2) Функции работы с динамическими списками <b><i><font color="#536ac2">ОтборыСписковКлиентСервер</font></i></b> или <font color="#536ac2"><b><i>ОбщегоНазначенияКлиентСервер</i></b></font>. Примеры:</div>
+<div><br></div>
+<div>- Установим отбор динамического списка:</div>
+<div>    <b><i><font color="#536ac2">ОтборыСписковКлиентСервер.УстановитьЭлементОтбораСписка(Список, ИмяПоля, </font></i></b><font color="#536ac2"><span style="caret-color: rgb(83, 106, 194);"><b><i>ПравоеЗначение</i></b></span></font><b><i><font color="#536ac2">);</font></i></b></div>
+<div>- Удалим отбор динамического списка</div>
+<div>    <b><i><font color="#536ac2">ОтборыСписковКлиентСервер.УстановитьЭлементОтбораСписка(Список, ИмяПоля);</font></i></b></div>
+<div>- Устновить доступный пользователю отбор:</div>
+<div><i><font color="#536ac2"><b>    ОбщегоНазначенияКлиентСервер.УстановитьЭлементОтбораДинамическогоСписка(ДинамическийСписок,имяПоля);</b></font></i></div>
+<div><br></div>
+<h3>Функция для внешнего вызова функций и процедур для добавления в формы</h3>
+<div>Эту функцию необходимо вставить в каждую форму конфигурации или расширения, для того чтобы была возможность вызывать встроенные обработчики элементов. По умолчанию для не экспортных функций нет возможности вызова из внешних частей программы</div>
+<div><br></div>
+<div>
+<div>
+<div style="background-color: rgb(255, 255, 254); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;">
+<div><span style="color: #963200;">&amp;НаКлиенте</span></div>
+<div><font color="#00ff00">// этот код можно вставить в модуль расширения</font></div>
+<div><span style="color: #ff0000;">Функция</span> <span style="color: #0000ff;">ПолучитьКомандуФормы</span><span style="color: #ff0000;">(Знач</span> <span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">,Знач</span> <span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">=Неопределено)</span> <span style="color: #ff0000;">Экспорт</span></div>
+<div>    <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span> ""<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">Если</span> <span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">=</span>"" <span style="color: #ff0000;">Тогда</span></div>
+<div>        <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span> ""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">+</span>"();"<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">ИначеЕсли</span> <span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">=Неопределено</span> <span style="color: #ff0000;">Тогда</span></div>
+<div>        <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span> ""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">+</span>"(Неопределено);"<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">ИначеЕсли</span> <span style="color: #0000ff;">ТипЗнч</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">)=</span><span style="color: #0000ff;">Тип</span><span style="color: #ff0000;">(</span>"Массив"<span style="color: #ff0000;">)</span> <span style="color: #ff0000;">Тогда</span></div>
+<div>        <span style="color: #0000ff;">МассивИменПараметров</span> <span style="color: #ff0000;">=</span> <span style="color: #ff0000;">Новый</span> <span style="color: #0000ff;">Массив</span><span style="color: #ff0000;">;</span></div>
+<div>        <span style="color: #ff0000;">Для</span> <span style="color: #0000ff;">ш</span><span style="color: #ff0000;">=</span>0 <span style="color: #ff0000;">по</span> <span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">.</span><span style="color: #0000ff;">ВГраница</span><span style="color: #ff0000;">()</span> <span style="color: #ff0000;">Цикл</span></div>
+<div>            <span style="color: #0000ff;">МассивИменПараметров</span><span style="color: #ff0000;">.</span><span style="color: #0000ff;">Добавить</span><span style="color: #ff0000;">(</span>"МассивПараметров["<span style="color: #ff0000;">+</span><span style="color: #0000ff;">Формат</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">ш</span><span style="color: #ff0000;">,</span>"ЧН=; ЧГ=0"<span style="color: #ff0000;">)+</span>"]"<span style="color: #ff0000;">);</span></div>
+<div>        <span style="color: #ff0000;">КонецЦикла;</span></div>
+<div>        <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span>""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">+</span>"("<span style="color: #ff0000;">+</span><span style="color: #0000ff;">СтрСоединить</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">МассивИменПараметров</span><span style="color: #ff0000;">,</span>","<span style="color: #ff0000;">)+</span>");"<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">ИначеЕсли</span> <span style="color: #0000ff;">ТипЗнч</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">)=</span><span style="color: #0000ff;">Тип</span><span style="color: #ff0000;">(</span>"Структура"<span style="color: #ff0000;">)</span> <span style="color: #ff0000;">Тогда</span></div>
+<div>        <span style="color: #0000ff;">МассивИменПараметров</span> <span style="color: #ff0000;">=</span> <span style="color: #ff0000;">Новый</span> <span style="color: #0000ff;">Массив</span><span style="color: #ff0000;">;</span></div>
+<div>        <span style="color: #ff0000;">Для</span> <span style="color: #ff0000;">каждого</span> <span style="color: #0000ff;">стр</span> <span style="color: #ff0000;">из</span> <span style="color: #0000ff;">МассивПараметров</span> <span style="color: #ff0000;">Цикл</span></div>
+<div>            <span style="color: #0000ff;">МассивИменПараметров</span><span style="color: #ff0000;">.</span><span style="color: #0000ff;">Добавить</span><span style="color: #ff0000;">(</span>"МассивПараметров."<span style="color: #ff0000;">+</span><span style="color: #0000ff;">стр</span><span style="color: #ff0000;">.</span><span style="color: #0000ff;">Ключ</span><span style="color: #ff0000;">+</span>""<span style="color: #ff0000;">);</span></div>
+<div>        <span style="color: #ff0000;">КонецЦикла;</span></div>
+<div>        <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span> ""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">+</span>"("<span style="color: #ff0000;">+</span><span style="color: #0000ff;">СтрСоединить</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">МассивИменПараметров</span><span style="color: #ff0000;">,</span>","<span style="color: #ff0000;">)+</span>");"<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">ИначеЕсли</span> <span style="color: #0000ff;">ТипЗнч</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">)=</span><span style="color: #0000ff;">Тип</span><span style="color: #ff0000;">(</span>"Соответствие"<span style="color: #ff0000;">)</span> <span style="color: #ff0000;">Тогда</span></div>
+<div>        <span style="color: #0000ff;">МассивИменПараметров</span> <span style="color: #ff0000;">=</span> <span style="color: #ff0000;">Новый</span> <span style="color: #0000ff;">Массив</span><span style="color: #ff0000;">;</span></div>
+<div>        <span style="color: #ff0000;">Для</span> <span style="color: #ff0000;">каждого</span> <span style="color: #0000ff;">стр</span> <span style="color: #ff0000;">из</span> <span style="color: #0000ff;">МассивПараметров</span> <span style="color: #ff0000;">Цикл</span></div>
+<div>            <span style="color: #0000ff;">МассивИменПараметров</span><span style="color: #ff0000;">.</span><span style="color: #0000ff;">Добавить</span><span style="color: #ff0000;">(</span>"МассивПараметров.Получить("""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">стр</span><span style="color: #ff0000;">.</span><span style="color: #0000ff;">Ключ</span><span style="color: #ff0000;">+</span>""")"<span style="color: #ff0000;">);</span></div>
+<div>        <span style="color: #ff0000;">КонецЦикла;</span></div>
+<div>        <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span> ""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">+</span>"("<span style="color: #ff0000;">+</span><span style="color: #0000ff;">СтрСоединить</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">МассивИменПараметров</span><span style="color: #ff0000;">,</span>","<span style="color: #ff0000;">)+</span>");"<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">Иначе</span></div>
+<div>        <span style="color: #0000ff;">Команда</span> <span style="color: #ff0000;">=</span> ""<span style="color: #ff0000;">+</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">+</span>"(МассивПараметров);"<span style="color: #ff0000;">;</span></div>
+<div>    <span style="color: #ff0000;">КонецЕсли;</span>  </div>
+<div>    <span style="color: #ff0000;">Возврат</span>  <span style="color: #0000ff;">Команда</span><span style="color: #ff0000;">;</span></div>
+<div><span style="color: #ff0000;">КонецФункции</span></div>
+<div><span style="color: #ff0000;"><br></span></div></div></div></div>
+<div>
+<div style="background-color: rgb(255, 255, 254); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;">
+<div><span style="color: #963200;">&amp;НаКлиенте</span></div>
+<div><font color="#00ff00">// этот код может вызывать код расширения</font></div>
+<div><span style="color: #ff0000;">Процедура</span> <span style="color: #0000ff;">ВыполнитьДействиеФормы</span><span style="color: #ff0000;">(Знач</span> <span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">,Знач</span> <span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">=Неопределено)</span> <span style="color: #ff0000;">Экспорт</span></div>
+<div>    <span style="color: #ff0000;">Выполнить(</span><span style="color: #0000ff;">ПолучитьКомандуФормы</span><span style="color: #ff0000;">(</span><span style="color: #0000ff;">ИмяДействия</span><span style="color: #ff0000;">,</span><span style="color: #0000ff;">МассивПараметров</span><span style="color: #ff0000;">));</span></div>
+<div><span style="color: #ff0000;">КонецПроцедуры</span></div></div></div>
+<div><br></div>
+<div><br></div>
+</body></html>
