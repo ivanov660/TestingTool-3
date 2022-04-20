@@ -724,6 +724,19 @@
       <types>Boolean</types>
     </type>
   </attributes>
+  <attributes uuid="100c6e1c-3030-4519-bbf1-d8797b62fd0c">
+    <name>ПутьИсполняемыйФайлБраузера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь исполняемый файл браузера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="f0fccfc0-f0fc-4288-82ed-360789d5b202">
     <name>Форма_ОсновноеРабочееМесто</name>
     <synonym>
@@ -954,14 +967,61 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="97eab47b-abb1-4bd9-9bb5-72b41ba93c08">
-    <name>Help</name>
+  <templates uuid="70f85f01-7809-466f-a6ee-aaf1e09809e8">
+    <name>QuickStart</name>
     <synonym>
       <key>ru</key>
-      <value>help-UI-TestManager</value>
+      <value>Быстрый старт</value>
     </synonym>
-    <comment></comment>
-    <templateType>BinaryData</templateType>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="79d24446-8d4b-4919-acac-9897609361e2">
+    <name>HelpCI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощь интеграция тестирования</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="7224d6a0-6dc7-43f5-9535-f2c845e9a7f9">
+    <name>HelpArticles</name>
+    <synonym>
+      <key>ru</key>
+      <value>Help articles</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9ae3b073-4c3c-4220-9b54-866b39d37af6">
+    <name>HelpАdvice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Советы разработки</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="04e84519-99eb-4675-b02e-c42b63b15177">
+    <name>HelpWinAutomationUI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый старт</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="7bfe0b2c-617d-4eca-947e-99bee5b3e51b">
+    <name>HelpSteps</name>
+    <synonym>
+      <key>ru</key>
+      <value>Help steps</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="658597ca-4a15-4458-bc76-365644546d0d">
+    <name>HelpCommands</name>
+    <synonym>
+      <key>ru</key>
+      <value>Help commands</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
   </templates>
   <templates uuid="b146f35a-3569-4e6a-b44c-7cd82602a708">
     <name>СхемаAllure</name>
@@ -1012,5 +1072,13 @@
       <value>Фразы синонимы</value>
     </synonym>
     <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4618ae70-aee6-4abc-806d-cdd6d254dda0">
+    <name>Help</name>
+    <synonym>
+      <key>ru</key>
+      <value>Help</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
   </templates>
 </mdclass:ExternalDataProcessor>
