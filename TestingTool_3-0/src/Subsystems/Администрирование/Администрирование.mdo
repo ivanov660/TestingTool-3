@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Администрирование</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -36,4 +35,5 @@
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
   <content>CommonCommand.ReleaseDescription</content>
   <content>InformationRegister.НастройкиПользователя</content>
+  <content>InformationRegister.КартинкиБазы</content>
 </mdclass:Subsystem>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Стабильность выполнения заданий</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="5f1c8bd7-f307-4514-b906-fd00bcb970dd">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Среди последних заданий нет провалившихся</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="df438ea6-4e21-4221-8231-4b44120e138e">
     <name>СредиПоследних5Провалилось1</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Среди последних 5 провалилось 1</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="30158190-476b-42a8-8030-998238ddb77e">
     <name>СредиПоследних5Провалилось2</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>Среди последних 5 провалилось 2</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="688ec478-ac7a-489f-b93a-96f77cf634f1">
     <name>СредиПоследних5Провалилось3</name>
@@ -43,7 +39,6 @@
       <key>ru</key>
       <value>Среди последних 5 провалилось 3</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="15a3a9c0-fb4c-4550-9c9d-72cc94c8d3f2">
     <name>СредиПоследних5Провалилось4</name>
@@ -51,7 +46,6 @@
       <key>ru</key>
       <value>Среди последних 5 провалилось 4</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="7a775ef4-1722-4cf4-8413-aa386a7ea451">
     <name>ВсеПослдениеЗаданияПровалились</name>
@@ -59,6 +53,5 @@
       <key>ru</key>
       <value>Все послдение задания провалились</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

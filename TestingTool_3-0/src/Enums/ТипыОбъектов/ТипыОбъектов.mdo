@@ -10,25 +10,20 @@
     <key>ru</key>
     <value>Типы объектов</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -40,7 +35,6 @@
       <key>ru</key>
       <value>Бизнес процесс</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="2f1146db-9bdc-4693-94e7-b862a6343c1b">
     <name>Булево</name>
@@ -48,7 +42,6 @@
       <key>ru</key>
       <value>Булево</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="fe044380-4cf4-43e4-90ea-aa00c49bb11d">
     <name>ВидРасчета</name>
@@ -56,7 +49,6 @@
       <key>ru</key>
       <value>Вид расчета</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="c652be2b-5661-47ce-ad1e-9a889df08018">
     <name>ВидСубконто</name>
@@ -64,7 +56,6 @@
       <key>ru</key>
       <value>Вид субконто</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="16ec63aa-ff09-4af6-8f7c-7c38d7b6ad03">
     <name>Дата</name>
@@ -72,7 +63,6 @@
       <key>ru</key>
       <value>Дата</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="de856665-5de9-4503-8bbc-4962955f2932">
     <name>Документ</name>
@@ -80,7 +70,6 @@
       <key>ru</key>
       <value>Документ</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="2c409af1-654c-4d80-b028-4c2af21458c1">
     <name>Задача</name>
@@ -88,7 +77,6 @@
       <key>ru</key>
       <value>Задача</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="f80dddaa-60eb-45b3-8cec-0270dc9436c0">
     <name>Календарь</name>
@@ -96,7 +84,6 @@
       <key>ru</key>
       <value>Календарь</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="57f2b804-0e31-4e24-8f37-13cbdb5b3ea3">
     <name>НаборКонстант</name>
@@ -104,7 +91,6 @@
       <key>ru</key>
       <value>Набор констант</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="03cb92e8-02c4-488d-8943-85fac9fd7788">
     <name>Перечисление</name>
@@ -112,7 +98,6 @@
       <key>ru</key>
       <value>Перечисление</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="f2a6ed10-1a73-4575-ad02-1a02d42dc681">
     <name>ПланВидовРасчета</name>
@@ -120,7 +105,6 @@
       <key>ru</key>
       <value>План видов расчета</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="b0c7ae1e-8cd1-40fb-8650-a642da96629b">
     <name>ПланВидовХарактеристик</name>
@@ -128,7 +112,6 @@
       <key>ru</key>
       <value>План видов характеристик</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="e00ee3ea-9805-4e5d-90e5-41e94eb9e2ea">
     <name>ПланОбмена</name>
@@ -136,7 +119,6 @@
       <key>ru</key>
       <value>План обмена</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="01df1ffe-05c3-41a2-9559-acd7a88d6780">
     <name>ПланСчетов</name>
@@ -144,7 +126,6 @@
       <key>ru</key>
       <value>План счетов</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="db02996e-b3e5-4a80-8afb-da9f663c68c7">
     <name>РегистрБухгалтерии</name>
@@ -152,7 +133,6 @@
       <key>ru</key>
       <value>Регистр бухгалтерии</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="b28ea17a-1366-4fcf-ace1-e0aa44603a15">
     <name>РегистрНакопления</name>
@@ -160,7 +140,6 @@
       <key>ru</key>
       <value>Регистр накопления</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="c548d0de-cd38-45c1-bda7-81927c5af745">
     <name>РегистрРасчета</name>
@@ -168,7 +147,6 @@
       <key>ru</key>
       <value>Регистр расчета</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="8775d536-bdca-42cb-86cb-e0a9eb75deef">
     <name>РегистрСведений</name>
@@ -176,7 +154,6 @@
       <key>ru</key>
       <value>Регистр сведений</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="133e8beb-fd70-4dc1-a9bb-234a21eaf190">
     <name>Справочник</name>
@@ -184,7 +161,6 @@
       <key>ru</key>
       <value>Справочник</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="1778da84-576e-4b91-bf13-94370444f6d4">
     <name>Строка</name>
@@ -192,7 +168,6 @@
       <key>ru</key>
       <value>Строка</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="30c03f72-4f5b-4e90-9ee2-cf0637465bfd">
     <name>ТочкаМаршрутаБизнесПроцесса</name>
@@ -200,7 +175,6 @@
       <key>ru</key>
       <value>Точка маршрута бизнес процесса</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="fa89927c-1ef7-48f1-928c-081204403964">
     <name>УникальныйИдентификатор</name>
@@ -208,7 +182,6 @@
       <key>ru</key>
       <value>Уникальный идентификатор</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="549bf898-54eb-4df3-9acd-3af82520afe4">
     <name>ХранилищеЗначения</name>
@@ -216,7 +189,6 @@
       <key>ru</key>
       <value>Хранилище значения</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="59d3e96d-ff8c-4e62-bebf-8e7b703453bf">
     <name>Число</name>
@@ -224,6 +196,5 @@
       <key>ru</key>
       <value>Число</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

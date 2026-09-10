@@ -24,19 +24,15 @@
       <key>ru</key>
       <value>Сообщение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="685315cc-41eb-45f9-90fd-84dbc9be9a0e">
     <name>ДополнительноеСообщение</name>
@@ -44,19 +40,15 @@
       <key>ru</key>
       <value>Дополнительное сообщение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="1ff27dee-6dac-48a4-bdeb-7e97cac631df">
     <name>Статус</name>
@@ -64,11 +56,9 @@
       <key>ru</key>
       <value>Статус</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.СтатусыЗаданий</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -81,12 +71,10 @@
       <key>ru</key>
       <value>Дата</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -101,11 +89,9 @@
       <key>ru</key>
       <value>Сборка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Сборки</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

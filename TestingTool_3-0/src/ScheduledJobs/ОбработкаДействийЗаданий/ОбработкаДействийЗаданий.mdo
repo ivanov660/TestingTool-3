@@ -5,11 +5,11 @@
     <key>ru</key>
     <value>Обработка действий заданий</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.ПланировщикЗаданийСервер.ОбработкаДействийЗаданий</methodName>
   <description>ОбработкаДействийЗаданий</description>
   <key>ОбработкаДействийЗаданий</key>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

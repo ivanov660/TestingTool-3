@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Планировщик релизов</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
@@ -26,11 +25,9 @@
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -43,19 +40,15 @@
       <key>ru</key>
       <value>Комментарий</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <dimensions uuid="540cd427-8bd2-4d68-bfa5-f9934510b665">
     <name>Проект</name>
@@ -63,11 +56,9 @@
       <key>ru</key>
       <value>Проект</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Проекты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -82,11 +73,9 @@
       <key>ru</key>
       <value>Релиз</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Релизы</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

@@ -46,7 +46,6 @@
       <value>Полнотекстовый поиск</value>
     </synonym>
     <group>ActionsPanelTools</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <shortcut>Ctrl+Shift+F</shortcut>
   </commands>

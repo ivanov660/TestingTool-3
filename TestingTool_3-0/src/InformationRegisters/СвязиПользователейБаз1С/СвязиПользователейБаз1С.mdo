@@ -16,25 +16,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СвязиПользователейБаз1С.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="b8036de5-189b-47c8-87c7-c621ae5e7d7f">
-    <name>ИмяПараметра</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя параметра</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <indexing>Index</indexing>
-  </resources>
   <resources uuid="108cb3bd-580a-4ff6-a29a-d71657ce8392">
     <name>НомерПорта</name>
     <synonym>
@@ -53,6 +36,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b8036de5-189b-47c8-87c7-c621ae5e7d7f">
+    <name>Удалить_ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить (имя параметра)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <indexing>Index</indexing>
   </resources>
   <dimensions uuid="fdb6ab54-f8e7-4781-a338-9660b5d709ba">
     <name>Пользователь</name>
@@ -118,9 +120,41 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="4d5b3558-0c8f-4d01-9e9a-3f7f54949c23">
+    <name>ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="562ad869-f4c3-4f59-be2a-7552a36ff78b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

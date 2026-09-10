@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Синонимы тестов</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,20 +23,16 @@
       <key>ru</key>
       <value>Синоним</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <dimensions uuid="3556fd41-efbd-4b97-9066-1e3cce60321c">
     <name>Тест</name>
@@ -45,7 +40,6 @@
       <key>ru</key>
       <value>Тест</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Тесты</types>
       <types>String</types>
@@ -53,7 +47,6 @@
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

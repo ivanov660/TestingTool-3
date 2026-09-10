@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="139eec82-d29f-4b31-88f1-9eb598ef4e57">
+  <producedTypes>
+    <selectionType typeId="4b82557e-67ed-47d2-a9af-ad1b7472a05e" valueTypeId="d9feac57-e620-4e99-ab2d-313bf6348e4c"/>
+    <listType typeId="360053da-7c2d-492d-b742-ad024de0fa78" valueTypeId="4438d47b-1e36-4ccb-a44b-d11f458d8082"/>
+    <managerType typeId="1803afbd-910d-4c46-9738-dbd10e7c8fa8" valueTypeId="fb5a2f9b-3983-4630-a4b1-bad1961e3618"/>
+    <recordSetType typeId="aa3e9f55-d0b7-4ea7-80ea-cd54a5616f4a" valueTypeId="2e37de97-fbfc-4f9b-b852-4cb4a8b3d744"/>
+    <recordKeyType typeId="eee55631-ff2a-473a-bb56-ea83e4434e49" valueTypeId="ec5373cf-34fa-4053-b4fa-97da1c9b1ab6"/>
+    <recordType typeId="0eb3f195-c646-4ec7-bfec-294b294bc345" valueTypeId="5b5ad3e6-d047-4491-aeb1-f1c88295de24"/>
+    <recordManagerType typeId="966b3833-46c4-4681-bf4e-8df6abbb5225" valueTypeId="d8b6885b-d296-4f15-943b-9916dc9d8d34"/>
+  </producedTypes>
+  <name>СоставКомнатыДляЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав комнаты для чата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СоставКомнатыДляЧата.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e49fcbb4-edf5-4ac7-8cb7-3a4874784769">
+    <name>ИдентификаторКомнаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор комнаты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fd6e9630-09d1-4f1a-8435-fb549353ccf5">
+    <name>ИдентификаторУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор участника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5cf85c02-c888-4e6e-a9db-b1e7217ac298">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

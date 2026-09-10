@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="70ef31b5-0f74-432a-b6f0-3cd2309b44bc" valueTypeId="8d87414f-c4f8-4633-9a01-7fe8186c0e68"/>
     <valueManagerType typeId="cc169446-eca1-4b95-89d0-963868af07e5" valueTypeId="fb48a9e6-d342-40d2-a345-a3a856d50521"/>
+    <valueKeyType typeId="d5fe6bd0-cc22-45a5-bee8-f8fec20f2e2d" valueTypeId="4c5f9cca-c4c2-489f-9cf8-6d1b75d0634a"/>
   </producedTypes>
   <name>ИспользоватьПланировщикЗаданий</name>
   <synonym>
     <key>ru</key>
     <value>Использовать планировщик заданий</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

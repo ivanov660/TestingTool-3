@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Нагрузочное тестирование</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -23,4 +22,5 @@
   <content>Catalog.Графики</content>
   <content>CommonCommand.ДополнительныеОбработкиНагрузочноеТестирование</content>
   <content>CommonCommand.ДополнительныеОтчетыНагрузочноеТестирование</content>
+  <content>InformationRegister.ЗамерыВремени</content>
 </mdclass:Subsystem>

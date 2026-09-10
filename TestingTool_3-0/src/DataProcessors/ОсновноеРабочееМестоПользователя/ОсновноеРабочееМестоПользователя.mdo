@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Основное рабочее место пользователя</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DataProcessor.ОсновноеРабочееМестоПользователя.Form.ОсновноеРабочееМесто</defaultForm>
   <forms uuid="30f05a76-f45c-41da-b57a-1ca87ed7a281">
     <name>ОсновноеРабочееМесто</name>
@@ -17,7 +16,6 @@
       <key>ru</key>
       <value>Основное рабочее место</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -27,10 +25,7 @@
       <key>ru</key>
       <value>Основное рабочее место</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelImportant</group>
-    <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:DataProcessor>

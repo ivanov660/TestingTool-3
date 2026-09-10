@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Использовать тестирование</value>
   </synonym>
-  <comment></comment>
   <location>Constant.ИспользоватьТестирование</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Subsystem.Тестирование</content>

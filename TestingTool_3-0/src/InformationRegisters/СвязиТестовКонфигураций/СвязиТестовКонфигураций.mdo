@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Связи тестов конфигураций</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,11 +23,9 @@
       <key>ru</key>
       <value>Тест</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Тесты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -45,11 +42,9 @@
       <key>ru</key>
       <value>Конфигурация</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Конфигурации</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

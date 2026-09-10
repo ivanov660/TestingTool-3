@@ -23,11 +23,9 @@
       <key>ru</key>
       <value>Приложение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -46,8 +44,11 @@
         <length>10</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="bdf83419-1f2d-4227-9a3b-9af5da7d38b3">
     <name>ИмяФайла</name>
@@ -59,8 +60,11 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="4a9fc3a7-81ce-4a3d-a9cd-43e51bb7883b">
     <name>Размер</name>
@@ -75,8 +79,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="9d55a98d-2b71-47f5-85b3-1cdb9e0a67b5">
     <name>Проверка</name>
@@ -84,11 +91,9 @@
       <key>ru</key>
       <value>Проверка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Проверки</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -105,7 +110,6 @@
       <key>ru</key>
       <value>Тестируемый клиент</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ТестируемыеКлиенты</types>
       <types>String</types>
@@ -113,7 +117,6 @@
         <length>10</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -130,7 +133,6 @@
       <key>ru</key>
       <value>Тест</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Тесты</types>
       <types>String</types>
@@ -138,7 +140,6 @@
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -154,22 +155,18 @@
       <key>ru</key>
       <value>Тестовый случай</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="ccba3458-4a5a-4a0d-acb0-9fc349483e33">
@@ -178,7 +175,6 @@
       <key>ru</key>
       <value>Шаг</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -186,7 +182,6 @@
         <fixed>true</fixed>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -209,8 +204,11 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="36891474-9a5f-45a2-a441-ba5008b05221">

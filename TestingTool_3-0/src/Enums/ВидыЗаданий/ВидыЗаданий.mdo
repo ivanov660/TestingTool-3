@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Виды заданий</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="87c9fd7c-27c2-47e2-aa6c-d4f118cf0938">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Выполнение тестов</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="d21cdd7f-a9f7-4828-b2ae-39012b6ad734">
     <name>ВыполнениеСборок</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Выполнение сборок</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="7564c946-a879-4bf5-9bde-16318fc72372">
     <name>Мониторинг</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>Мониторинг</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="6020c1c3-98bf-43bb-885b-3395bbb44bec">
     <name>Сервисные</name>
@@ -43,7 +39,6 @@
       <key>ru</key>
       <value>Сервисные</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="0e2ba87c-8b69-4088-8fa5-a9a4dca4c442">
     <name>Другие</name>
@@ -51,6 +46,5 @@
       <key>ru</key>
       <value>Другие</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

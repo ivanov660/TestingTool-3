@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Режимы работы заданий</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="7cb8fdd5-30dd-4516-b148-cd45bbc95a0c">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>По порядку</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="881ab85a-171c-4efa-ac49-d9a3c8cc2377">
     <name>Воронка</name>
@@ -27,6 +25,5 @@
       <key>ru</key>
       <value>Воронка</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

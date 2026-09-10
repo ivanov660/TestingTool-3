@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Планы тестирования</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПланыТестирования.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -46,11 +45,9 @@
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -68,11 +65,9 @@
       <key>ru</key>
       <value>Автор</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -85,11 +80,9 @@
       <key>ru</key>
       <value>Проект</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Проекты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -102,17 +95,13 @@
       <key>ru</key>
       <value>Номер задачи</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -126,19 +115,16 @@
       <key>ru</key>
       <value>Шаги действия</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="b2a92981-67e8-4963-9e7a-99f43f733c54">
       <name>Описание</name>
       <synonym>
         <key>ru</key>
         <value>Описание</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -155,19 +141,16 @@
       <key>ru</key>
       <value>Ожидаемые результаты</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="40b9d895-be8d-405d-b228-332727159228">
       <name>Описание</name>
       <synonym>
         <key>ru</key>
         <value>Описание</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -180,7 +163,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

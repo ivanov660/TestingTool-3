@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Накопительный график выполнения тестов по проверкам</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.НакопительныйГрафикВыполненияТестовПоПроверкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="70a42541-3612-4f29-8ab4-dfd637fe18e0">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

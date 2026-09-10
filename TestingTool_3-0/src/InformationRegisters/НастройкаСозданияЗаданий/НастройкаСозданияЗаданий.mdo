@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Настройка создания заданий</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,11 +23,9 @@
       <key>ru</key>
       <value>Дополнительная обработка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -41,11 +38,9 @@
       <key>ru</key>
       <value>Вспомогательное</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -58,11 +53,9 @@
       <key>ru</key>
       <value>Вид задания</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.ВидыЗаданий</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -75,14 +68,12 @@
       <key>ru</key>
       <value>Порядок</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38b652f3-1b90-4210-b45f-ef0787284d9e">
+  <name>ОбщийЧат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий чат</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СостояниеУчастниковДляЧата</content>
+  <content>InformationRegister.КомнатыДляЧата</content>
+  <content>InformationRegister.СтатусыСообщенийЧата</content>
+  <content>InformationRegister.УчастникиДляЧата</content>
+  <content>InformationRegister.СоставКомнатыДляЧата</content>
+  <content>InformationRegister.СообщенияИзЧата</content>
+  <content>CommonModule.ОбщийЧатСервер</content>
+  <content>CommonModule.ОбщийЧатКлиент</content>
+  <content>ScheduledJob.ОбслуживаниеОбщегоЧата</content>
+</mdclass:Subsystem>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Имя сервера</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers>

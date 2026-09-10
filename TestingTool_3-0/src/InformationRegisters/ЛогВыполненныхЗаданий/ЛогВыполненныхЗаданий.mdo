@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Лог выполненных заданий</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.ЛогВыполненныхЗаданий.Form.ФормаЗаписи</defaultRecordForm>
@@ -25,11 +24,9 @@
       <key>ru</key>
       <value>Окончание задания</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -42,11 +39,9 @@
       <key>ru</key>
       <value>Старт задания</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -59,11 +54,9 @@
       <key>ru</key>
       <value>Ошибка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -76,19 +69,15 @@
       <key>ru</key>
       <value>Сообщение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="c3f06167-0658-4ed9-b134-2fcc330cca2d">
     <name>Статус</name>
@@ -96,11 +85,9 @@
       <key>ru</key>
       <value>Статус</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.СтатусыЗаданий</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -113,11 +100,9 @@
       <key>ru</key>
       <value>Успешно</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -130,19 +115,15 @@
       <key>ru</key>
       <value>Дополнительное сообщение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="fcfcef22-516f-4dd9-8f4d-2fcc6add0533">
     <name>ИмяКомпьютера</name>
@@ -150,21 +131,17 @@
       <key>ru</key>
       <value>Имя компьютера</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <dimensions uuid="e3ef8774-6f62-40a9-aef9-0da9b6f6a5e9">
     <name>Дата</name>
@@ -172,12 +149,10 @@
       <key>ru</key>
       <value>Дата</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -192,11 +167,9 @@
       <key>ru</key>
       <value>Сборка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Сборки</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -210,11 +183,9 @@
       <key>ru</key>
       <value>Задание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Задания</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -230,14 +201,12 @@
       <key>ru</key>
       <value>Порядок выполнения</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -251,7 +220,6 @@
       <key>ru</key>
       <value>Ключ</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ТестируемыеКлиенты</types>
       <types>String</types>
@@ -259,14 +227,11 @@
         <length>36</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="d4c7ad5f-5c12-4710-b2ac-79bc63e28dbf">
@@ -275,11 +240,9 @@
       <key>ru</key>
       <value>Действие</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ДействияЗаданий</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -293,11 +256,9 @@
       <key>ru</key>
       <value>Подчиненное задание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Задания</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -311,7 +272,6 @@
       <key>ru</key>
       <value>Журнал событий</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -330,10 +290,7 @@
       <key>ru</key>
       <value>Очистить весь регистр лога выполненных заданий</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelSeeAlso</group>
-    <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:InformationRegister>

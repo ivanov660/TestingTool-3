@@ -306,6 +306,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ПриложенияПротоколовВыполненияТестов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПротоколыВыполненияШаговТестов.Dimension.ТестовыйСлучай</name>
 		<right>
 			<name>Edit</name>
@@ -378,6 +385,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СрокХраненияСобытий</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -636,6 +650,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ЛогВыполненныхЗаданийДопИнфо</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ГрафикиНагрузкиПулл</name>
 		<right>
 			<name>Read</name>
@@ -676,6 +701,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.АдресИнтернетReleaseDescription</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1139,6 +1171,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ReleaseDescription</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Релизы</name>
 		<right>
 			<name>Read</name>
@@ -1340,6 +1379,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.СвязиПользователейБаз1С</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.Reports.URLTemplate.TestClients.Method.Get</name>
 		<right>
 			<name>Use</name>
@@ -1483,10 +1529,24 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ЗамерыПоказателей.Resource.ДополнительноеЗначение</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПользователиБаз1С</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -2183,6 +2243,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьОценкуЭффективности</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПользовательскиеПеременныеЗаданий</name>
 		<right>
 			<name>Read</name>
@@ -2291,6 +2358,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Новости</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -2514,6 +2588,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ПараметрыСценариев</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПротоколыВыполненияШаговТестов.Dimension.Тест</name>
 		<right>
 			<name>Edit</name>
@@ -2615,87 +2696,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЛогВыполненныхЗаданийДопИнфо</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ПриложенияПротоколовВыполненияТестов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьОценкуЭффективности</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиПользователейБаз1С</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Новости</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СрокХраненияСобытий</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ПользователиБаз1С</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.АдресИнтернетReleaseDescription</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ReleaseDescription</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ПараметрыСценариев</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 </Rights>

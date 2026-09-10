@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Использовать игровое моделирование</value>
   </synonym>
-  <comment></comment>
   <location>Constant.ИспользоватьИгровоеМоделирование</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Subsystem.ИгровоеМоделирование</content>

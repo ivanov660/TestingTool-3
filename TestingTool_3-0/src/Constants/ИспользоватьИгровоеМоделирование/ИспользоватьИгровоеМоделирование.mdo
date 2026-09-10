@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="88eac09f-f12a-4b0a-b685-97be170d94e6" valueTypeId="a79f3001-d152-4f14-a2fd-2a0ba5ddbd2c"/>
     <valueManagerType typeId="0e188d26-32cc-490c-a23b-a8ddb297cad3" valueTypeId="e570e5d7-c6ef-4dea-8e4f-c8b285182328"/>
+    <valueKeyType typeId="96252956-b2ea-40d5-93f5-77bb2e3b82e8" valueTypeId="45b63270-4a45-40f5-af41-5e237f9abfdb"/>
   </producedTypes>
   <name>ИспользоватьИгровоеМоделирование</name>
   <synonym>
     <key>ru</key>
     <value>Использовать игровое моделирование</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

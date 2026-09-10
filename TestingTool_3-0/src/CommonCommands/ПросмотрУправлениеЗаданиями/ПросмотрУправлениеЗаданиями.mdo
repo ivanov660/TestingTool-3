@@ -5,12 +5,9 @@
     <key>ru</key>
     <value>Обзор и управление выполнением заданий</value>
   </synonym>
-  <comment></comment>
   <group>NavigationPanelImportant</group>
-  <commandParameterType/>
   <representation>PictureAndText</representation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бег</picture>
   </picture>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Перепрефиксация объектов</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

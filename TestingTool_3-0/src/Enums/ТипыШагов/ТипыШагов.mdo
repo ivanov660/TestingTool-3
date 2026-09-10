@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Типы шагов</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="1a4d70e6-aa06-45be-a853-ae580011bbde">
@@ -19,6 +18,5 @@
       <key>ru</key>
       <value>Неизвестный</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

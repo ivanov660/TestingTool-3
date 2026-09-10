@@ -24,10 +24,10 @@
       <value>Значение</value>
     </synonym>
     <type>
-      <types>String</types>
-      <types>Number</types>
-      <types>Date</types>
       <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
@@ -38,8 +38,11 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <dimensions uuid="b91ef1d7-d471-4979-8bc1-7cdba355ec07">
     <name>Ключ</name>
@@ -53,9 +56,12 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="05bd8530-a761-4a8a-b0e6-dd7449b0c5f1">
@@ -109,5 +115,6 @@
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
   </dimensions>
 </mdclass:InformationRegister>

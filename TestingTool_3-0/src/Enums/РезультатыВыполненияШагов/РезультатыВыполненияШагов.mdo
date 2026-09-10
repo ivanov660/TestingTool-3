@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Результаты выполнения шагов</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="8a4fd349-d68d-462c-a992-1e4338776ea0">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Неопределено</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="26fe78e5-0df5-446d-a9f1-7e74c67225c8">
     <name>Пропуск</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Пропуск</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="ad7f2f31-9360-48f1-ab5a-cf6f8597fe0a">
     <name>Успешно</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>Успешно</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="15ee63d7-fae4-4604-8f3a-4f993507da30">
     <name>Ошибка</name>
@@ -43,7 +39,6 @@
       <key>ru</key>
       <value>Ошибка</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="72e88719-9deb-41fb-8d66-0496d77157f9">
     <name>Провал</name>
@@ -51,6 +46,5 @@
       <key>ru</key>
       <value>Провал</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>
