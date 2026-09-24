@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="3a74d544-325a-4a7e-9d01-2b3abfbd05b3" valueTypeId="c3bd9d9c-4e0d-4862-ad40-5b80e4fa0be7"/>
     <valueManagerType typeId="3929ef6b-d116-4c7f-8102-529f99a8cd16" valueTypeId="67d11779-74a8-4a0d-9805-191cbc64aacf"/>
+    <valueKeyType typeId="f9a1d21f-48b9-45c4-bc60-43a6ed3f7c87" valueTypeId="2c2d64b5-37fa-409f-bca6-9a84f097a153"/>
   </producedTypes>
   <name>ИспользоватьУправлениеРелизами</name>
   <synonym>
     <key>ru</key>
     <value>Использовать управление релизами</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

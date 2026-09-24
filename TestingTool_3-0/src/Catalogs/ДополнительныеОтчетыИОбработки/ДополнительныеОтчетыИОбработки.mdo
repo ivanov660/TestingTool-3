@@ -12,69 +12,56 @@
     <key>ru</key>
     <value>Дополнительные отчеты и обработки</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ДополнительныеОтчетыИОбработки.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -85,24 +72,19 @@
       <key>ru</key>
       <value>Группа</value>
     </synonym>
-    <comment></comment>
     <toolTip>
       <key>ru</key>
       <value>Группа, к которой относится дополнительный отчет или обработка</value>
     </toolTip>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>ad99c086-2ae3-4648-ad31-fef3acf326e4.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <comment></comment>
     <toolTip>
       <key>ru</key>
       <value>Наименование дополнительного отчета или обработки</value>
@@ -110,31 +92,23 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
-    <characteristicTypes>1a7c774d-5b86-4051-b797-3081e19fa30a</characteristicTypes>
-    <keyField>0:00949768-5833-4fe2-8752-b009d1bceef8</keyField>
-    <typesFilterField>-8</typesFilterField>
-    <typesFilterValue xsi:type="core:ReferenceValue">
-      <value>7a576bbd-3683-4c69-8259-b03d2c59db04.5af958b3-10bf-43ad-9872-38fbe4881491</value>
-    </typesFilterValue>
-    <characteristicValues>3ad5d8a7-3071-46aa-aebf-306bdb67983b</characteristicValues>
-    <objectField>0:cb954476-c551-4a06-9bcd-18d67ba47dc8</objectField>
-    <typeField>0:79201015-bfae-463e-81f1-0ae2d3066f3f</typeField>
-    <valueField>0:ab7ef662-71c1-4d51-9f0f-ea8c5ea3df8a</valueField>
+    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -166,7 +140,6 @@
       <key>ru</key>
       <value>Безопасный режим</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -174,7 +147,6 @@
       <key>ru</key>
       <value>Вызывать обработку в безопасном режиме. В безопасном режиме запрещены COM; загрузка внешних компонент; запуск внешних приложений и команд операционной системы; доступ к файловой системе (кроме временных файлов); доступ к сети Интернет.</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -187,7 +159,6 @@
       <key>ru</key>
       <value>Версия</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -198,7 +169,6 @@
       <key>ru</key>
       <value>Версия дополнительного отчета или обработки (устанавливается поставщиком)</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -211,7 +181,6 @@
       <key>ru</key>
       <value>Вид</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.ВидыДополнительныхОтчетовИОбработок</types>
     </type>
@@ -219,7 +188,6 @@
       <key>ru</key>
       <value>Вид дополнительного отчета или обработки</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -232,7 +200,6 @@
       <key>ru</key>
       <value>Имя объекта</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -243,12 +210,9 @@
       <key>ru</key>
       <value>Имя, под которым дополнительный отчет или обработка регистрируется в системе</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -259,7 +223,6 @@
       <key>ru</key>
       <value>Имя файла</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -270,12 +233,9 @@
       <key>ru</key>
       <value>Имя файла дополнительного отчета или обработки</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -285,7 +245,6 @@
       <key>ru</key>
       <value>Информация</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
@@ -294,12 +253,9 @@
       <key>ru</key>
       <value>Краткая информация о внешней обработке</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -309,7 +265,6 @@
       <key>ru</key>
       <value>Использовать для формы объекта</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -317,7 +272,6 @@
       <key>ru</key>
       <value>Признак использования для формы объекта</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -330,7 +284,6 @@
       <key>ru</key>
       <value>Использовать для формы списка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
@@ -338,7 +291,6 @@
       <key>ru</key>
       <value>Признак использования для формы списка</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -351,7 +303,6 @@
       <key>ru</key>
       <value>Комментарий</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
@@ -360,12 +311,9 @@
       <key>ru</key>
       <value>Комментарий ответственного за ведение списка обработок</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -375,7 +323,6 @@
       <key>ru</key>
       <value>Ответственный</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
@@ -383,7 +330,6 @@
       <key>ru</key>
       <value>Пользователь, добавивший обработку</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -397,7 +343,6 @@
       <key>ru</key>
       <value>Публикация</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.ВариантыПубликацииДополнительныхОтчетовИОбработок</types>
     </type>
@@ -405,7 +350,6 @@
       <key>ru</key>
       <value>Вариант публикации (опубликовано, опубликовано для тестирования, не опубликовано)</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -422,7 +366,6 @@
       <key>ru</key>
       <value>Хранилище настроек</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
@@ -430,7 +373,6 @@
       <key>ru</key>
       <value>Двоичные данные настроек дополнительного отчета или обработки</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -442,7 +384,6 @@
       <key>ru</key>
       <value>Хранилище обработки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
@@ -450,7 +391,6 @@
       <key>ru</key>
       <value>Двоичные данные дополнительного отчета или обработки</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -462,11 +402,9 @@
       <key>ru</key>
       <value>Предупреждать об опасных действиях</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -483,14 +421,11 @@
       <key>ru</key>
       <value>Команды</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -500,7 +435,6 @@
         <key>ru</key>
         <value>Идентификатор</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
@@ -511,7 +445,6 @@
         <key>ru</key>
         <value>Идентификатор команды (служебное поле)</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -523,7 +456,6 @@
         <key>ru</key>
         <value>Вариант запуска</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>EnumRef.СпособыВызоваДополнительныхОбработок</types>
       </type>
@@ -531,7 +463,6 @@
         <key>ru</key>
         <value>Вариант запуска команды (клиент, сервер, открытие формы)</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -543,7 +474,6 @@
         <key>ru</key>
         <value>Наименование</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
@@ -554,7 +484,6 @@
         <key>ru</key>
         <value>Представление команды в пользовательском интерфейсе.</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -567,7 +496,6 @@
         <key>ru</key>
         <value>Показывать оповещение</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Boolean</types>
       </type>
@@ -575,7 +503,6 @@
         <key>ru</key>
         <value>Показывать оповещение пользователю после выполнения</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -586,7 +513,6 @@
         <key>ru</key>
         <value>Модификатор</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
@@ -597,7 +523,6 @@
         <key>ru</key>
         <value>Модификатор команды (служебное поле)</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -608,7 +533,6 @@
         <key>ru</key>
         <value>Регламентное задание GUID</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>UUID</types>
       </type>
@@ -616,7 +540,6 @@
         <key>ru</key>
         <value>Идентификатор связанного регламентного задания</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -627,7 +550,6 @@
         <key>ru</key>
         <value>Скрыть</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Boolean</types>
       </type>
@@ -636,7 +558,6 @@
         <value>&quot;Да&quot; - Серверная команда, которая вызывается из формы внешней обработки.
 Значение по умолчанию - &quot;Нет&quot;.</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -648,7 +569,6 @@
         <key>ru</key>
         <value>Заменяемые команды</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
@@ -657,7 +577,6 @@
         <key>ru</key>
         <value>Идентификаторы заменяемых команд печати.</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -669,11 +588,9 @@
         <key>ru</key>
         <value>Просмотр всем</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Boolean</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -685,12 +602,10 @@
         <key>ru</key>
         <value>Описание</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -707,14 +622,11 @@
       <key>ru</key>
       <value>Разделы</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -724,7 +636,6 @@
         <key>ru</key>
         <value>Раздел</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
       </type>
@@ -732,7 +643,6 @@
         <key>ru</key>
         <value>Раздел командного интерфейса, в котором должен выводиться этот дополнительный отчет или обработка.</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -746,7 +656,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -756,7 +665,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

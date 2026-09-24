@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Планировщик заданий сервер</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
 </mdclass:CommonModule>

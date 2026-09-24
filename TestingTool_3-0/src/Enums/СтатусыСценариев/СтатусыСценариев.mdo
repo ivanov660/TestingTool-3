@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Статусы сценариев</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="d3e232d6-d394-4a07-a6b1-3a7bea51abc5">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Создать</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="02fe2136-b659-40fa-829f-ac73a1539a49">
     <name>ВРазработке</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>В разработке</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="c4042e1d-1036-4065-bf21-bf9409feed7c">
     <name>Готов</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>Готов</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="ecf4faab-0856-435a-8d98-46b05ba3e0f2">
     <name>Архив</name>
@@ -43,6 +39,5 @@
       <key>ru</key>
       <value>Архив</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

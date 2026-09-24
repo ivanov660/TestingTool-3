@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Использовать планировщик заданий</value>
   </synonym>
-  <comment></comment>
   <location>Constant.ИспользоватьПланировщикЗаданий</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Subsystem.Планировщик</content>

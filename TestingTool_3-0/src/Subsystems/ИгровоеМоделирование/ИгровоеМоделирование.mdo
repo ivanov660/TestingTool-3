@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Игровое моделирование</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -18,4 +17,10 @@
   <content>Catalog.Игры</content>
   <content>CommonCommand.ДополнительныеОтчетыИгровоеМоделирование</content>
   <content>CommonCommand.ДополнительныеОбработкиИгровоеМоделирование</content>
+  <content>InformationRegister.СообщенияИзЧата</content>
+  <content>InformationRegister.СоставКомнатыДляЧата</content>
+  <content>InformationRegister.УчастникиДляЧата</content>
+  <content>InformationRegister.СтатусыСообщенийЧата</content>
+  <content>InformationRegister.КомнатыДляЧата</content>
+  <content>InformationRegister.СостояниеУчастниковДляЧата</content>
 </mdclass:Subsystem>

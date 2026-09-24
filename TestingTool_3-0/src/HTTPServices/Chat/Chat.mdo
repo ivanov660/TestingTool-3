@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf0be35e-e4ad-4c0b-9362-53aa7afc37ef">
+  <name>Chat</name>
+  <synonym>
+    <key>ru</key>
+    <value>Chat</value>
+  </synonym>
+  <rootURL>Chat</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c931648f-839c-4ce4-819d-a6dca9feaa8a">
+    <name>Login</name>
+    <synonym>
+      <key>ru</key>
+      <value>Login</value>
+    </synonym>
+    <template>/Login</template>
+    <methods uuid="c465f88a-f9eb-4ae3-9a0d-b35c02217274">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>LoginPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="12b07807-c21e-4f3e-aa9e-5744e5c9c2c7">
+    <name>Logout</name>
+    <synonym>
+      <key>ru</key>
+      <value>Logout</value>
+    </synonym>
+    <template>/Logout</template>
+    <methods uuid="fb8fac04-fb5a-42da-8038-e17912b2aa7b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>LogoutPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b9535f28-3df5-475b-92e6-37f86e08f486">
+    <name>Registration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Registration</value>
+    </synonym>
+    <template>/Registration</template>
+    <methods uuid="4f76ac75-773e-4e89-b60a-00f7486615a8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>RegistrationPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ef18ec0b-6b37-4bba-bf2a-29ae684e8b01">
+    <name>SendMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send message</value>
+    </synonym>
+    <template>/SendMessage</template>
+    <methods uuid="8e225374-0959-433e-a471-b940d6320c4d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SendMessagePOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1941ba5f-7a8a-44dc-a328-34ea2b62ddec">
+    <name>GetMessages</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get messages</value>
+    </synonym>
+    <template>/GetMessages</template>
+    <methods uuid="d09a1d25-4b5e-4ce9-b21e-e7e66b999bae">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetMessagesPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9322c0f8-dd1a-4632-b24e-032243e7cce9">
+    <name>GetNewMessages</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get new messages</value>
+    </synonym>
+    <template>/GetNewMessages</template>
+    <methods uuid="9f933def-cb77-4bd5-8df9-5cdaa790a8fc">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetNewMessagesPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="75ceac31-49c9-4bac-b63c-b3ea87130da4">
+    <name>GetMessageProperty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get message property</value>
+    </synonym>
+    <template>/GetMessageProperty</template>
+    <methods uuid="e9ccba3c-5a98-43a8-a178-166fb57f481c">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetMessagePropertyPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1c787359-eafb-4c78-b86c-d11f5534101b">
+    <name>GetUsers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get users</value>
+    </synonym>
+    <template>/GetUsers</template>
+    <methods uuid="28ed4583-846f-479d-b90e-3a51a3f74123">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetUsersPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3e4a5cbc-31de-4f93-b4b4-15782d3845de">
+    <name>UpdateUserActivity</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update user activity</value>
+    </synonym>
+    <template>/UpdateUserActivity</template>
+    <methods uuid="732b0892-6e0c-4af2-bbea-88b1a910ffd5">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>UpdateUserActivityPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e0c05e73-bd01-4596-939c-1cca7e3da06d">
+    <name>GetUsersStates</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get users states</value>
+    </synonym>
+    <template>/GetUsersStates</template>
+    <methods uuid="e295500a-87f8-4950-b312-63730fc3ba3a">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetUsersStatesPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a3e02e4b-64eb-4238-963b-b369dea399f5">
+    <name>GetRooms</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get rooms</value>
+    </synonym>
+    <template>/GetRooms</template>
+  </urlTemplates>
+  <urlTemplates uuid="76eedd5a-8611-4f88-8358-2605be4a4489">
+    <name>GetUserProperties</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get user properties</value>
+    </synonym>
+    <template>/GetUserProperties</template>
+  </urlTemplates>
+  <urlTemplates uuid="4a4b6f00-3cff-4b22-be6c-f2121f85087f">
+    <name>SetUserProperties</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set user properties</value>
+    </synonym>
+    <template>/SetUserProperties</template>
+  </urlTemplates>
+  <urlTemplates uuid="ce37824c-cc5a-459a-9a5f-ac6f184cab87">
+    <name>EnterToRoom</name>
+    <synonym>
+      <key>ru</key>
+      <value>Enter to room</value>
+    </synonym>
+    <template>/EnterToRoom</template>
+    <methods uuid="2f8be360-1ef2-4d5a-a452-9b5e147e227c">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>EnterToRoomPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="62628ebd-2e6d-4f79-ac8f-146be7e69f91">
+    <name>ExitFromAllRooms</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exit from all rooms</value>
+    </synonym>
+    <template>/ExitFromAllRooms</template>
+    <methods uuid="c1471e24-2e7a-4a66-a2f5-70564c0f4071">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ExitFromAllRoomsPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="44f285e0-0589-4ace-b54e-ed2b063939c3">
+    <name>SetMeasurement</name>
+    <synonym>
+      <key>ru</key>
+      <value>Set measurement</value>
+    </synonym>
+    <template>/SetMeasurement</template>
+    <methods uuid="427c1294-f288-41f5-97d1-2e57fcc58317">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SetMeasurementPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a1d68aad-416e-4c6d-ade2-8bba00a93210">
+    <name>GetMeasurement</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get measurement</value>
+    </synonym>
+    <template>/GetMeasurement</template>
+    <methods uuid="a74990b4-8a38-42d0-84c8-606c93f8ac5b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetMeasurementPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -5,12 +5,9 @@
     <key>ru</key>
     <value>Просмотр результатов выполнения проверок</value>
   </synonym>
-  <comment></comment>
   <group>NavigationPanelImportant</group>
-  <commandParameterType/>
   <representation>PictureAndText</representation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бег</picture>
   </picture>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

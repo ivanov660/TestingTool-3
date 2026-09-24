@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Конструктор заданий вызов сервера</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

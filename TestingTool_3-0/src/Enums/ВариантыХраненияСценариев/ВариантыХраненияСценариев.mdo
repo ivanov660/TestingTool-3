@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Варианты хранения сценариев</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="ed01dec0-2c72-4af9-9ae6-14cd8d86260a">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Во внешнем файле</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="aa305cb7-c5dd-4e99-b5d3-c90ee541541e">
     <name>ВТекущейБазеДанных</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>В текущей базе данных</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="3f4343ab-a266-4f45-b18c-d4842a443059">
     <name>ПоАдресуИнтернет</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>По адресу интернет</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="43a588b1-364f-466e-bf7d-dffd52e1e0aa">
     <name>ВоВнешнемФайлеGIT</name>
@@ -43,7 +39,6 @@
       <key>ru</key>
       <value>Во внешнем файле GIT</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="4bd52732-28bb-42cd-8e71-5e8010489f78">
     <name>ПоАдресуИнтернетGIT</name>
@@ -51,6 +46,5 @@
       <key>ru</key>
       <value>По адресу интернет GIT</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

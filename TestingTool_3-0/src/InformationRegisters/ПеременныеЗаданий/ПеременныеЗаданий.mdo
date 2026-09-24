@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Переменные заданий</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.ПеременныеЗаданий.Form.ФормаЗаписи</defaultRecordForm>
@@ -26,7 +25,6 @@
       <key>ru</key>
       <value>Значение переменной</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
       <types>String</types>
@@ -41,7 +39,6 @@
       </stringQualifiers>
       <dateQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -54,19 +51,15 @@
       <key>ru</key>
       <value>Имя реквизита</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="82bfa056-5cf4-44d1-a8a0-b0182dc805a4">
     <name>ИспользоватьФункцию</name>
@@ -74,11 +67,9 @@
       <key>ru</key>
       <value>Использовать функцию</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -91,21 +82,17 @@
       <key>ru</key>
       <value>Имя функции</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>150</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="39239da4-df08-4d6e-9045-fa760d8cb82f">
     <name>ЭтоПараметрНастройки</name>
@@ -113,11 +100,9 @@
       <key>ru</key>
       <value>Это параметр настройки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -130,7 +115,6 @@
       <key>ru</key>
       <value>Задание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ДействияЗаданий</types>
       <types>CatalogRef.Задания</types>
@@ -141,7 +125,6 @@
       <types>CatalogRef.Пользователи</types>
       <types>CatalogRef.Релизы</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -157,7 +140,6 @@
       <key>ru</key>
       <value>Имя переменной</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ИменаПеременных</types>
       <types>String</types>
@@ -165,15 +147,12 @@
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="9f8c3353-1563-44f9-a94e-5cf53a5de009">
@@ -182,14 +161,12 @@
       <key>ru</key>
       <value>Номер аргумента</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>2</precision>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -218,7 +195,6 @@
         <length>36</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -232,7 +208,6 @@
       <key>ru</key>
       <value>Форма записи</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -242,7 +217,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

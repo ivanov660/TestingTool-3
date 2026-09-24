@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Отчет по иерархии результатов тестирования по проверкам</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Форма отчета</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -29,7 +27,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

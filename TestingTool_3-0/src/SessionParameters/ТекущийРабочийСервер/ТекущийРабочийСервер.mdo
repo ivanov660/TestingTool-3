@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Текущий рабочий сервер</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>CatalogRef.РабочиеМеста</types>
   </type>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Виды наборов</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="257d42c6-da1f-4f62-8c18-566b9e045c4f">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Внешний каталог GIT</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="52d7bd44-f5d7-413c-9211-f34af7174785">
     <name>СписокФайлов</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Список файлов</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="dc341489-9fd1-480f-97c0-bf95ec81459f">
     <name>СписокТестов</name>
@@ -35,6 +32,5 @@
       <key>ru</key>
       <value>Список тестов</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Управление списком процессов ОС Windows</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.УправлениеСпискомПроцессовОСWindows.Form.Форма</defaultForm>
   <attributes uuid="1c2ec597-5330-46c4-9b16-ee2795c94934">
@@ -18,12 +17,10 @@
       <key>ru</key>
       <value>Компьютер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -37,26 +34,21 @@
       <key>ru</key>
       <value>Список процессов</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="60ac464b-1524-4201-a387-88f0d277bc14">
       <name>Caption</name>
       <synonym>
         <key>ru</key>
         <value>Заголовок</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>150</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="d643343d-ba73-4156-baba-232c4ec07e8d">
       <name>CommandLine</name>
@@ -64,17 +56,13 @@
         <key>ru</key>
         <value>Командная строка</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="0f62d050-70e6-4343-9134-d895715e4df2">
       <name>CreationDate</name>
@@ -82,19 +70,15 @@
         <key>ru</key>
         <value>Дата создания</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>10</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="0d4471b3-0c3b-4da1-bb10-fb502f601a10">
       <name>CSName</name>
@@ -102,19 +86,15 @@
         <key>ru</key>
         <value>Имя компьютера</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>50</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="5206628b-96fa-4c00-a061-8317954693c1">
       <name>ExecutablePath</name>
@@ -122,17 +102,13 @@
         <key>ru</key>
         <value>Путь к исполняемому файлу</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="4fad8726-e401-4d22-8694-3aa03c45f060">
       <name>OSName</name>
@@ -140,17 +116,13 @@
         <key>ru</key>
         <value>Имя ОС</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers/>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="5c7432d2-4255-456b-9756-68592bae15b9">
       <name>ParentProcessId</name>
@@ -158,14 +130,12 @@
         <key>ru</key>
         <value>ПИД Родителя</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -176,14 +146,12 @@
         <key>ru</key>
         <value>ПИД</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -194,19 +162,15 @@
         <key>ru</key>
         <value>Версия Windows</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>10</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="0d50b904-9d25-419b-839f-29a4de902a48">
       <name>Owner</name>
@@ -214,19 +178,15 @@
         <key>ru</key>
         <value>Собственник</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>String</types>
         <stringQualifiers>
           <length>50</length>
         </stringQualifiers>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="d8aeef20-2da4-498a-871c-b435f4671ec2">
@@ -235,7 +195,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

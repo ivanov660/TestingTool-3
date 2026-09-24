@@ -5,23 +5,26 @@
     <key>ru</key>
     <value>Тестирование</value>
   </synonym>
-  <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fa436f79-8d06-42bd-83b2-144608d65a23"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e5d5946d-0da7-430a-bf1c-5b41bd23529c"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a8bb4e64-c543-4e20-a3d1-f86464c60df2"/>
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9b7d90a3-c2a7-4841-aea2-e3e3d92c6d37"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="46132507-4ccd-4283-a6cd-258bc8734d0d"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="89c44b1e-024a-46ca-9cc9-81b524900577"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="10d01cfd-f3a0-4ae7-a9bd-4ebc3c6964c1" /> 
-  <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2fe9cd75-fbfe-4a24-851c-08f682d4db8a"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ivanov660</vendor>
-  <version>3.20.06.21</version>
+  <version>3.21.06.21</version>
   <updateCatalogAddress>https://github.com/ivanov660/TestingTool-3</updateCatalogAddress>
   <defaultSearchForm>CommonForm.ФормаПоиска</defaultSearchForm>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
   <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
@@ -41,8 +44,6 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
-  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="060e0b74-389b-4cb8-b227-828b2f1ba150">
     <name>Русский</name>
@@ -50,7 +51,6 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
@@ -64,6 +64,7 @@
   <subsystems>Subsystem.НагрузочноеТестирование</subsystems>
   <subsystems>Subsystem.УправлениеРелизами</subsystems>
   <subsystems>Subsystem.ОценкаЭффективности</subsystems>
+  <subsystems>Subsystem.ОбщийЧат</subsystems>
   <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
@@ -163,6 +164,10 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ОбщийЧатВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийЧатКлиент</commonModules>
+  <commonModules>CommonModule.ОбщийЧатКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийЧатСервер</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоВызовСервера</commonModules>
   <commonModules>CommonModule.ОсновноеРабочееМестоСервер</commonModules>
   <commonModules>CommonModule.ПерепрефиксацияОбъектов</commonModules>
@@ -194,14 +199,17 @@
   <commonModules>CommonModule.СценарноеТестированиеСервер</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеХранилищемНастроекВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.ЗамерыСервер</commonModules>
   <webServices>WebService.RemoteControl</webServices>
   <httpServices>HTTPService.RemoteControl</httpServices>
   <httpServices>HTTPService.Reports</httpServices>
+  <httpServices>HTTPService.Chat</httpServices>
   <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаЗаданий</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаДействийЗаданий</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихСобытий</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбслуживаниеОбщегоЧата</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьИгровоеМоделирование</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНагрузочноеТестирование</functionalOptions>
@@ -306,12 +314,12 @@
   <reports>Report.ВыполнениеТестовПоПроверкам</reports>
   <reports>Report.НакопительныйГрафикВыполненияТестовПоПроверкам</reports>
   <reports>Report.ОтчетПоИерархииРезультатовТестированияПоПроверкам</reports>
+  <dataProcessors>DataProcessor.ОсновноеРабочееМестоПользователя</dataProcessors>
   <dataProcessors>DataProcessor.ПолнотекстовыйПоискВДанных</dataProcessors>
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
-  <dataProcessors>DataProcessor.ОсновноеРабочееМестоПользователя</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеДанных</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСпискомПроцессовОСWindows</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</dataProcessors>
-  <dataProcessors>DataProcessor.УдалениеДанных</dataProcessors>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ВременныеЗатратыНаОбслуживание</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиНагрузки</informationRegisters>
@@ -350,4 +358,12 @@
   <informationRegisters>InformationRegister.СоставНабораТестов</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.УсловнаяСтоимостьВыполненияТестов</informationRegisters>
+  <informationRegisters>InformationRegister.СообщенияИзЧата</informationRegisters>
+  <informationRegisters>InformationRegister.СоставКомнатыДляЧата</informationRegisters>
+  <informationRegisters>InformationRegister.УчастникиДляЧата</informationRegisters>
+  <informationRegisters>InformationRegister.КартинкиБазы</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыСообщенийЧата</informationRegisters>
+  <informationRegisters>InformationRegister.КомнатыДляЧата</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеУчастниковДляЧата</informationRegisters>
+  <informationRegisters>InformationRegister.ЗамерыВремени</informationRegisters>
 </mdclass:Configuration>

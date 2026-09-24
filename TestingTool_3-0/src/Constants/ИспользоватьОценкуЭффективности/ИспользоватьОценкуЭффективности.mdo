@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="72128eb2-92f5-4c79-b6f1-836b716d33e5" valueTypeId="3d85d791-4369-4019-835b-353fde8eedd8"/>
     <valueManagerType typeId="737a1a1f-41bf-4027-a9bc-4c32216d977f" valueTypeId="868937a6-0549-4ce9-bfec-e164b7b51e43"/>
+    <valueKeyType typeId="4706b656-51f7-41f6-9b93-efdf0c294bfc" valueTypeId="a88fba84-27f0-4784-9138-3b54278a6430"/>
   </producedTypes>
   <name>ИспользоватьОценкуЭффективности</name>
   <synonym>
     <key>ru</key>
     <value>Использовать оценку эффективности</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="b472909e-2b00-4161-9916-b143a0a2e32f" valueTypeId="0337589d-5e9e-4a49-8a3a-7b2e3758350d"/>
     <valueManagerType typeId="c3702528-dc19-47c7-a6af-e01c27e387d5" valueTypeId="f50f9e7a-9288-4728-b595-bb91b1a910fe"/>
+    <valueKeyType typeId="9e3ec4d6-b83b-4f38-8fd1-bcd047d68df0" valueTypeId="5575a025-64d9-4eaa-9e82-cdff7395b82b"/>
   </producedTypes>
   <name>ИспользоватьТестирование</name>
   <synonym>
     <key>ru</key>
     <value>Использовать тестирование</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

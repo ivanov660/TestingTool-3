@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Reports</value>
   </synonym>
-  <comment></comment>
   <rootURL>Reports</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
@@ -15,7 +14,6 @@
       <key>ru</key>
       <value>Authorize</value>
     </synonym>
-    <comment></comment>
     <template>/authorize</template>
     <methods uuid="e829b117-9fb6-4a29-9a0e-63ba1c872631">
       <name>Check</name>
@@ -23,7 +21,6 @@
         <key>ru</key>
         <value>Check</value>
       </synonym>
-      <comment></comment>
       <handler>AuthorizeCheck</handler>
     </methods>
   </urlTemplates>
@@ -33,7 +30,6 @@
       <key>ru</key>
       <value>Datas</value>
     </synonym>
-    <comment></comment>
     <template>/Datas/{name}/{id}/{test}</template>
     <methods uuid="eff4c524-f1ea-4cb0-a04d-469d8221d5c2">
       <name>Get</name>
@@ -41,7 +37,6 @@
         <key>ru</key>
         <value>Get</value>
       </synonym>
-      <comment></comment>
       <handler>DatasGet</handler>
     </methods>
   </urlTemplates>
@@ -51,7 +46,6 @@
       <key>ru</key>
       <value>Test clients</value>
     </synonym>
-    <comment></comment>
     <template>/TestClients</template>
     <methods uuid="91489be9-05c1-4522-b439-34490e8677ee">
       <name>Get</name>
@@ -59,7 +53,6 @@
         <key>ru</key>
         <value>Get</value>
       </synonym>
-      <comment></comment>
       <handler>TestClientsGet</handler>
     </methods>
   </urlTemplates>
@@ -69,7 +62,6 @@
       <key>ru</key>
       <value>Version</value>
     </synonym>
-    <comment></comment>
     <template>/Version</template>
     <methods uuid="0db4e527-0939-4206-8501-3c9d7f88e98a">
       <name>Get</name>
@@ -77,7 +69,6 @@
         <key>ru</key>
         <value>Get</value>
       </synonym>
-      <comment></comment>
       <handler>VersionGet</handler>
     </methods>
   </urlTemplates>
@@ -87,7 +78,6 @@
       <key>ru</key>
       <value>Screens</value>
     </synonym>
-    <comment></comment>
     <template>/Screens</template>
     <methods uuid="544f776b-aef2-4401-8e69-76bd21201b6f">
       <name>Get</name>
@@ -95,7 +85,6 @@
         <key>ru</key>
         <value>Get</value>
       </synonym>
-      <comment></comment>
       <handler>ScreensGet</handler>
     </methods>
   </urlTemplates>

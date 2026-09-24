@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Операционные системы</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ОперационныеСистемы.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ОперационныеСистемы.StandardAttribute.Code</inputByString>

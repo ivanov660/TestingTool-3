@@ -5,11 +5,8 @@
     <key>ru</key>
     <value>Информация</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПодсистемаИнформация</picture>
   </picture>
-  <content>02feb26d-9aa3-4162-9806-fec9ca5b5fdf</content>
-  <content>026cbe80-3f98-448c-9544-e22d21434e43</content>
 </mdclass:Subsystem>

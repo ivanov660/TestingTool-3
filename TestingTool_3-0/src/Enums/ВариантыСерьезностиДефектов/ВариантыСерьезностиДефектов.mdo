@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Варианты серьезности дефектов</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="85ec1eaf-9bad-409f-ae24-dee43e210ff9">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Блокирующая</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="10c28ef9-6a1d-468e-94ff-7ac21e188b6d">
     <name>Критическая</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Критическая</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="945aac3e-faa0-47f1-93e1-52ae26cb661e">
     <name>Значительная</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>Значительная</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="a0b5c673-199a-4df0-91ad-eb66d25e88db">
     <name>Незначительная</name>
@@ -43,7 +39,6 @@
       <key>ru</key>
       <value>Незначительная</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="462f48a5-daf5-47ee-a701-f4b1501792b2">
     <name>Тривиальная</name>
@@ -51,6 +46,5 @@
       <key>ru</key>
       <value>Тривиальная</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>
